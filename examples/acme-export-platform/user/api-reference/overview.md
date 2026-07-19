@@ -2,7 +2,7 @@
 
 Use the Export API to create export jobs and download results when ready.
 
-> This page is **consumer-facing**. Internal annotations and worker details are intentionally omitted. Canonical contract: internal OpenAPI (not included in this thin example).
+> This page is **consumer-facing**. Internal annotations and worker details are intentionally omitted. Canonical contract: [`../../internal/system-design/api-specs/export-api.yaml`](../../internal/system-design/api-specs/export-api.yaml) (derive/curate; do not duplicate endpoint lists by hand).
 
 ## Authentication
 
