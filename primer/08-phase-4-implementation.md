@@ -22,6 +22,13 @@ Every developer; docs updates reviewed in the same PR as code.
 - Conventions not enforced by linters
 - Debugging notes / known footguns (internal honesty welcome)
 
+### Bad → good (comments)
+
+```text
+Bad:  // Increment i by 1
+Good: // Use a mutex rather than a channel to avoid priority inversion in the scheduler.
+```
+
 ## Definition of Done (MVP)
 
 - [ ] Root README tested on a clean machine recently
@@ -32,6 +39,11 @@ Every developer; docs updates reviewed in the same PR as code.
 
 - Setup guides never re-tested
 - Treating doc updates as optional in PRs
+
+## Use
+
+- No dedicated template yet — follow the Write list above
+- Keep docs changes in the scaffold PR template checklist
 
 ---
 

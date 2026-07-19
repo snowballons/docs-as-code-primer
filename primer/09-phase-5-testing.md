@@ -30,7 +30,12 @@ QA lead; developers own automation; security owns security test evidence.
 ## Mistakes
 
 - Tests that exist only as tribal knowledge
-- Performance "feels fine" without baseline numbers
+- Performance “feels fine” without baseline numbers
+
+## Use
+
+- Trace cases to stories from [`templates/user-story.md`](../templates/user-story.md)
+- Folder guide: `docs/internal/testing/README.md` (structural)
 
 ---
 
