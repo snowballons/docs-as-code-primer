@@ -13,9 +13,12 @@ This is a **primer + project structure kit** — not an awesome list, not a host
 
 | Path | Who it's for | Go to |
 |------|----------------|-------|
-| **Use the scaffold** | New or existing repo; you want structure today | [`scaffold/README.DOCS.md`](scaffold/README.DOCS.md) |
-| **Read the primer** | You want judgment before (or while) adopting | [`LEARNING_PATH.md`](LEARNING_PATH.md) |
-| **See the example** | You want filled samples for one fictional product | [`examples/acme-export-platform/`](examples/acme-export-platform/) |
+| **First week pack** | Copy scaffold, fill the minimum set fast | [`FIRST_WEEK.md`](FIRST_WEEK.md) |
+| **Use the scaffold** | Structure, stub policy, CI | [`scaffold/README.DOCS.md`](scaffold/README.DOCS.md) |
+| **Read the primer** | Judgment before (or while) adopting | [`LEARNING_PATH.md`](LEARNING_PATH.md) |
+| **See the example** | Filled samples (Acme Export Platform) | [`examples/acme-export-platform/`](examples/acme-export-platform/) |
+
+**Canonical phase → folder map:** [`appendix/phase-folder-map.md`](appendix/phase-folder-map.md) (do not fork conflicting maps).
 
 ```text
                     ┌─────────────────────────┐
@@ -58,22 +61,11 @@ This is a **primer + project structure kit** — not an awesome list, not a host
 
 ---
 
-## Phase map (quick view)
-
-| Phase | Name | Primary stream |
-|-------|------|----------------|
-| 0 | Project Vision & Charter | Internal |
-| 1 | User & Business Requirements | Internal |
-| 2 | Architecture & System Design | Internal |
-| 3 | Detailed System Design | Internal |
-| 4 | Implementation & Code Documentation | Internal |
-| 5 | Testing & Quality Assurance | Internal |
-| 6 | Deployment & Operations | Internal |
-| 7 | User & End-User Documentation | User-facing |
-| 8 | Maintenance & Evolution | Both |
-| 9 | Retirement & Archival | Both |
+## Phase map
 
 Phases overlap. Phase 8 never ends. Use them as a mental model, not a bureaucracy.
+
+Full phase → folder → template index: **[`appendix/phase-folder-map.md`](appendix/phase-folder-map.md)**.
 
 ---
 
@@ -82,6 +74,7 @@ Phases overlap. Phase 8 never ends. Use them as a mental model, not a bureaucrac
 ```text
 docs-as-code-primer/
 ├── README.md                 ← you are here
+├── FIRST_WEEK.md             ← adoption path after copy
 ├── LEARNING_PATH.md          ← ordered path through the primer
 ├── CONTRIBUTING.md
 ├── LICENSE
@@ -90,7 +83,7 @@ docs-as-code-primer/
 ├── templates/                ← fill-in-the-blank artifacts
 ├── examples/                 ← one worked product
 ├── recipes/                  ← how to publish / wire tools
-└── appendix/                 ← glossary, tooling map
+└── appendix/                 ← glossary, tooling map, phase→folder map
 ```
 
 ---
@@ -101,6 +94,12 @@ docs-as-code-primer/
 - A replacement for Confluence/CCMS in regulated enterprise publishing
 - A SaaS or static site generator
 - A general “how to run your company” handbook
+
+## When this kit may hurt
+
+- **No engineers / no Git workflow** — the overhead of PRs and folders will slow you down; use a simpler handbook tool until you have DocOps capacity.
+- **One-off disposable prototype** — a single README may be enough; adopt the scaffold when the system will live.
+- **Heavy regulated authoring needing CCMS features first** — you can still use Git backends later; do not force this tree alone if your compliance tooling cannot ingest it yet.
 
 ---
 
