@@ -27,3 +27,40 @@ jobs:
         with:
           args: --no-progress --exclude-mail "docs/**/*.md"
           fail: true
+
+  # --- Optional: OpenAPI lint (enable when specs exist) ---
+  # Requires docs/internal/system-design/api-specs/**/*.yaml
+  # Uncomment the job below after your first OpenAPI file lands.
+  #
+  # openapi-lint:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - name: Setup Node
+  #       uses: actions/setup-node@v4
+  #       with:
+  #         node-version: "20"
+  #     - name: Spectral lint
+  #       run: npx --yes @stoplight/spectral-cli lint "docs/internal/system-design/api-specs/**/*.{yaml,yml,json}"
+
+  # --- Optional: Mermaid syntax check (enable when you want CI to validate fences) ---
+  # Prefer site-build --strict for most teams. Uncomment for explicit mmdc checks.
+  #
+  # mermaid-check:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - name: Setup Node
+  #       uses: actions/setup-node@v4
+  #       with:
+  #         node-version: "20"
+  #     - name: Install mermaid-cli
+  #       run: npm install --no-save @mermaid-js/mermaid-cli
+  #     - name: Render .mmd files (fails on invalid diagrams)
+  #       run: |
+  #         set -euo pipefail
+  #         mapfile -t files < <(find docs -name '*.mmd' -print)
+  #         if [ ${#files[@]} -eq 0 ]; then echo "No .mmd files"; exit 0; fi
+  #         for f in "${files[@]}"; do
+  #           npx mmdc -i "$f" -o /tmp/mermaid-out.svg
+  #         done
