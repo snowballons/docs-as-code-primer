@@ -18,10 +18,25 @@ DevOps/SRE lead; on-call validates runbooks (game days).
 - CI/CD stages, promotions, rollback, hotfix path
 - IaC overview and environment hierarchy
 - Monitoring: dashboards, alerts, first responses, log/trace access
-- **Runbooks by symptom** (alert → diagnosis → remediation → escalation)
+- **Runbooks by symptom** (not only by component folder)
 - SLOs and error-budget policy
 - Disaster recovery (RTO/RPO, backups, restore steps)
 - On-call handbook
+
+### Runbook shape (matches template)
+
+Each runbook should include:
+
+| Section | Purpose |
+|---------|---------|
+| Summary | Symptom, severity, service(s), dashboard, alert name |
+| Symptoms | What alert/users/metrics show |
+| Probable causes | Ordered list |
+| Diagnosis steps | Exact commands |
+| Remediation | Per-cause steps + verification |
+| Escalation | Who/when |
+| Post-incident | Report + follow-ups |
+| Last tested | Date, environment, result |
 
 ## Definition of Done (MVP)
 
@@ -30,7 +45,10 @@ DevOps/SRE lead; on-call validates runbooks (game days).
 - [ ] SLOs defined and measured
 - [ ] DR at least tabletop-tested before go-live
 
-Template: [`templates/runbook.md`](../templates/runbook.md)
+## Use
+
+- Template: [`templates/runbook.md`](../templates/runbook.md)
+- Example: [`export-queue-backlog.md`](../examples/acme-export-platform/internal/operations/runbooks/export-queue-backlog.md)
 
 ---
 
