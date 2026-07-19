@@ -26,10 +26,12 @@ Outside engineering team?
 
 ## Review standards
 
-| Stream | Review for | Turnaround |
-|--------|------------|------------|
-| Internal | Accuracy, completeness, consistency | Faster; polish secondary |
-| User | Accuracy, clarity, tone, task completion | Higher editorial bar |
+| Stream | Review for | Suggested turnaround |
+|--------|------------|----------------------|
+| Internal | Accuracy, completeness, consistency | 24–48 hours for most changes; schedule a meeting for major architecture |
+| User | Accuracy, clarity, tone, task completion | 48–72 hours; higher editorial bar |
+
+Internal: polish is secondary to correctness. User: accuracy **and** readability are gates.
 
 ## Reuse patterns
 
@@ -37,5 +39,10 @@ Outside engineering team?
 2. Shared includes / snippets (glossary)
 3. Audience front matter filters (optional advanced)
 4. Derive user docs from approved internal design
+
+## Paths
+
+- Canonical map: [`appendix/phase-folder-map.md`](../appendix/phase-folder-map.md)
+- Stub policy: [`scaffold/docs/GOVERNANCE.md`](../scaffold/docs/GOVERNANCE.md)
 
 Next: [Anti-patterns](18-anti-patterns.md)

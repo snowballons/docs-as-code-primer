@@ -3,7 +3,7 @@
 | | |
 |--|--|
 | **Phase** | 9 |
-| **Primary path** | `docs/both` |
+| **Primary path** | both streams |
 
 ## Purpose
 
@@ -18,8 +18,13 @@ End systems as carefully as you launch them.
 
 ## Placement
 
-- Plan and KT → internal
-- User migration / export instructions → user
+- Plan and KT → internal (`docs/internal/charter/` or dedicated retirement note)
+- User migration / export instructions → `docs/user/`
+
+## Use
+
+- Map: [`appendix/phase-folder-map.md`](../appendix/phase-folder-map.md)
+- No dedicated template yet — follow the Write list
 
 ---
 

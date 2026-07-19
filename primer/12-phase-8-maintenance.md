@@ -3,7 +3,7 @@
 | | |
 |--|--|
 | **Phase** | 8 |
-| **Primary path** | `docs/both` |
+| **Primary path** | both streams |
 
 ## Purpose
 
@@ -28,7 +28,10 @@ Keep docs true as the system changes. Stale docs are liabilities.
 - **Quarterly:** runbook accuracy / game day
 - **Annually:** architecture vs reality audit
 
-Template: [`templates/deprecation-notice.md`](../templates/deprecation-notice.md)
+## Use
+
+- Template: [`templates/deprecation-notice.md`](../templates/deprecation-notice.md)
+- Map: [`appendix/phase-folder-map.md`](../appendix/phase-folder-map.md)
 
 ---
 
