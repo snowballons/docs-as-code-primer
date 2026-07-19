@@ -1,0 +1,15 @@
+# Example CODEOWNERS — adapt to your org
+# Copy to .github/CODEOWNERS
+
+# User-facing docs: require writer or product review when possible
+/docs/user/ @your-org/tech-writers @your-org/product
+
+# Architecture and ADRs
+/docs/internal/architecture/ @your-org/tech-leads
+/docs/internal/decisions/ @your-org/tech-leads
+
+# Operations / runbooks
+/docs/internal/operations/ @your-org/sre
+
+# Shared glossary
+/docs/shared/glossary.md @your-org/tech-leads @your-org/tech-writers
