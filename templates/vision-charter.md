@@ -2,6 +2,22 @@
 
 Use this as a set of sections (or split across `vision.md`, `scope.md`, etc. under `docs/internal/charter/`).
 
+## Scaffold file mapping
+
+When using the split charter files under `docs/internal/charter/`:
+
+| This template section | Scaffold file |
+|-----------------------|---------------|
+| Vision statement + KPIs | `vision.md` |
+| Scope | `scope.md` |
+| Stakeholders & RACI | `stakeholders.md` |
+| Constraints + Assumptions | `constraints-assumptions.md` |
+| Initial risk register | `risk-register.md` |
+
+You may instead keep a single combined charter document.
+
+
+
 ## Vision statement
 
 Two to four sentences: what this is, who it is for, what problem it solves. Not a marketing tagline.

@@ -13,4 +13,9 @@ Fill-in-the-blank artifacts. Copy into your repo's `docs/` tree (or keep this fo
 | [feature-user-doc.md](feature-user-doc.md) | Phase 7 user feature pages |
 | [deprecation-notice.md](deprecation-notice.md) | Phase 8 user-facing deprecations |
 
-Pair with the [learning path](../LEARNING_PATH.md) and [scaffold](../scaffold/README.DOCS.md).
+Pair with:
+
+- [First week pack](../FIRST_WEEK.md)
+- [Canonical phase → folder map](../appendix/phase-folder-map.md) (includes template index)
+- [Learning path](../LEARNING_PATH.md)
+- [Scaffold](../scaffold/README.DOCS.md)
