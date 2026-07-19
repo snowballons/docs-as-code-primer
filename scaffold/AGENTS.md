@@ -2,6 +2,8 @@
 
 Guidance for AI coding agents working in a repository that uses this Docs-as-Code scaffold.
 
+Human adopters: start with `FIRST_WEEK.md` (in the primer repo) and `docs/GOVERNANCE.md` (stub policy).
+
 ## Source of truth
 
 | Need | Look here |
@@ -10,10 +12,12 @@ Guidance for AI coding agents working in a repository that uses this Docs-as-Cod
 | Requirements | `docs/internal/requirements/` |
 | Architecture & ADRs | `docs/internal/architecture/`, `docs/internal/decisions/` |
 | API contracts (canonical) | `docs/internal/system-design/api-specs/` |
+| Module/service design | `docs/internal/system-design/services/` |
 | How to run/develop | `docs/internal/development/`, root `README.md` |
 | Ops / incidents | `docs/internal/operations/` |
 | Customer/user help | `docs/user/` |
 | Shared definitions | `docs/shared/glossary.md` |
+| Stub / folder policy | `docs/GOVERNANCE.md` |
 
 ## Rules
 

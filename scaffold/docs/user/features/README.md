@@ -18,5 +18,8 @@ Implementation internals; service topology.
 
 ## Next
 
-- See the matching chapter under `primer/`
-- Use a template from `templates/` when creating a new file
+- Primer: `primer/11-phase-7-user-docs.md` (Phase 7)
+- Template(s): `templates/feature-user-doc.md`
+- See FIRST_WEEK.md for whether to fill this in week 1.
+- Stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
+- Phase map (canonical): primer repo `appendix/phase-folder-map.md`

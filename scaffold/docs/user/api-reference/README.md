@@ -18,5 +18,8 @@ Internal-only endpoints/annotations; security control details.
 
 ## Next
 
-- See the matching chapter under `primer/`
-- Use a template from `templates/` when creating a new file
+- Primer: `primer/11-phase-7-user-docs.md` (Phase 7)
+- Template(s): `Derived from internal OpenAPI`
+- recipes/openapi-to-user-api-ref.md · Acme user/api-reference/overview.md
+- Stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
+- Phase map (canonical): primer repo `appendix/phase-folder-map.md`

@@ -2,6 +2,10 @@
 
 Copy this folder’s contents into your project when you want a Docs-as-Code structure on day one.
 
+**Start here after copy:** [`../FIRST_WEEK.md`](../FIRST_WEEK.md)  
+**Canonical paths:** [`../appendix/phase-folder-map.md`](../appendix/phase-folder-map.md)  
+**Stub policy:** [`docs/GOVERNANCE.md`](docs/GOVERNANCE.md)
+
 ## What to copy
 
 From `scaffold/`, copy into your repository root (or adjust paths to match your monorepo):
@@ -11,15 +15,19 @@ docs/                    → your repo docs/
 .github/workflows/docs.yml
 .github/PULL_REQUEST_TEMPLATE.md   (merge with yours if you already have one)
 AGENTS.md
+.markdownlint.json
 llms.txt.example         → rename/adapt to llms.txt when ready
 ```
 
 You do **not** need a static site generator to start. The scaffold is plain Markdown.
 
+Default CI: Markdown lint + link check. Optional Spectral / Mermaid jobs are commented in `docs.yml` — enable when ready ([primer: CI](../primer/16-ci-and-quality-gates.md)).
+
 ## Directory model
 
 ```text
 docs/
+├── GOVERNANCE.md ← stub policy (how to treat READMEs vs replace-me files)
 ├── internal/     # engineers, SREs, auditors — private / access-controlled
 ├── user/         # customers, API consumers — public or customer-facing
 └── shared/       # glossary, high-level diagrams, shared concepts
@@ -33,31 +41,19 @@ docs/
 
 ## Phase → folder map
 
-| Phase | Location |
-|-------|----------|
-| 0 Charter | `docs/internal/charter/` |
-| 1 Requirements | `docs/internal/requirements/` |
-| 2 Architecture | `docs/internal/architecture/` + `docs/internal/decisions/` |
-| 3 Detailed design | `docs/internal/system-design/` |
-| 4 Implementation | `docs/internal/development/` (+ root/package READMEs) |
-| 5 Testing | `docs/internal/testing/` |
-| 6 Operations | `docs/internal/operations/` |
-| 7 User docs | `docs/user/` |
-| 8 Evolution | both streams (changelogs, ADR updates, retrospectives) |
-| 9 Retirement | primarily internal; user migration notices as needed |
-| Ongoing shared | `docs/shared/` |
+**Do not maintain a second map here.** Use [`../appendix/phase-folder-map.md`](../appendix/phase-folder-map.md).
 
 ## How to fill it
 
-1. Start with Phase 0 stubs under `internal/charter/`.
-2. Use templates from the parent repo’s [`../templates/`](../templates/) (or copy `templates/` into your repo).
-3. Put runbooks under `operations/runbooks/` **by symptom** (e.g. `high-error-rate.md`), not only by service name.
-4. Keep OpenAPI sources under `internal/system-design/api-specs/`; derive consumer API docs under `user/api-reference/`.
-5. Enable [`.github/workflows/docs.yml`](.github/workflows/docs.yml) and fix lint/link failures.
+1. Follow [`../FIRST_WEEK.md`](../FIRST_WEEK.md) for the minimum file set.
+2. Use templates from [`../templates/`](../templates/) (indexed in the phase map).
+3. Put runbooks under `operations/runbooks/` **by symptom** (e.g. `high-error-rate.md`).
+4. Keep OpenAPI under `internal/system-design/api-specs/`; derive consumer docs under `user/api-reference/`.
+5. Enable the workflow; uncomment Spectral when specs exist.
 
 ## Greenfield vs retrofit
 
-**Greenfield:** copy the tree, leave unused folders, fill Phase 0–2 before implementation hardens.
+**Greenfield:** copy the tree, follow the first-week pack, leave unused folders as structural READMEs.
 
 **Retrofit:** do not boil the ocean. Map existing docs into this tree. Move the top critical families first (architecture, ADRs, runbooks, API, getting started).
 

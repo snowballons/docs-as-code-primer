@@ -18,5 +18,8 @@ Audience-specific deep dives; sensitive internal-only material.
 
 ## Next
 
-- See the matching chapter under `primer/`
-- Use a template from `templates/` when creating a new file
+- Primer: `primer/02-two-audiences.md` (Ongoing)
+- Template(s): `glossary.md in this folder`
+- Canonical map: appendix/phase-folder-map.md
+- Stub policy: [../GOVERNANCE.md](../GOVERNANCE.md)
+- Phase map (canonical): primer repo `appendix/phase-folder-map.md`

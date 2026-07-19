@@ -18,5 +18,8 @@ Internal PR laundry lists.
 
 ## Next
 
-- See the matching chapter under `primer/`
-- Use a template from `templates/` when creating a new file
+- Primer: `primer/12-phase-8-maintenance.md` (Phase 8)
+- Template(s): `templates/deprecation-notice.md (deprecations/)`
+- See FIRST_WEEK.md for whether to fill this in week 1.
+- Stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
+- Phase map (canonical): primer repo `appendix/phase-folder-map.md`

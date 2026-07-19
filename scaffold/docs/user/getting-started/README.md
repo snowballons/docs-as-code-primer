@@ -18,5 +18,8 @@ Internal engineer setup (belongs in internal/development).
 
 ## Next
 
-- See the matching chapter under `primer/`
-- Use a template from `templates/` when creating a new file
+- Primer: `primer/11-phase-7-user-docs.md` (Phase 7)
+- Template(s): `(use Acme quickstart as pattern)`
+- Example: examples/acme-export-platform/user/getting-started/quickstart.md
+- Stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
+- Phase map (canonical): primer repo `appendix/phase-folder-map.md`
