@@ -18,5 +18,8 @@ Public status pages; unverified claims without evidence links.
 
 ## Next
 
-- See the matching chapter under `primer/`
-- Use a template from `templates/` when creating a new file
+- Primer: `primer/09-phase-5-testing.md` (Phase 5)
+- Template(s): `templates/user-story.md (traceability)`
+- Structural folder — add strategy when Phase 5 starts.
+- Stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
+- Phase map (canonical): primer repo `appendix/phase-folder-map.md`

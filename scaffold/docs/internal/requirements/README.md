@@ -18,5 +18,8 @@ Solution design disguised as requirements; vague untestable statements.
 
 ## Next
 
-- See the matching chapter under `primer/`
-- Use a template from `templates/` when creating a new file
+- Primer: `primer/05-phase-1-requirements.md` (Phase 1)
+- Template(s): `templates/user-story.md, templates/nfr.md`
+- Examples: examples/acme-export-platform/internal/requirements/
+- Stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
+- Phase map (canonical): primer repo `appendix/phase-folder-map.md`

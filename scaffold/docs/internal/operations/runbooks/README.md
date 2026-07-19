@@ -18,5 +18,8 @@ Organizing only by component name with no symptom entry points; untested procedu
 
 ## Next
 
-- See the matching chapter under `primer/`
-- Use a template from `templates/` when creating a new file
+- Primer: `primer/10-phase-6-operations.md` (Phase 6)
+- Template(s): `templates/runbook.md`
+- Organize by symptom. Example: export-queue-backlog.md in Acme example.
+- Stub policy: [../../../GOVERNANCE.md](../../../GOVERNANCE.md)
+- Phase map (canonical): primer repo `appendix/phase-folder-map.md`

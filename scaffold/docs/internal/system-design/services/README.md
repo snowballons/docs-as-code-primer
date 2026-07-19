@@ -18,5 +18,8 @@ User-facing feature marketing pages.
 
 ## Next
 
-- See the matching chapter under `primer/`
-- Use a template from `templates/` when creating a new file
+- Primer: `primer/07-phase-3-detailed-design.md` (Phase 3)
+- Template(s): `templates/module-spec.md`
+- Example: examples/acme-export-platform/internal/system-design/services/export-service.md
+- Stub policy: [../../../GOVERNANCE.md](../../../GOVERNANCE.md)
+- Phase map (canonical): primer repo `appendix/phase-folder-map.md`

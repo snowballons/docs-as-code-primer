@@ -18,5 +18,8 @@ Only documenting happy paths; drifting from implementation.
 
 ## Next
 
-- See the matching chapter under `primer/`
-- Use a template from `templates/` when creating a new file
+- Primer: `primer/07-phase-3-detailed-design.md` (Phase 3)
+- Template(s): `(OpenAPI YAML — no Markdown template)`
+- Example: examples/acme-export-platform/internal/system-design/api-specs/export-api.yaml · recipes/openapi-to-user-api-ref.md
+- Stub policy: [../../../GOVERNANCE.md](../../../GOVERNANCE.md)
+- Phase map (canonical): primer repo `appendix/phase-folder-map.md`

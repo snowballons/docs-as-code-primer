@@ -18,5 +18,8 @@ Full DB field lists (Phase 3); user tutorials (Phase 7).
 
 ## Next
 
-- See the matching chapter under `primer/`
-- Use a template from `templates/` when creating a new file
+- Primer: `primer/06-phase-2-architecture.md` (Phase 2)
+- Template(s): `templates/adr.md (decisions live in ../decisions/)`
+- Example: examples/acme-export-platform/internal/architecture/context-diagram.md
+- Stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
+- Phase map (canonical): primer repo `appendix/phase-folder-map.md`

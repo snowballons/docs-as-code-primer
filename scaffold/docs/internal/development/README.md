@@ -18,5 +18,8 @@ Customer-facing feature guides.
 
 ## Next
 
-- See the matching chapter under `primer/`
-- Use a template from `templates/` when creating a new file
+- Primer: `primer/08-phase-4-implementation.md` (Phase 4)
+- Template(s): `(no dedicated template yet)`
+- See primer Write list for README / contribution guide contents.
+- Stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
+- Phase map (canonical): primer repo `appendix/phase-folder-map.md`
