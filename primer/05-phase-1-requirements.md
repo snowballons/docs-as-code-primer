@@ -21,6 +21,13 @@ Product / BA primary; Tech Lead for feasibility; QA for testability.
 - Personas and journey maps
 - MoSCoW (or equivalent) backlog; Must = MVP
 
+### Bad → good (NFR)
+
+| Bad | Good |
+|-----|------|
+| “We want fast page loads.” | “p95 HTML TTFB < 300ms on production P75 hardware for the 90th-percentile catalog page.” |
+| “Exports should be fast.” | “Export jobs for ≤ 1M rows complete in < 30s under nominal warehouse load.” |
+
 ## Definition of Done (MVP)
 
 - [ ] Must-have stories have acceptance criteria
@@ -31,10 +38,13 @@ Product / BA primary; Tech Lead for feasibility; QA for testability.
 ## Mistakes
 
 - Specifying UI chrome instead of need
-- "Should be fast" without a number
+- “Should be fast” without a number
 - Ignoring NFRs until after launch
 
-Templates: [`user-story.md`](../templates/user-story.md), [`nfr.md`](../templates/nfr.md)
+## Use
+
+- Templates: [`templates/user-story.md`](../templates/user-story.md), [`templates/nfr.md`](../templates/nfr.md)
+- Examples: [`export-csv.md`](../examples/acme-export-platform/internal/requirements/user-stories/export-csv.md), [`non-functional.md`](../examples/acme-export-platform/internal/requirements/non-functional.md)
 
 ---
 

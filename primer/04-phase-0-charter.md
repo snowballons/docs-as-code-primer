@@ -22,6 +22,8 @@ Product Owner / sponsor primary; Tech Lead reviews; formal sign-off before Phase
 - Constraints and assumptions (assumptions are risks until validated)
 - Initial risk register
 
+Split across scaffold files using the charter table in [`appendix/phase-folder-map.md`](../appendix/phase-folder-map.md).
+
 ## Definition of Done (MVP)
 
 - [ ] Vision approved by sponsor
@@ -36,7 +38,10 @@ Product Owner / sponsor primary; Tech Lead reviews; formal sign-off before Phase
 - Skipping out-of-scope
 - Never revisiting the charter at milestones
 
-Template: [`templates/vision-charter.md`](../templates/vision-charter.md)
+## Use
+
+- Template: [`templates/vision-charter.md`](../templates/vision-charter.md)
+- Example: [`examples/acme-export-platform/internal/charter/vision.md`](../examples/acme-export-platform/internal/charter/vision.md)
 
 ---
 

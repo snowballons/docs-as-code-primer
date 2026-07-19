@@ -3,7 +3,7 @@
 | | |
 |--|--|
 | **Phase** | 2 |
-| **Primary path** | `docs/internal/architecture/ + decisions/` |
+| **Primary path** | `docs/internal/architecture/` + `docs/internal/decisions/` |
 
 ## Purpose
 
@@ -19,8 +19,12 @@ Architect / principal engineer; security reviews auth and data protection; ADRs 
 - Data architecture (types, sensitivity, retention, consistency) — not full column lists yet
 - Integration architecture and failure modes
 - Cross-cutting: authn/z, logging, observability, errors, resilience, caching, config/secrets
-- ADRs for significant decisions (context, decision, alternatives, consequences)
+- ADRs for significant decisions
 - Scaling and cost estimate assumptions
+
+### ADR shape (matches template)
+
+Each ADR must include: **Status**, **Date**, **Context**, **Decision**, **Alternatives considered**, **Consequences** (and references). Status is Proposed → Accepted → Deprecated / Superseded. Never delete an accepted ADR; supersede it.
 
 ## Definition of Done (MVP)
 
@@ -35,7 +39,10 @@ Architect / principal engineer; security reviews auth and data protection; ADRs 
 - ADRs without alternatives
 - Treating architecture as a one-time PDF
 
-Template: [`templates/adr.md`](../templates/adr.md)
+## Use
+
+- Template: [`templates/adr.md`](../templates/adr.md)
+- Examples: [`context-diagram.md`](../examples/acme-export-platform/internal/architecture/context-diagram.md), [`adr-001-queue-for-exports.md`](../examples/acme-export-platform/internal/decisions/adr-001-queue-for-exports.md)
 
 ---
 
