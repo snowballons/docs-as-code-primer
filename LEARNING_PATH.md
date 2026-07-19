@@ -1,6 +1,8 @@
 # Learning path
 
-Work through these in order if you are learning. If you are adopting today, copy [`scaffold/`](scaffold/) first, then read the chapters that match what you are filling in.
+Work through these in order if you are learning.
+
+If you are adopting today: follow [`FIRST_WEEK.md`](FIRST_WEEK.md) (copy scaffold + minimum files), keep [`appendix/phase-folder-map.md`](appendix/phase-folder-map.md) as the path SSoT, then read primer chapters as you fill each phase.
 
 ## Core (required)
 
@@ -31,16 +33,18 @@ Work through these in order if you are learning. If you are adopting today, copy
 
 ## Then use the kit
 
-- Copy [`scaffold/`](scaffold/) into your repo — see [`scaffold/README.DOCS.md`](scaffold/README.DOCS.md)
-- Fill artifacts from [`templates/`](templates/)
-- Compare with [`examples/acme-export-platform/`](examples/acme-export-platform/)
-- Publish later via [`recipes/`](recipes/)
+- [`FIRST_WEEK.md`](FIRST_WEEK.md) — minimum fill set
+- [`scaffold/README.DOCS.md`](scaffold/README.DOCS.md) — copy instructions
+- [`scaffold/docs/GOVERNANCE.md`](scaffold/docs/GOVERNANCE.md) — stub policy
+- [`appendix/phase-folder-map.md`](appendix/phase-folder-map.md) — canonical paths
+- [`templates/`](templates/) · [`examples/acme-export-platform/`](examples/acme-export-platform/) · [`recipes/`](recipes/)
 
 ## Suggested timeboxes
 
 | Goal | Effort |
 |------|--------|
 | Understand the model | 45–60 minutes (core + phases overview) |
-| Adopt scaffold on a greenfield repo | 1–2 hours |
+| First week pack on a greenfield repo | ~1 week calendar / few focused hours |
+| Copy scaffold only | ≤ 30 minutes |
 | Fill Phase 0–2 for a real project | 1–3 days (team dependent) |
-| Add CI + one publishing recipe | half a day |
+| Enable optional Spectral + one publishing recipe | half a day |
