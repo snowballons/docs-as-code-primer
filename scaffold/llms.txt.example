@@ -1,0 +1,26 @@
+# Documentation index for AI agents
+
+> Example file. Copy to `llms.txt` at the repo root (or docs site root) and adjust URLs/paths for your project.
+
+## Prefer
+
+- Raw Markdown under `docs/` when available
+- OpenAPI under `docs/internal/system-design/api-specs/` for API truth
+- `AGENTS.md` for contribution and placement rules
+
+## Entry points
+
+- docs/internal/charter/vision.md
+- docs/internal/architecture/
+- docs/internal/decisions/
+- docs/internal/system-design/api-specs/
+- docs/internal/operations/runbooks/
+- docs/user/getting-started/quickstart.md
+- docs/user/api-reference/
+- docs/shared/glossary.md
+
+## Rules
+
+- Do not invent endpoints or fields not present in OpenAPI or code
+- Distinguish internal vs user documentation; do not mix audiences
+- Cite file paths when proposing doc edits
