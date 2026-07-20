@@ -329,6 +329,7 @@ Phase 3 runs in parallel with early implementation. It is not a gate before codi
 
 **Module & Service Specifications**
 For each significant module or service, document:
+
 - **Responsibility**: What does this module own? What is it explicitly not responsible for?
 - **Interface**: What does it expose? (Functions, events, REST endpoints, gRPC methods)
 - **Dependencies**: What does it depend on? (Other modules, external systems, infrastructure)
@@ -340,6 +341,7 @@ For each significant module or service, document:
 Document the complete database schema: every table or collection, every field with its type and constraints, every index, and every foreign key relationship. Explain the reasoning behind non-obvious schema decisions (why denormalise here, why use JSONB instead of a relational structure there).
 
 Alongside the schema, document the migration strategy:
+
 - How are schema migrations managed? (Flyway, Liquibase, Alembic, etc.)
 - What is the policy for backwards-incompatible changes?
 - How are zero-downtime migrations handled for critical tables?
@@ -347,6 +349,7 @@ Alongside the schema, document the migration strategy:
 
 **API Specifications**
 Document every API endpoint in OpenAPI 3.x (Swagger) format. The spec should include, for every endpoint:
+
 - HTTP method and path
 - All path parameters, query parameters, and headers (required and optional)
 - Request body schema with field descriptions, types, and validation rules
