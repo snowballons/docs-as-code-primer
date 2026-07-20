@@ -43,7 +43,7 @@ Product / BA primary; Tech Lead for feasibility; QA for testability.
 
 ## Use
 
-- Templates: [`templates/user-story.md`](../templates/user-story.md), [`templates/nfr.md`](../templates/nfr.md)
+- Templates: [`templates/user-story.md`](../templates/user-story.md), [`templates/nfr.md`](../templates/nfr.md), [`templates/persona.md`](../templates/persona.md)
 - Examples: [`export-csv.md`](../examples/acme-export-platform/internal/requirements/user-stories/export-csv.md), [`non-functional.md`](../examples/acme-export-platform/internal/requirements/non-functional.md)
 
 ---
