@@ -22,4 +22,4 @@ flowchart LR
 
 - Billing is the entitlement source of truth for who may export.
 - Warehouse access is read-only from the export workers.
-- Detailed container diagram lives with full architecture docs (omitted in this MVP sample).
+- See [Container diagram](container-diagram.md) for the Level 2 view.
