@@ -16,8 +16,6 @@ When using the split charter files under `docs/internal/charter/`:
 
 You may instead keep a single combined charter document.
 
-
-
 ## Vision statement
 
 Two to four sentences: what this is, who it is for, what problem it solves. Not a marketing tagline.
