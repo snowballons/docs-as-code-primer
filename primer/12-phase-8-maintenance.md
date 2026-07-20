@@ -39,7 +39,7 @@ Keep docs true as the system changes. Stale docs are liabilities.
 
 ## Use
 
-- Template: [`templates/deprecation-notice.md`](../templates/deprecation-notice.md)
+- Templates: [`templates/deprecation-notice.md`](../templates/deprecation-notice.md), [`templates/migration-guide.md`](../templates/migration-guide.md), [`templates/incident-retrospective.md`](../templates/incident-retrospective.md)
 - Map: [`appendix/phase-folder-map.md`](../appendix/phase-folder-map.md)
 
 ---
