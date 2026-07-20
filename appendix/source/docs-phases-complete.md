@@ -694,6 +694,7 @@ A chronological record of changes to the product, written in plain English for e
 All Phase 7 content lives in **User-Facing Documentation** under `/docs/user/`. It is published to a public or customer-accessible documentation portal.
 
 ### Definition of Done
+
 - [ ] Getting started guide tested with at least one user who has never seen the product
 - [ ] Feature documentation complete for all features included in the release
 - [ ] Consumer-facing API reference complete with code examples in at least two languages
@@ -731,6 +732,7 @@ After every major incident, significant release, or project milestone, document 
 Schedule periodic reviews of documentation across all phases. At minimum: a quarterly check of the getting started guide (run it on a clean environment), an annual review of the architecture document against the actual deployed system, and a check after every major release that all affected documentation has been updated.
 
 ### Documentation Version
+
 Phase 8 content spans both **Internal** and **User-Facing** documentation. Internal changelogs, ADR updates, and lessons learned go internal. User-facing changelogs, deprecation notices, and migration guides go to user-facing docs.
 
 ---
@@ -766,6 +768,7 @@ Every document has exactly one authoritative location. If the same information n
 A feature is not done until its documentation is updated. This is enforced at the PR level, not as a separate documentation sprint.
 
 **Automation as a First-Class Citizen**
+
 - Spell checking and link validation run in CI on every PR.
 - OpenAPI specs are linted by Spectral on every PR.
 - Diagrams are rendered and checked for errors in CI.
