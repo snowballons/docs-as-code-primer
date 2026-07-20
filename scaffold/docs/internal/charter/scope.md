@@ -1,9 +1,9 @@
 # Scope
 
-> **Replace-me stub** (see [`../../GOVERNANCE.md`](../../GOVERNANCE.md)).
+> **Replace-me stub** — see [`../../GOVERNANCE.md`](../../GOVERNANCE.md).
 >
-> Maps from template section **Scope** in `templates/vision-charter.md`.
-> Full mapping table: `appendix/phase-folder-map.md` (Charter file mapping).
+> Fill using upstream template `templates/vision-charter.md` (section: **Scope**).
+> Paths and mapping: [`../../KIT.md`](../../KIT.md).
 
 ## Status
 
