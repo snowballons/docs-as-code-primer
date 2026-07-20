@@ -16,6 +16,15 @@ End systems as carefully as you launch them.
 - Knowledge transfer for undocumented quirks
 - Archive docs read-only — do not delete history needed for compliance or learning
 
+### Bad → good (retirement)
+
+| Bad | Good |
+|-----|------|
+| Turn off prod; tell users later | Sunsetting timeline + comms before cutover |
+| Delete the docs repo | Archive read-only for compliance and learning |
+| “Export your data somehow” | Step-by-step migration/export guide in `docs/user/` |
+
+
 ## Placement
 
 - Plan and KT → internal (`docs/internal/charter/` or dedicated retirement note)
