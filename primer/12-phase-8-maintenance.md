@@ -21,6 +21,15 @@ Keep docs true as the system changes. Stale docs are liabilities.
 | Lessons learned / incidents | Internal |
 | Health reviews | Both |
 
+### Bad → good (evolution)
+
+| Bad | Good |
+|-----|------|
+| User changelog = git log | Plain-language what changed for users and whether action is required |
+| Remove API with one sprint notice | Deprecation notice + date + replacement + migration guide (policy window) |
+| Silently edit an accepted ADR | New ADR supersedes the old one |
+
+
 ## Cadence (suggested)
 
 - **Per release:** user changelog; API quickstart smoke
