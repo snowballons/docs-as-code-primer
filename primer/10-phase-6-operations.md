@@ -86,7 +86,7 @@ Each runbook should include:
 ## Use
 
 - Templates: [`templates/runbook.md`](../templates/runbook.md), [`templates/slo.md`](../templates/slo.md), [`templates/on-call-handbook.md`](../templates/on-call-handbook.md), [`templates/dr-plan.md`](../templates/dr-plan.md)
-- Example: [`export-queue-backlog.md`](../examples/acme-export-platform/internal/operations/runbooks/export-queue-backlog.md)
+- Examples: [`slos.md`](../examples/acme-export-platform/internal/operations/slos.md), [`export-queue-backlog.md`](../examples/acme-export-platform/internal/operations/runbooks/export-queue-backlog.md)
 
 ---
 
