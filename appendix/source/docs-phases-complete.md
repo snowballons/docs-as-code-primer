@@ -288,6 +288,7 @@ Document the expected load profile at launch and at 6/12/24 months. Translate th
 All Phase 2 content lives in **Internal Documentation** under `/docs/internal/architecture/`. ADRs live under `/docs/internal/decisions/`. High-level context diagrams and integration architecture overviews may be referenced (not reproduced) in user-facing API documentation in Phase 7.
 
 ### Definition of Done
+
 - [ ] C4 Level 1 (Context) and Level 2 (Container) diagrams completed and rendered as diagram-as-code (Mermaid or C4-PlantUML)
 - [ ] Data architecture document including sensitivity classifications completed
 - [ ] Integration architecture documented for every external system
@@ -299,6 +300,7 @@ All Phase 2 content lives in **Internal Documentation** under `/docs/internal/ar
 - [ ] All documents in version control, PR approved
 
 ### Common Mistakes to Avoid
+
 - Creating diagrams without maintaining them. A stale architecture diagram is worse than no diagram because it actively misleads.
 - Writing ADRs only for technology choices and ignoring architectural patterns (e.g., why event-driven over synchronous, why monolith over microservices).
 - Treating architecture documents as one-time deliverables. They must be updated whenever significant architectural changes occur.
