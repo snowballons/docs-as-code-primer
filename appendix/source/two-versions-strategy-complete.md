@@ -70,7 +70,7 @@ The repository structure is the physical implementation of the two-version strat
 
 ### Full Repository Structure
 
-```
+```text
 /docs/
 │
 ├── internal/                          # Technical documentation — private
@@ -308,6 +308,7 @@ The greatest practical risk in a two-version system is duplication — the same 
 ### Strategy 1: Single-Source, Multiple Renderings
 
 The OpenAPI specification is the clearest example of this pattern. A single OpenAPI YAML file lives in `/docs/internal/system-design/api-specs/`. From this single source:
+
 - The internal documentation site renders it with full annotations, internal notes, and implementation details.
 - The external API reference strips internal annotations and adds consumer-friendly language, code examples, and conceptual introductions, then renders via Redoc or Scalar.
 - CI validates the spec on every PR, ensuring that both rendered versions are always in sync with the same source.
@@ -366,6 +367,7 @@ The two documentation streams require two publishing pipelines. They share tooli
 **Trigger**: Every merge to the main branch that includes changes in `/docs/internal/` or `/docs/shared/`.
 
 **Build steps**:
+
 1. Validate Markdown formatting and front matter structure
 2. Run Vale prose linting against internal style guide
 3. Run lychee (link checker) against all internal documents
@@ -384,6 +386,7 @@ The two documentation streams require two publishing pipelines. They share tooli
 **Trigger**: Every merge to the main branch that includes changes in `/docs/user/` or `/docs/shared/`. Additionally triggered on product release tags.
 
 **Build steps**:
+
 1. Validate Markdown formatting and front matter structure
 2. Run Vale prose linting against external style guide (stricter tone and clarity rules than internal)
 3. Run lychee against all external documents, including external links
@@ -402,6 +405,7 @@ The two documentation streams require two publishing pipelines. They share tooli
 ### Shared Validation in Both Pipelines
 
 Both pipelines run the following checks, ensuring shared content is always valid in both contexts:
+
 - Glossary terms referenced in documents are defined in the glossary
 - Diagram files in `/docs/shared/diagrams/` render without errors
 - Cross-references between documents resolve correctly within their respective stream
@@ -417,6 +421,7 @@ The review standards for internal and user-facing documentation differ, reflecti
 **Who reviews**: The pull request author's technical peers. The Tech Lead reviews architecture and design documents. Runbooks are reviewed by the on-call rotation. Security documents are reviewed by the Security team.
 
 **What is checked**:
+
 - Technical accuracy: Is the information correct?
 - Completeness: Is anything missing that would leave a reader without the full picture?
 - Consistency with related documents: Does this contradict any existing document?
@@ -431,6 +436,7 @@ The review standards for internal and user-facing documentation differ, reflecti
 **Who reviews**: Technical writer or product manager (primary), developer (for technical accuracy), and ideally a representative user (for clarity and usability). For API documentation, a developer who has not used the API before should verify the quickstart and common use cases.
 
 **What is checked**:
+
 - Technical accuracy: Is the information correct?
 - Clarity: Is this understandable to the target audience? Are any terms unexplained?
 - Completeness: Will a user be able to accomplish their goal using only this documentation?
