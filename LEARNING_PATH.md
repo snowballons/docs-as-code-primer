@@ -34,9 +34,10 @@ If you are adopting today: follow [`FIRST_WEEK.md`](FIRST_WEEK.md) (copy scaffol
 ## Then use the kit
 
 - [`FIRST_WEEK.md`](FIRST_WEEK.md) — minimum fill set
-- [`scaffold/README.DOCS.md`](scaffold/README.DOCS.md) — copy instructions
-- [`scaffold/docs/GOVERNANCE.md`](scaffold/docs/GOVERNANCE.md) — stub policy
-- [`appendix/phase-folder-map.md`](appendix/phase-folder-map.md) — canonical paths
+- [`scaffold/README.DOCS.md`](scaffold/README.DOCS.md) — copy instructions (kit repo)
+- [`scaffold/docs/GOVERNANCE.md`](scaffold/docs/GOVERNANCE.md) — stub policy (copied)
+- [`scaffold/docs/KIT.md`](scaffold/docs/KIT.md) — upstream path index (copied; post-copy safe)
+- [`appendix/phase-folder-map.md`](appendix/phase-folder-map.md) — canonical paths (kit repo)
 - [`templates/`](templates/) · [`examples/acme-export-platform/`](examples/acme-export-platform/) · [`recipes/`](recipes/)
 
 ## Suggested timeboxes
