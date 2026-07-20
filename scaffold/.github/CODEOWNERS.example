@@ -1,15 +1,28 @@
-# Example CODEOWNERS — adapt to your org
-# Copy to .github/CODEOWNERS
+# This is an EXAMPLE CODEOWNERS file.
+# Copy and adapt to your repo: rename to CODEOWNERS (no .example suffix).
+# Learn more: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+#
+# Each line is a file pattern followed by one or more @owner references.
+# Order matters: last match wins in the same file, so put general rules first,
+# then override with specific rules.
 
-# User-facing docs: require writer or product review when possible
-/docs/user/ @your-org/tech-writers @your-org/product
+# Default owners for everything in docs/
+/docs/ @team-docs
 
-# Architecture and ADRs
-/docs/internal/architecture/ @your-org/tech-leads
-/docs/internal/decisions/ @your-org/tech-leads
+# Internal docs — engineering owns accuracy
+/docs/internal/ @team-engineering
 
-# Operations / runbooks
-/docs/internal/operations/ @your-org/sre
+# User docs — product/PM sign-off recommended
+/docs/user/ @team-product @team-docs
 
-# Shared glossary
-/docs/shared/glossary.md @your-org/tech-leads @your-org/tech-writers
+# Shared content — both teams
+/docs/shared/ @team-docs
+
+# Architecture Decision Records — tech lead review
+/docs/internal/decisions/ @team-tech-leads
+
+# Runbooks — ops/SRE review
+/docs/internal/operations/ @team-sre
+
+# Root README — anyone on the core team
+/README.md @team-core
