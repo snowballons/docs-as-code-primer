@@ -18,8 +18,8 @@ Internal-only endpoints/annotations; security control details.
 
 ## Next
 
-- Primer: `primer/11-phase-7-user-docs.md` (Phase 7)
-- Template(s): `Derived from internal OpenAPI`
-- recipes/openapi-to-user-api-ref.md · Acme user/api-reference/overview.md
-- Stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
-- Phase map (canonical): primer repo `appendix/phase-folder-map.md`
+- In-repo stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
+- Upstream chapters / templates / examples: [../../KIT.md](../../KIT.md) (does not break after copy)
+- This folder → upstream chapter: `primer/11-phase-7-user-docs.md`
+- Upstream template(s): `(derive from internal OpenAPI)`
+- Note: Upstream recipe: recipes/openapi-to-user-api-ref.md

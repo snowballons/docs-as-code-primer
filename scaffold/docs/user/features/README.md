@@ -18,8 +18,7 @@ Implementation internals; service topology.
 
 ## Next
 
-- Primer: `primer/11-phase-7-user-docs.md` (Phase 7)
-- Template(s): `templates/feature-user-doc.md`
-- See FIRST_WEEK.md for whether to fill this in week 1.
-- Stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
-- Phase map (canonical): primer repo `appendix/phase-folder-map.md`
+- In-repo stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
+- Upstream chapters / templates / examples: [../../KIT.md](../../KIT.md) (does not break after copy)
+- This folder → upstream chapter: `primer/11-phase-7-user-docs.md`
+- Upstream template(s): `templates/feature-user-doc.md`

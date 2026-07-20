@@ -18,8 +18,7 @@ Internal engineer setup (belongs in internal/development).
 
 ## Next
 
-- Primer: `primer/11-phase-7-user-docs.md` (Phase 7)
-- Template(s): `(use Acme quickstart as pattern)`
-- Example: examples/acme-export-platform/user/getting-started/quickstart.md
-- Stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
-- Phase map (canonical): primer repo `appendix/phase-folder-map.md`
+- In-repo stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
+- Upstream chapters / templates / examples: [../../KIT.md](../../KIT.md) (does not break after copy)
+- This folder → upstream chapter: `primer/11-phase-7-user-docs.md`
+- Upstream template(s): `(pattern: upstream examples/.../quickstart.md)`
