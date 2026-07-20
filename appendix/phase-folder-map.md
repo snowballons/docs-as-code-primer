@@ -65,5 +65,6 @@ You may keep one combined charter file instead; if you do, replace the split stu
 ## Related
 
 - [First week pack](../FIRST_WEEK.md) — what to fill first
-- [Scaffold usage](../scaffold/README.DOCS.md)
-- [Scaffold stub policy](../scaffold/docs/GOVERNANCE.md)
+- [Scaffold usage](../scaffold/README.DOCS.md) — kit-repo copy instructions
+- [Stub policy](../scaffold/docs/GOVERNANCE.md) — copied with scaffold
+- [Upstream index for product repos](../scaffold/docs/KIT.md) — post-copy safe path names
