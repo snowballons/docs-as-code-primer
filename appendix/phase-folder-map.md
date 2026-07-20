@@ -55,12 +55,14 @@ You may keep one combined charter file instead; if you do, replace the split stu
 | Phase | Template |
 |-------|----------|
 | 0 | [`templates/vision-charter.md`](../templates/vision-charter.md) |
-| 1 | [`templates/user-story.md`](../templates/user-story.md), [`templates/nfr.md`](../templates/nfr.md) |
+| 1 | [`templates/user-story.md`](../templates/user-story.md), [`templates/nfr.md`](../templates/nfr.md), [`templates/persona.md`](../templates/persona.md) |
 | 2 | [`templates/adr.md`](../templates/adr.md) |
-| 3 | [`templates/module-spec.md`](../templates/module-spec.md) |
-| 6 | [`templates/runbook.md`](../templates/runbook.md) |
-| 7 | [`templates/feature-user-doc.md`](../templates/feature-user-doc.md) |
-| 8 | [`templates/deprecation-notice.md`](../templates/deprecation-notice.md) |
+| 3 | [`templates/module-spec.md`](../templates/module-spec.md), [`templates/frontend-architecture.md`](../templates/frontend-architecture.md) |
+| 4 | [`templates/contribution-guide.md`](../templates/contribution-guide.md) |
+| 5 | [`templates/test-strategy.md`](../templates/test-strategy.md) |
+| 6 | [`templates/runbook.md`](../templates/runbook.md), [`templates/slo.md`](../templates/slo.md), [`templates/on-call-handbook.md`](../templates/on-call-handbook.md) |
+| 7 | [`templates/feature-user-doc.md`](../templates/feature-user-doc.md), [`templates/getting-started.md`](../templates/getting-started.md), [`templates/tutorial.md`](../templates/tutorial.md), [`templates/troubleshooting.md`](../templates/troubleshooting.md) |
+| 8 | [`templates/deprecation-notice.md`](../templates/deprecation-notice.md), [`templates/migration-guide.md`](../templates/migration-guide.md), [`templates/incident-retrospective.md`](../templates/incident-retrospective.md) |
 
 ## Related
 
