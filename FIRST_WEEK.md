@@ -5,14 +5,15 @@ Use this after you copy [`scaffold/`](scaffold/) into your repository. Goal: a *
 ## Day 0 — Copy the kit (≤ 30 minutes)
 
 1. Copy into your repo root (adjust if monorepo):
-   - `scaffold/docs/` → `docs/`
+   - `scaffold/docs/` → `docs/` (includes `GOVERNANCE.md` + `KIT.md`)
    - `scaffold/.github/workflows/docs.yml`
    - `scaffold/.github/PULL_REQUEST_TEMPLATE.md` (merge if you already have one)
    - `scaffold/AGENTS.md`
    - `scaffold/.markdownlint.json`
    - Optionally `scaffold/llms.txt.example` → `llms.txt`
-2. Read [`scaffold/docs/GOVERNANCE.md`](scaffold/docs/GOVERNANCE.md) (stub policy).
-3. Keep the canonical map bookmarked: [`appendix/phase-folder-map.md`](appendix/phase-folder-map.md).
+2. In the **product** repo, open `docs/KIT.md` and set `KIT_URL` to this primer repo (clone path or GitHub URL).
+3. Read `docs/GOVERNANCE.md` (stub policy) and this file (you can keep a bookmark to [`FIRST_WEEK.md`](FIRST_WEEK.md) upstream).
+4. Canonical map while working from the kit: [`appendix/phase-folder-map.md`](appendix/phase-folder-map.md). In the product repo, use the path names listed in `docs/KIT.md` unless you vendor the map.
 
 ## Minimum files to make real (the “7+” pack)
 
@@ -45,6 +46,7 @@ Per [`scaffold/docs/GOVERNANCE.md`](scaffold/docs/GOVERNANCE.md):
 
 ## Definition of done for week 1
 
+- [ ] `docs/KIT.md` has a real `KIT_URL` (or an explicit local path note)
 - [ ] Charter vision + scope committed
 - [ ] Glossary has product-specific terms (not only kit defaults)
 - [ ] At least one testable user story + numeric NFRs
@@ -52,6 +54,7 @@ Per [`scaffold/docs/GOVERNANCE.md`](scaffold/docs/GOVERNANCE.md):
 - [ ] User quickstart exists (even if “coming soon” sections are marked TODO)
 - [ ] Docs CI workflow runs on PRs that touch `docs/`
 - [ ] PR template docs checklist is in use
+- [ ] No broken `../primer/...` (or similar) links inside copied `docs/` files
 
 ## Next
 
