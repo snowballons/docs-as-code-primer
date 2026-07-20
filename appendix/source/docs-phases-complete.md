@@ -384,6 +384,7 @@ If the system has a frontend, document:
 All Phase 3 content lives in **Internal Documentation**. OpenAPI specs live under `/docs/internal/api-specs/` and are the source from which user-facing API reference documentation is generated in Phase 7 (the user-facing version strips internal annotations and adds consumer-friendly language).
 
 ### Definition of Done
+
 - [ ] Module specification written for every significant module, reviewed by at least one peer
 - [ ] Database schema fully documented with reasoning for non-obvious decisions
 - [ ] Migration strategy documented including zero-downtime and rollback procedures
@@ -394,6 +395,7 @@ All Phase 3 content lives in **Internal Documentation**. OpenAPI specs live unde
 - [ ] Design documents committed to version control and linked from the relevant module's README
 
 ### Common Mistakes to Avoid
+
 - Writing design documents after implementation as a box-ticking exercise. They should guide and validate the implementation, not describe it retrospectively without critical reflection.
 - Creating OpenAPI specs that describe only happy paths. Every error response needs to be documented.
 - Skipping state machine documentation for stateful entities. The hidden complexity in state transitions is where the most bugs live.
@@ -423,6 +425,7 @@ Phase 4 documentation is produced during and continuously throughout implementat
 
 **Repository README**
 The root README is the front door to the codebase. It must contain:
+
 - **What this is**: One to three sentences describing the system.
 - **Prerequisites**: Everything needed before running the project locally (Node version, Docker, specific CLI tools, environment variable setup).
 - **Local development setup**: Step-by-step instructions to get from a freshly cloned repository to a running local environment. Every step must be tested and accurate. If it has not been tested on a clean machine recently, it is probably wrong.
@@ -447,6 +450,7 @@ For implementation-level decisions that do not rise to the level of a system ADR
 
 **Contribution Guidelines**
 Document how to contribute to the codebase:
+
 - Branch naming conventions
 - Commit message format (e.g., Conventional Commits)
 - PR template and requirements
@@ -462,6 +466,7 @@ If your linter and formatter configuration does not capture every convention, do
 A detailed guide for setting up the development environment. This should be sufficiently detailed that a developer with no previous exposure to the project can follow it on a clean machine and have a working local environment within one hour. It should cover common errors and how to resolve them.
 
 ### Documentation Version
+
 Phase 4 content lives in **Internal Documentation**. The root README, per-service READMEs, and contribution guidelines live in the repository itself. The internal documentation site aggregates and renders them.
 
 ### Definition of Done
