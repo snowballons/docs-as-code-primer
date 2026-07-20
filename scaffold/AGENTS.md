@@ -2,7 +2,11 @@
 
 Guidance for AI coding agents working in a repository that uses this Docs-as-Code scaffold.
 
-Human adopters: start with `FIRST_WEEK.md` (in the primer repo) and `docs/GOVERNANCE.md` (stub policy).
+## Humans first
+
+- Stub policy: `docs/GOVERNANCE.md`
+- Upstream kit paths (primer, templates, examples, first-week pack): `docs/KIT.md`
+- Do not invent `../primer/...` links from inside `docs/` — they break after the scaffold is copied
 
 ## Source of truth
 
@@ -18,6 +22,7 @@ Human adopters: start with `FIRST_WEEK.md` (in the primer repo) and `docs/GOVERN
 | Customer/user help | `docs/user/` |
 | Shared definitions | `docs/shared/glossary.md` |
 | Stub / folder policy | `docs/GOVERNANCE.md` |
+| Upstream teaching index | `docs/KIT.md` |
 
 ## Rules
 
@@ -28,6 +33,7 @@ Human adopters: start with `FIRST_WEEK.md` (in the primer repo) and `docs/GOVERN
 5. Do not duplicate glossary or shared concepts; link or include from `docs/shared/`.
 6. Prefer Mermaid in Markdown for new engineering diagrams.
 7. ADRs are append-only: supersede with a new ADR; do not rewrite accepted history silently.
+8. For template/chapter guidance, open `docs/KIT.md` and use the upstream kit — do not guess file layouts.
 
 ## Doc update heuristic
 
