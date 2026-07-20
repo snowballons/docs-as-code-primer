@@ -22,6 +22,31 @@ Architect / principal engineer; security reviews auth and data protection; ADRs 
 - ADRs for significant decisions
 - Scaling and cost estimate assumptions
 
+### Cost / scaling estimate pattern
+
+Document assumptions early — they become constraints when wrong. Template:
+
+```text
+## Scaling estimates
+
+| Dimension | Current estimate | When to revisit | Trigger |
+|-----------|-----------------|-----------------|---------|
+| Peak throughput | 100 export jobs/min | Load test > 50% of estimate | Perf test in Phase 5 |
+| Storage (RDS) | 2 GB / 90 days | Monthly growth > 10% | Monitoring alert |
+| Storage (S3) | 500 GB / quarter | Monthly growth > 15% | Monitoring alert |
+| Worker pool | 4–8 instances | Queue depth > 1000 for > 5 min | Runbook trigger |
+
+## Cost assumptions
+
+| Resource | Estimated monthly cost | Confidence | Notes |
+|----------|----------------------|------------|-------|
+| RDS db.r6g.large | $350 | Medium | 500 GB storage; Multi-AZ doubles this |
+| S3 standard | $45 | High | Export artifacts; 90-day lifecycle to Glacier |
+| EC2 (workers) | $240 | Low | Spot instances; 4 × c6g.large at $0.06/h |
+```
+
+Pin confidence levels to a reason so reviewers can challenge assumptions.
+
 ### C4 level guidance
 
 C4 has four levels. The primer mandates Level 1 and Level 2 for every project. Level 3 is situational.
@@ -110,7 +135,7 @@ ADR-012's Context section would open with: "Supersedes ADR-001. Queue volume has
 ## Use
 
 - Templates: [`templates/adr.md`](../templates/adr.md), [`templates/c4-architecture-outline.md`](../templates/c4-architecture-outline.md), [`templates/cross-cutting-concerns-checklist.md`](../templates/cross-cutting-concerns-checklist.md)
-- Examples: [`context-diagram.md`](../examples/acme-export-platform/internal/architecture/context-diagram.md), [`adr-001-queue-for-exports.md`](../examples/acme-export-platform/internal/decisions/adr-001-queue-for-exports.md)
+- Examples: [`context-diagram.md`](../examples/acme-export-platform/internal/architecture/context-diagram.md), [`container-diagram.md`](../examples/acme-export-platform/internal/architecture/container-diagram.md), [`adr-001-queue-for-exports.md`](../examples/acme-export-platform/internal/decisions/adr-001-queue-for-exports.md)
 
 ---
 
