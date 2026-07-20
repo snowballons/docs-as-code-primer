@@ -30,6 +30,7 @@ If you are adopting today: follow [`FIRST_WEEK.md`](FIRST_WEEK.md) (copy scaffol
 2. [CI and quality gates](primer/16-ci-and-quality-gates.md)
 3. [Agent-ready docs](primer/17-agent-ready-docs.md)
 4. [Anti-patterns](primer/18-anti-patterns.md)
+5. [Why now (2026)](primer/19-why-now-2026.md)
 
 ## Then use the kit
 
