@@ -18,8 +18,7 @@ Customer-facing feature guides.
 
 ## Next
 
-- Primer: `primer/08-phase-4-implementation.md` (Phase 4)
-- Template(s): `(no dedicated template yet)`
-- See primer Write list for README / contribution guide contents.
-- Stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
-- Phase map (canonical): primer repo `appendix/phase-folder-map.md`
+- In-repo stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
+- Upstream chapters / templates / examples: [../../KIT.md](../../KIT.md) (does not break after copy)
+- This folder → upstream chapter: `primer/08-phase-4-implementation.md`
+- Upstream template(s): `(no dedicated template yet)`
