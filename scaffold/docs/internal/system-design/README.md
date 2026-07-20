@@ -18,8 +18,8 @@ Public consumer API narrative docs (derive under docs/user/api-reference).
 
 ## Next
 
-- Primer: `primer/07-phase-3-detailed-design.md` (Phase 3)
-- Template(s): `templates/module-spec.md`
-- OpenAPI under api-specs/; example services + YAML in examples/acme-export-platform/
-- Stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
-- Phase map (canonical): primer repo `appendix/phase-folder-map.md`
+- In-repo stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
+- Upstream chapters / templates / examples: [../../KIT.md](../../KIT.md) (does not break after copy)
+- This folder → upstream chapter: `primer/07-phase-3-detailed-design.md`
+- Upstream template(s): `templates/module-spec.md`
+- Note: OpenAPI under api-specs/

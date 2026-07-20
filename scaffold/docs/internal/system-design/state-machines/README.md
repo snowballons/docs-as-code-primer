@@ -18,5 +18,7 @@ Implicit state rules that exist only in code comments.
 
 ## Next
 
-- See the matching chapter under `primer/`
-- Use a template from `templates/` when creating a new file
+- In-repo stub policy: [../../../GOVERNANCE.md](../../../GOVERNANCE.md)
+- Upstream chapters / templates / examples: [../../../KIT.md](../../../KIT.md) (does not break after copy)
+- This folder → upstream chapter: `primer/07-phase-3-detailed-design.md`
+- Upstream template(s): `(Mermaid/state docs)`
