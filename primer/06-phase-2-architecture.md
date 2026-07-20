@@ -26,6 +26,15 @@ Architect / principal engineer; security reviews auth and data protection; ADRs 
 
 Each ADR must include: **Status**, **Date**, **Context**, **Decision**, **Alternatives considered**, **Consequences** (and references). Status is Proposed → Accepted → Deprecated / Superseded. Never delete an accepted ADR; supersede it.
 
+### Bad → good (ADR)
+
+| Bad | Good |
+|-----|------|
+| “We chose Postgres.” | Context + alternatives (MySQL, Dynamo) + rationale + consequences |
+| Delete old ADR when reversing | Write ADR-0NN superseding ADR-0MM; keep history |
+| Diagram updated in Figma only | Mermaid (or equivalent) in Git, changed in the same PR as the design |
+
+
 ## Definition of Done (MVP)
 
 - [ ] Context + container diagrams as diagram-as-code (Mermaid or equivalent)
