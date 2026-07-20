@@ -1,0 +1,103 @@
+name: docs (primer repo)
+
+on:
+  push:
+    paths:
+      - "primer/**"
+      - "templates/**"
+      - "appendix/**"
+      - "recipes/**"
+      - "*.md"
+      - ".github/workflows/docs.yml"
+      - ".markdownlint.json"
+      - ".cspell.json"
+  pull_request:
+    paths:
+      - "primer/**"
+      - "templates/**"
+      - "appendix/**"
+      - "recipes/**"
+      - "*.md"
+      - ".github/workflows/docs.yml"
+      - ".markdownlint.json"
+      - ".cspell.json"
+
+jobs:
+  lint-and-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Markdown lint
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: |
+            primer/**/*.md
+            templates/**/*.md
+            appendix/**/*.md
+            recipes/**/*.md
+            *.md
+
+      - name: Link check
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress --exclude-mail
+            --exclude 'https?://localhost'
+            --exclude 'https?://.*\\.local'
+            "primer/**/*.md"
+            "templates/**/*.md"
+            "appendix/**/*.md"
+            "recipes/**/*.md"
+            "*.md"
+          fail: true
+
+      - name: Spell check
+        uses: streetsidesoftware/cspell-action@v6
+        with:
+          files: |
+            primer/**/*.md
+            templates/**/*.md
+            appendix/**/*.md
+          config: .cspell.json
+          incremental_files_only: false
+
+  cross-references:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check template references from primer resolve
+        run: |
+          set -euo pipefail
+          errors=0
+          for f in primer/*.md; do
+            grep -oP '\.\./templates/[\w-]+(?=\.md)' "$f" 2>/dev/null | while read -r ref; do
+              tmpl=$(echo "$ref" | sed 's|\.\./templates/||').md
+              if [ ! -f "templates/$tmpl" ]; then
+                echo "ERROR: $f references templates/$tmpl which does not exist"
+                errors=$((errors + 1))
+              fi
+            done
+          done
+          if [ "$errors" -gt 0 ]; then exit 1; fi
+          echo "All primer template references resolve."
+
+  mermaid-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install mermaid-cli
+        run: npm install --no-save @mermaid-js/mermaid-cli
+      - name: Render .mmd files (fails on invalid diagrams)
+        run: |
+          set -euo pipefail
+          mapfile -t files < <(find . -name '*.mmd' -not -path './.git/*' -print)
+          if [ ${#files[@]} -eq 0 ]; then echo "No .mmd files"; exit 0; fi
+          for f in "${files[@]}"; do
+            npx mmdc -i "$f" -o /tmp/mermaid-out.svg
+          done
