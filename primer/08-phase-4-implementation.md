@@ -42,7 +42,7 @@ Good: // Use a mutex rather than a channel to avoid priority inversion in the sc
 
 ## Use
 
-- No dedicated template yet — follow the Write list above
+- Template: [`templates/contribution-guide.md`](../templates/contribution-guide.md)
 - Keep docs changes in the scaffold PR template checklist
 
 ---
