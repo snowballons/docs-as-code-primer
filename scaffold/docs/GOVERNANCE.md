@@ -8,6 +8,7 @@ How to treat files under `docs/` after you copy this scaffold into your reposito
 |-------|------------|-------------|
 | **Structural README** | `README.md` in a folder describing purpose, audience, owner, phase | **Keep.** Update owners/paths to match your org. Do not delete unless you remove the whole folder. |
 | **Replace-me stub** | Thin starter content (e.g. charter `vision.md`) marked Draft | **Replace** with real content using the mapped upstream template (see [`KIT.md`](KIT.md)). |
+| **Example stub** | `example-*.md` with placeholder fields (e.g. `example-runbook.md`) | **Replace or delete** when your own content goes in that folder. |
 | **Template copy** | Files you create from the upstream `templates/` kit | **Add** when the phase starts; do not invent a parallel structure. |
 | **Placeholder (`.gitkeep`)** | Keeps empty dirs in Git | **Keep** until the first real file arrives; then delete `.gitkeep`. |
 | **Generated / CI artifacts** | e.g. coverage reports | **Publish from CI** or link out; do not hand-maintain forever. |
@@ -23,7 +24,8 @@ Teaching chapters, templates, examples, and the first-week pack live in the **up
 1. Folder `README.md` files are **structural**, not product examples. They answer “what belongs here?”
 2. They are **not** required reading after onboarding — follow the upstream `FIRST_WEEK.md` (see [`KIT.md`](KIT.md)).
 3. Do **not** pre-fill every folder with fictional product prose in the scaffold. Filled samples live upstream under `examples/acme-export-platform/`.
-4. If a structural README feels noisy, you may shorten it — but keep purpose + stream + a pointer to [`KIT.md`](KIT.md) / this file.
+4. Select folders include **example stubs** (`example-*.md`) — thin placeholder files with fields you fill in. These are a starting point, not real content. Replace or delete them when you add your own files.
+5. If a structural README feels noisy, you may shorten it — but keep purpose + stream + a pointer to [`KIT.md`](KIT.md) / this file.
 
 ## Charter stubs
 
