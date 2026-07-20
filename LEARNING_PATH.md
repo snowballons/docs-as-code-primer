@@ -13,23 +13,23 @@ If you are adopting today: follow [`FIRST_WEEK.md`](FIRST_WEEK.md) (copy scaffol
 
 ## Lifecycle chapters
 
-5. [Phase 0 — Charter](primer/04-phase-0-charter.md)
-6. [Phase 1 — Requirements](primer/05-phase-1-requirements.md)
-7. [Phase 2 — Architecture](primer/06-phase-2-architecture.md)
-8. [Phase 3 — Detailed design](primer/07-phase-3-detailed-design.md)
-9. [Phase 4 — Implementation docs](primer/08-phase-4-implementation.md)
-10. [Phase 5 — Testing](primer/09-phase-5-testing.md)
-11. [Phase 6 — Operations](primer/10-phase-6-operations.md)
-12. [Phase 7 — User docs](primer/11-phase-7-user-docs.md)
-13. [Phase 8 — Maintenance](primer/12-phase-8-maintenance.md)
-14. [Phase 9 — Retirement](primer/13-phase-9-retirement.md)
+1. [Phase 0 — Charter](primer/04-phase-0-charter.md)
+2. [Phase 1 — Requirements](primer/05-phase-1-requirements.md)
+3. [Phase 2 — Architecture](primer/06-phase-2-architecture.md)
+4. [Phase 3 — Detailed design](primer/07-phase-3-detailed-design.md)
+5. [Phase 4 — Implementation docs](primer/08-phase-4-implementation.md)
+6. [Phase 5 — Testing](primer/09-phase-5-testing.md)
+7. [Phase 6 — Operations](primer/10-phase-6-operations.md)
+8. [Phase 7 — User docs](primer/11-phase-7-user-docs.md)
+9. [Phase 8 — Maintenance](primer/12-phase-8-maintenance.md)
+10. [Phase 9 — Retirement](primer/13-phase-9-retirement.md)
 
 ## Practice layers
 
-15. [Diagrams as code](primer/15-diagrams-as-code.md)
-16. [CI and quality gates](primer/16-ci-and-quality-gates.md)
-17. [Agent-ready docs](primer/17-agent-ready-docs.md)
-18. [Anti-patterns](primer/18-anti-patterns.md)
+1. [Diagrams as code](primer/15-diagrams-as-code.md)
+2. [CI and quality gates](primer/16-ci-and-quality-gates.md)
+3. [Agent-ready docs](primer/17-agent-ready-docs.md)
+4. [Anti-patterns](primer/18-anti-patterns.md)
 
 ## Then use the kit
 
