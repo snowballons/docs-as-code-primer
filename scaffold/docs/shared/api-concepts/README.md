@@ -18,5 +18,8 @@ Divergent duplicate definitions in internal and user trees.
 
 ## Next
 
-- See the matching chapter under `primer/`
-- Use a template from `templates/` when creating a new file
+- In-repo stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
+- Upstream chapters / templates / examples: [../../KIT.md](../../KIT.md) (does not break after copy)
+- This folder → upstream chapter: `primer/02-two-audiences.md`
+- Upstream template(s): `—`
+- Note: Keep concepts single-sourced here

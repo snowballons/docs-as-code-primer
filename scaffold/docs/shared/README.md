@@ -18,8 +18,8 @@ Audience-specific deep dives; sensitive internal-only material.
 
 ## Next
 
-- Primer: `primer/02-two-audiences.md` (Ongoing)
-- Template(s): `glossary.md in this folder`
-- Canonical map: appendix/phase-folder-map.md
-- Stub policy: [../GOVERNANCE.md](../GOVERNANCE.md)
-- Phase map (canonical): primer repo `appendix/phase-folder-map.md`
+- In-repo stub policy: [../GOVERNANCE.md](../GOVERNANCE.md)
+- Upstream chapters / templates / examples: [../KIT.md](../KIT.md) (does not break after copy)
+- This folder → upstream chapter: `primer/02-two-audiences.md`
+- Upstream template(s): `glossary.md (in-repo)`
+- Note: Shared stream root
