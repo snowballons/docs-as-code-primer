@@ -18,5 +18,7 @@ Public blame posts; unredacted secrets in timelines.
 
 ## Next
 
-- See the matching chapter under `primer/`
-- Use a template from `templates/` when creating a new file
+- In-repo stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
+- Upstream chapters / templates / examples: [../../KIT.md](../../KIT.md) (does not break after copy)
+- This folder → upstream chapter: `primer/12-phase-8-maintenance.md`
+- Upstream template(s): `(no dedicated template yet)`

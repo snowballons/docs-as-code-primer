@@ -18,8 +18,7 @@ Solution design disguised as requirements; vague untestable statements.
 
 ## Next
 
-- Primer: `primer/05-phase-1-requirements.md` (Phase 1)
-- Template(s): `templates/user-story.md, templates/nfr.md`
-- Examples: examples/acme-export-platform/internal/requirements/
-- Stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
-- Phase map (canonical): primer repo `appendix/phase-folder-map.md`
+- In-repo stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
+- Upstream chapters / templates / examples: [../../KIT.md](../../KIT.md) (does not break after copy)
+- This folder → upstream chapter: `primer/05-phase-1-requirements.md`
+- Upstream template(s): `templates/user-story.md, templates/nfr.md`
