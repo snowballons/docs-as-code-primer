@@ -29,10 +29,16 @@ End systems as carefully as you launch them.
 - Plan and KT → internal (`docs/internal/charter/` or dedicated retirement note)
 - User migration / export instructions → `docs/user/`
 
+## Check yourself
+
+1. Your team decides to sunset an old feature. The only notice is a Slack message. What three audiences are left in the dark?
+2. After decommissioning a service, the team wants to delete the entire docs folder to "clean up." What should they keep and why?
+3. A user asks "how do I export my data before the feature is removed." Where should this live, and what's missing if no such doc exists?
+
 ## Use
 
+- Templates: [`templates/retirement-kt.md`](../templates/retirement-kt.md), [`templates/knowledge-transfer.md`](../templates/knowledge-transfer.md), [`templates/archival-policy.md`](../templates/archival-policy.md)
 - Map: [`appendix/phase-folder-map.md`](../appendix/phase-folder-map.md)
-- No dedicated template yet — follow the Write list
 
 ---
 

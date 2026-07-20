@@ -36,6 +36,40 @@ Technical writer or PM with eng support; non-technical clarity review recommende
 - [ ] API quickstart works in a clean environment
 - [ ] Changelog entry written
 
+## Getting-started quality bar
+
+Test with someone who has **never used the product** (colleague from another team, intern, friend). Watch them follow the guide without help:
+
+### First-pass test (observable)
+
+- [ ] Picks the right starting page without guessing
+- [ ] Finds all prerequisites before running anything
+- [ ] First command / API call succeeds within 5 min
+- [ ] Understands what just happened (not just "it worked")
+- [ ] Can find what to do next without asking
+
+### Structural requirements
+
+- [ ] Copy-paste code that works (tested on a clean machine this sprint)
+- [ ] No "we assume you already have" without a link
+- [ ] Every external dependency pinned to a version
+- [ ] Expected output shown (exact values or pattern)
+- [ ] Error recovery: what to do when step 3 fails
+- [ ] Next steps section: where to go after "hello world"
+
+### API quickstart extra
+
+- [ ] Auth step shown with real token or clear placeholder
+- [ ] One complete request/response pair
+- [ ] Polling or async pattern explained if applicable
+- [ ] Links to full reference for edge cases
+
+## Check yourself
+
+1. Your getting-started guide starts with "Create an API key in the admin console, then read the reference docs." What's wrong with this order?
+2. An API reference page lists every endpoint alphabetically with its raw schema. What should the ordering be instead?
+3. Your team ships a new feature but the only docs are a changelog entry. What three doc types does the primer recommend per feature?
+
 ## Use
 
 - Templates: [`templates/getting-started.md`](../templates/getting-started.md), [`templates/feature-user-doc.md`](../templates/feature-user-doc.md), [`templates/tutorial.md`](../templates/tutorial.md), [`templates/troubleshooting.md`](../templates/troubleshooting.md)

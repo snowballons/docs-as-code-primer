@@ -21,6 +21,69 @@ Product / BA primary; Tech Lead for feasibility; QA for testability.
 - Personas and journey maps
 - MoSCoW (or equivalent) backlog; Must = MVP
 
+### Functional requirement writing pattern
+
+A functional requirement is a **single testable statement** about system behavior. Write them as:
+
+```
+The <system> shall <action> <object> [under <condition>].
+```
+
+Then trace each to a test case ID.
+
+| Role | Format | Example |
+|------|--------|---------|
+| FR (terse) | `shall <action> <object>` | "The export service shall reject CSV files exceeding 100 MB." |
+| FR (conditional) | `shall <action> <object> when <condition>` | "The export service shall queue a webhook notification when a scheduled export completes." |
+| Acceptance criterion | `Given <precondition> When <trigger> Then <outcome>` | "Given an export with 500,000 rows, when the user requests CSV format, then the service returns a download link within 30 s." |
+
+Follow this with NFRs (separate template) and user stories (Given/When/Then for features, not system functions).
+
+#### Bad → good (functional requirement)
+
+| Bad | Good |
+|-----|------|
+| "The system should handle exports well." | "The export service shall process CSV exports of up to 1M rows within 30 s under nominal warehouse load." |
+| "Users can cancel exports." | "The export service shall cancel a PENDING export within 5 s of receiving a cancellation request. EXPORTING exports shall cancel only after the current row batch completes." |
+
+### Persona guidance
+
+A persona is a **decision-making tool**, not a demographic sketch. Structure every persona around:
+
+- **Goal** — what they're trying to accomplish (one sentence)
+- **Pain points** — what makes it hard today (3–5 items)
+- **Behavior patterns** — how they interact with systems (tools, frequency, constraints)
+- **Success criteria** — how they know it worked
+
+Demographics (job title, technical level) matter only when they affect behavior. "Sarah, 32, likes dogs and hiking" is noise.
+
+#### Bad → good (persona)
+
+| Bad | Good |
+|-----|------|
+| "Sarah is 32, works in marketing, likes dogs and hiking." | "Sarah: enterprise admin at a 500-person SaaS company. Her goal is to export account data for quarterly audits without filing an eng ticket. Pain points: current CSV tool times out over 10K rows; she can't schedule recurring exports; error messages are opaque. Behaviour: works in browser, uses the product weekly, will retry twice before emailing support." |
+| "Bob, engineer, technical" (one-liner) | "Bob: platform engineer at the same company. Goal: integrate export API into internal dashboards. Pain points: API auth docs reference a deprecated endpoint; rate limits undocumented; sandbox env credentials expire weekly." |
+
+### Journey map guidance
+
+A journey map shows the stages a user goes through to achieve a goal. Each stage has:
+
+- **Stage** — logical step (not UI page)
+- **User actions** — what they do
+- **Touchpoints** — system, UI, API, email
+- **Emotions** — 😊 frustrated? confused? delighted?
+- **Pain points** — specific friction
+- **Opportunities** — what could be better
+
+Start with the persona's goal, then list 5–7 stages from start to completion. Keep to one persona per journey map.
+
+#### Bad → good (journey map)
+
+| Bad | Good |
+|-----|------|
+| "Export → Wait → Download" (3 stages, no detail) | "1. Authenticate → 2. Select export scope → 3. Choose format → 4. Initiate export → 5. Monitor progress → 6. Download results → 7. Verify data" with per-stage actions, touchpoints, emotions, pain points, and time estimates |
+| Journey map in a slide deck that no one updates | Mermaid sequence diagram (or equivalent) in `docs/internal/requirements/journey-maps/` with a date and version |
+
 ### Bad → good (NFR)
 
 | Bad | Good |
@@ -41,9 +104,15 @@ Product / BA primary; Tech Lead for feasibility; QA for testability.
 - “Should be fast” without a number
 - Ignoring NFRs until after launch
 
+## Check yourself
+
+1. An engineer writes: "The export should be fast." What three questions should you ask?
+2. Your product manager insists on 47 user stories for the MVP. What's your response?
+3. You have a persona file that describes "Sarah, 32, who likes dogs and hiking." Why is this a problem?
+
 ## Use
 
-- Templates: [`templates/user-story.md`](../templates/user-story.md), [`templates/nfr.md`](../templates/nfr.md), [`templates/persona.md`](../templates/persona.md)
+- Templates: [`templates/user-story.md`](../templates/user-story.md), [`templates/nfr.md`](../templates/nfr.md), [`templates/persona.md`](../templates/persona.md), [`templates/functional-requirements.md`](../templates/functional-requirements.md), [`templates/user-journey.md`](../templates/user-journey.md)
 - Examples: [`export-csv.md`](../examples/acme-export-platform/internal/requirements/user-stories/export-csv.md), [`non-functional.md`](../examples/acme-export-platform/internal/requirements/non-functional.md)
 
 ---
