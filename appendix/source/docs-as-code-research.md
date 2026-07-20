@@ -1,4 +1,5 @@
-# Documentation as Code in 2026  
+# Documentation as Code in 2026
+
 *A research report for engineering & DevEx leaders*
 
 ---
@@ -6,11 +7,11 @@
 ## Table of Contents
 
 1. [Overview & Definitions](#overview--definitions)  
-2. [2024–2026 Evolution & Adoption](#2024–2026-evolution--adoption)  
+2. [2024–2026 Evolution & Adoption](#2024-2026-evolution-adoption)  
 3. [Tools, Platforms & Ecosystem (2026)](#tools-platforms--ecosystem-2026)  
 4. [Methodologies & Best Practices](#methodologies--best-practices)  
 5. [Benefits, Challenges & Real-World Impact](#benefits-challenges--real-world-impact)  
-6. [Future Outlook: 2026–2030](#future-outlook-2026–2030)  
+6. [Future Outlook: 2026–2030](#future-outlook-2026-2030)  
 7. [Maturity Model & Roadmap](#maturity-model--roadmap)  
 8. [Tool Selection Framework](#tool-selection-framework)  
 9. [Actionable Starter Kit](#actionable-starter-kit)  
