@@ -1,0 +1,54 @@
+# Docs as Code Primer — LLM context index
+
+This index helps AI coding assistants find relevant documentation. For human readers, start at the learning path.
+
+## Quick links
+
+- Learning path: ./LEARNING_PATH.md
+- Primer index: ./primer/
+- Kit scaffold: ./scaffold/
+- Templates: ./templates/
+- Examples: ./examples/acme-export-platform/
+
+## Primer chapters
+
+- What Docs as Code means: ./primer/01-what-is-docs-as-code.md
+- Two audiences: ./primer/02-two-audiences.md
+- Phases overview: ./primer/03-phases-overview.md
+- Phase 0 — Charter: ./primer/04-phase-0-charter.md
+- Phase 1 — Requirements: ./primer/05-phase-1-requirements.md
+- Phase 2 — Architecture: ./primer/06-phase-2-architecture.md
+- Phase 3 — Detailed design: ./primer/07-phase-3-detailed-design.md
+- Phase 4 — Implementation docs: ./primer/08-phase-4-implementation.md
+- Phase 5 — Testing: ./primer/09-phase-5-testing.md
+- Phase 6 — Operations: ./primer/10-phase-6-operations.md
+- Phase 7 — User docs: ./primer/11-phase-7-user-docs.md
+- Phase 8 — Maintenance: ./primer/12-phase-8-maintenance.md
+- Phase 9 — Retirement: ./primer/13-phase-9-retirement.md
+- Content governance: ./primer/14-content-governance.md
+- Diagrams as code: ./primer/15-diagrams-as-code.md
+- CI and quality gates: ./primer/16-ci-and-quality-gates.md
+- Agent-ready docs: ./primer/17-agent-ready-docs.md
+- Anti-patterns: ./primer/18-anti-patterns.md
+- Why now (2026): ./primer/19-why-now-2026.md
+
+## Key concepts
+
+- Two-audience split: docs/internal/, docs/user/, docs/shared/
+- Phases 0–9 map to software lifecycle from charter to retirement
+- ADRs document decisions with alternatives and consequences
+- Runbooks by symptom (not component)
+- Drift-prevention DoD checklist in governance chapter
+- Maturity model: Chaos → Scaffold → Discipline → Platform
+
+## Core rules (AGENTS.md)
+
+- Do not invent APIs or endpoints
+- Do not leak internal-only content into docs/user/
+- Update docs with behaviour changes — same PR
+- Refer to shared glossary for term definitions
+- When in doubt, ask — do not guess
+
+## Templates
+
+Full list: ./templates/README.md
