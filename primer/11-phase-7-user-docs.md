@@ -29,6 +29,82 @@ Technical writer or PM with eng support; non-technical clarity review recommende
 | Paste raw OpenAPI / Swagger UI only | Overview + auth + mental model + examples; generate endpoint reference from the same OpenAPI |
 | “POST /v1/exports accepts from/to” | “Create an export job, poll until completed, then download” with a sequence diagram |
 
+### Curated API reference example
+
+OpenAPI specs are the **contract**. User API docs should be the **curated guide** for consumers. Below is the same endpoint shown raw vs curated.
+
+```text
+Bad: raw OpenAPI dumped into docs
+
+  POST /v1/exports
+  Request body: application/json
+    - format: string (enum: csv, json, parquet)
+    - schedule: string (cron expression, optional)
+    - filters: ExportFilter (optional)
+    - recipients: string[] (email addresses)
+  Responses:
+    202: ExportAccepted
+    400: ValidationError
+    401: UnauthorizedError
+```
+
+```text
+Good: curated consumer page for the same endpoint
+
+  Create an export job
+
+  Schedules a data export. The job runs asynchronously — poll the
+  job status endpoint (see below) until status is "completed", then
+  download the result.
+
+  Common uses:
+  • One-time CSV export of all accounts created last month
+  • Daily Parquet export to S3 for your data lake
+
+  Required scope: `exports:write`
+
+  Request:
+
+    POST https://api.acme.com/v1/exports
+    Authorization: Bearer <your-api-key>
+
+    {
+      "format": "csv",
+      "recipients": ["admin@example.com"],
+      "filters": {
+        "created_after": "2026-01-01",
+        "region": "us-east-1"
+      }
+    }
+
+  What happens next:
+
+    POST /v1/exports
+         │
+         ▼
+    202 Accepted ← you are here
+    { "job_id": "exp_abc123", "status": "pending" }
+         │ poll GET /v1/exports/exp_abc123 every 5s
+         ▼
+    200 OK
+    { "status": "completed", "download_url": "https://..." }
+         │
+         ▼
+    Download the file (link expires in 24 h)
+
+  Error responses you'll actually see:
+
+    • 400 — Invalid format. Supported: csv, json, parquet.
+    • 401 — Missing or expired API key.
+    • 429 — Rate limit exceeded. Retry after the `Retry-After` header.
+
+  See also:
+    • [List exports](.) — check status of recent jobs
+    • [Cancel export](.) — stop a pending job
+```
+
+A curated page replaces "what the endpoint accepts" with **"what the consumer wants to accomplish."** The OpenAPI stays canonical in `docs/internal/system-design/api-specs/`.
+
 ## Definition of Done (MVP)
 
 - [ ] Getting started tested with someone new to the product
