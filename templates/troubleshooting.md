@@ -24,7 +24,7 @@
 2.
 3.
 
-### [Error message or symptom]
+### [Second error message or symptom]
 
 **Error:** ...
 
@@ -36,7 +36,7 @@
 2.
 3.
 
-### [Error message or symptom]
+### [Third error message or symptom]
 
 **Error:** ...
 

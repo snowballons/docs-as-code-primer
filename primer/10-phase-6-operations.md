@@ -46,7 +46,6 @@ Each runbook should include:
 | “Restart the pod” as the whole runbook | Diagnosis → per-cause remediation → verify → escalation → last tested |
 | SLO: “be highly available” | “99.9% monthly availability; error budget policy when burned” |
 
-
 ## Definition of Done (MVP)
 
 - [ ] Rollback documented

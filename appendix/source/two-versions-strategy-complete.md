@@ -452,6 +452,7 @@ Preventing drift requires both tooling and culture.
 ### Definition of Done Includes Both Streams
 
 For any feature or change:
+
 - If it changes internal behaviour, the relevant internal documentation is updated in the same PR as the code change.
 - If it changes user-visible behaviour, the relevant user-facing documentation is updated in the same PR as the code change, or a documentation PR is filed, reviewed, and linked to the feature PR before the feature can be marked done.
 
@@ -506,7 +507,7 @@ If the internal and user-facing documentation build and deploy together, a docum
 
 When any team member needs to decide where to create a new document:
 
-```
+```text
 Is this content for someone outside the engineering team?
 ├── No → Internal Documentation (/docs/internal/)
 └── Yes

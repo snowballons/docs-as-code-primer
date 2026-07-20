@@ -24,7 +24,6 @@ End systems as carefully as you launch them.
 | Delete the docs repo | Archive read-only for compliance and learning |
 | “Export your data somehow” | Step-by-step migration/export guide in `docs/user/` |
 
-
 ## Placement
 
 - Plan and KT → internal (`docs/internal/charter/` or dedicated retirement note)

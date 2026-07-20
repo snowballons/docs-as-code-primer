@@ -31,7 +31,6 @@ Senior module owners; peer review; runs **in parallel** with early implementatio
 | “The export service talks to the DB” | Module spec: owns / does not own, deps + failure modes, error model, observability |
 | State rules only in code | Explicit state machine: states, transitions, triggers, side effects |
 
-
 ## OpenAPI rule
 
 Canonical specs live in `docs/internal/system-design/api-specs/`. User API docs are **derived**, not a second hand-maintained truth.

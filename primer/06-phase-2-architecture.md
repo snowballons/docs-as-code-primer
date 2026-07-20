@@ -34,7 +34,6 @@ Each ADR must include: **Status**, **Date**, **Context**, **Decision**, **Altern
 | Delete old ADR when reversing | Write ADR-0NN superseding ADR-0MM; keep history |
 | Diagram updated in Figma only | Mermaid (or equivalent) in Git, changed in the same PR as the design |
 
-
 ## Definition of Done (MVP)
 
 - [ ] Context + container diagrams as diagram-as-code (Mermaid or equivalent)

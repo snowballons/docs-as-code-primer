@@ -28,7 +28,6 @@ QA lead; developers own automation; security owns security test evidence.
 | Acceptance criteria with no cases | Each Must-have criterion has a traced test case ID |
 | “Perf looks fine on my laptop” | Baseline benchmark with load profile, tool, and stored results |
 
-
 ## Definition of Done (MVP)
 
 - [ ] Strategy approved

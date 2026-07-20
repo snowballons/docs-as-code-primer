@@ -32,7 +32,6 @@ Split across scaffold files using the charter table in [`appendix/phase-folder-m
 | KPIs: “Improve customer success.” | “Cut export-related support tickets 60% within 3 months of launch (baseline 120/mo).” |
 | Scope lists only features | Scope lists **out-of-scope** items that block creep |
 
-
 ## Definition of Done (MVP)
 
 - [ ] Vision approved by sponsor
