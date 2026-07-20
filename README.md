@@ -18,7 +18,8 @@ This is a **primer + project structure kit** — not an awesome list, not a host
 | **Read the primer** | Judgment before (or while) adopting | [`LEARNING_PATH.md`](LEARNING_PATH.md) |
 | **See the example** | Filled samples (Acme Export Platform) | [`examples/acme-export-platform/`](examples/acme-export-platform/) |
 
-**Canonical phase → folder map:** [`appendix/phase-folder-map.md`](appendix/phase-folder-map.md) (do not fork conflicting maps).
+**Canonical phase → folder map:** [`appendix/phase-folder-map.md`](appendix/phase-folder-map.md)  
+**After copy into a product repo:** set `KIT_URL` in `docs/KIT.md` (ships with the scaffold).
 
 ```text
                     ┌─────────────────────────┐
