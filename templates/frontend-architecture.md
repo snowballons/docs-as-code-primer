@@ -13,7 +13,7 @@
 
 ## App structure
 
-```
+```text
 src/
 ├── pages/        # Route-level entry points
 ├── components/   # Reusable UI components
