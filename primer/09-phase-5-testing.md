@@ -28,6 +28,20 @@ QA lead; developers own automation; security owns security test evidence.
 | Acceptance criteria with no cases | Each Must-have criterion has a traced test case ID |
 | “Perf looks fine on my laptop” | Baseline benchmark with load profile, tool, and stored results |
 
+### Security evidence conventions
+
+Auditors and compliance reviews need documented proof, not screenshots. Store security evidence in `docs/internal/testing/security-evidence/`:
+
+| Evidence type | What to store | Example |
+|---------------|---------------|---------|
+| SAST results | CI artifact link + summary report | `semgrep-results-2026-03-15.json` (summary: 0 critical, 2 high — fixed in PR #482) |
+| Dependency scan | CVE report with fix status | `trivy-results-2026-03-15.json` (3 critical CVEs in dev deps; 0 in prod deps) |
+| Pen test report | Scoped report with findings | `pentest-2026-01-external-v2.pdf` in `docs/internal/security/` |
+| Access review | User/role audit per environment | `access-review-2026-Q1.md` with last-access dates and revoked inactive keys |
+| Compliance mapping | Control → evidence cross-reference | PCI-DSS 6.2: SAST results in CI (see `semgrep-results-2026-03-15.json`) |
+
+Each sprint, evidence is uploaded to the evidence folder and referenced from the test strategy or a compliance matrix.
+
 ### Coverage gate policy examples
 
 A coverage gate is a **decision rule**: does this change pass or fail based on test coverage? Three common policies:
