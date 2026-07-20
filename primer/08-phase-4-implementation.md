@@ -116,7 +116,46 @@ Bad:  // Check if user is admin
 Good: // Admin users bypass the rate limiter. Non-admins are throttled to 10 req/s.
        // This is a security requirement from SOC 2 — do not remove without
        // discussing with the security team.
+
+Bad:  // TODO: fix this later
+Good: // TODO(jira/EXPORT-442): handle backpressure when queue depth exceeds 10K.
+       // Currently blocks the request goroutine. Fix before GA.
+
+Bad:  // Loop through all users
+Good: // Batch-process users in groups of 500 to stay within the Billing API rate
+       // limit (1000 req/min). The cursor is persisted in export_jobs.last_cursor
+       // so the job can resume after a worker crash.
 ```
+
+### Micro-ADR pattern
+
+Not every decision needs a full ADR. For small, reversible choices during implementation, use a **micro-ADR**: a single comment or commit message that captures the decision locally.
+
+A micro-ADR is appropriate when:
+
+- The decision affects one file or module
+- Reversing the decision costs less than a day
+- No cross-team coordination is needed
+- The rationale fits in 3–5 sentences
+
+**Format** (inline comment or commit message body):
+
+```text
+// Decision: use a channel-based fan-out instead of a shared slice.
+// Context: three goroutines consume from the same export queue.
+// Alternative considered: sync.Mutex on a shared slice.
+// Rationale: channels avoid lock contention and self-document
+// the producer-consumer relationship.
+```
+
+When a micro-ADR later proves significant enough to need cross-team awareness, promote it to a full ADR in `docs/internal/decisions/`.
+
+| Micro-ADR | Full ADR |
+|-----------|----------|
+| Inline comment or PR description | Standalone `.md` file in `decisions/` |
+| Single-author, no review required | Status lifecycle (proposed → accepted → superseded) |
+| Reversible within a day | Irreversible or cross-cutting |
+| Forgivable if lost | Must survive team turnover |
 
 ## Definition of Done (MVP)
 
