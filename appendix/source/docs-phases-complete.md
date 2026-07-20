@@ -615,6 +615,7 @@ Document the SLOs for each user-facing service:
 
 **Disaster Recovery Plan**
 Document the recovery strategy for catastrophic failures:
+
 - Recovery Time Objective (RTO): How quickly must the system be restored?
 - Recovery Point Objective (RPO): How much data loss is acceptable?
 - Backup strategy: What is backed up, how often, and how backups are verified
@@ -623,6 +624,7 @@ Document the recovery strategy for catastrophic failures:
 
 **On-Call Handbook**
 A guide for new on-call engineers covering:
+
 - How to access all systems (dashboards, logs, deployment tools, databases)
 - What the on-call rotation looks like and how handoff works
 - The escalation tree
@@ -630,9 +632,11 @@ A guide for new on-call engineers covering:
 - Where runbooks are located
 
 ### Documentation Version
+
 All Phase 6 content lives in **Internal Documentation** under `/docs/internal/operations/`. Runbooks may be published to a private internal operations portal separate from the main documentation site for quick access during incidents.
 
 ### Definition of Done
+
 - [ ] Deployment pipeline fully documented including rollback procedures
 - [ ] Infrastructure as Code documented and references in the operations guide
 - [ ] Monitoring dashboards documented with interpretation guides
@@ -672,6 +676,7 @@ For every feature, document what it does, how to use it, what the user can expec
 
 **API Reference (Consumer-Facing)**
 If the system exposes a public or partner API, the consumer-facing API reference is generated from the OpenAPI spec produced in Phase 3, but curated and enhanced for external audiences:
+
 - Internal implementation notes are removed
 - Every endpoint has a clear plain-English description of its purpose
 - Code examples are provided in at least three languages (the most common languages your API consumers use)
@@ -691,6 +696,7 @@ If the product has an onboarding flow, document what new users need to know at e
 A chronological record of changes to the product, written in plain English for end users. Not a technical diff. Focuses on what changed for the user, why it matters, and whether anything requires action from the user.
 
 ### Documentation Version
+
 All Phase 7 content lives in **User-Facing Documentation** under `/docs/user/`. It is published to a public or customer-accessible documentation portal.
 
 ### Definition of Done
