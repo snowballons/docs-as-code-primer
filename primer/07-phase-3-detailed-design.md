@@ -39,7 +39,7 @@ Canonical specs live in `docs/internal/system-design/api-specs/`. User API docs 
 ## Definition of Done (MVP)
 
 - [ ] Specs for significant modules
-- [ ] OpenAPI linted in CI (enable commented Spectral job in scaffold `docs.yml`, or equivalent)
+- [ ] OpenAPI linted in CI (enable the commented Spectral job in scaffold `docs.yml` once specs exist, or equivalent)
 - [ ] Sequences for critical flows
 - [ ] Threat model reviewed for sensitive systems
 
