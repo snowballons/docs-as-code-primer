@@ -465,6 +465,7 @@ A detailed guide for setting up the development environment. This should be suff
 Phase 4 content lives in **Internal Documentation**. The root README, per-service READMEs, and contribution guidelines live in the repository itself. The internal documentation site aggregates and renders them.
 
 ### Definition of Done
+
 - [ ] Root README contains all required sections and has been tested on a clean environment within the last 30 days
 - [ ] Every service or package has its own README
 - [ ] All public functions, types, and API surfaces have docstrings
