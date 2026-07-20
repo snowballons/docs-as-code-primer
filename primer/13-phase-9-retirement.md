@@ -24,6 +24,28 @@ End systems as carefully as you launch them.
 | Delete the docs repo | Archive read-only for compliance and learning |
 | “Export your data somehow” | Step-by-step migration/export guide in `docs/user/` |
 
+### Archival policy template
+
+When a system or feature is retired, archive its docs — don't delete them:
+
+| What to keep | Where | Retention | Why |
+|-------------|-------|-----------|-----|
+| Architecture docs + ADRs | `docs/archive/<system>/` | Indefinite | Audit trail for decisions; new systems learn from old |
+| Runbooks | `docs/archive/<system>/operations/` | Indefinite | Post-mortem reference; incident patterns repeat |
+| User migration guide | `docs/user/migrations/` | Until migration window closes | Users need time to move |
+| OpenAPI specs | `docs/archive/<system>/api-specs/` | Indefinite | Archived clients may still need to reference |
+| KT notes | `docs/archive/<system>/retirement-kt.md` | 1 year post-retirement | Knowledge transfer for future investigations |
+| Compliance evidence | Per compliance policy | Per retention schedule | Legal/audit requirement |
+
+**What to delete:** Setup guides, outdated tutorials, internal debug notes, PR template checklists that reference the retired system.
+
+**Archive process:**
+
+1. Move files under `docs/` → `docs/archive/<system>/` (preserves relative links if possible, or add a redirect note).
+2. Add an `ARCHIVE.md` at the archive root with date retired, owner, and a one-paragraph summary of why.
+3. Update `docs/GOVERNANCE.md` to note the archived system.
+4. Update the internal changelog (see Phase 8) with a retirement entry.
+
 ## Placement
 
 - Plan and KT → internal (`docs/internal/charter/` or dedicated retirement note)
