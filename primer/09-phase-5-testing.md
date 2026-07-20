@@ -43,8 +43,8 @@ QA lead; developers own automation; security owns security test evidence.
 
 ## Use
 
-- Trace cases to stories from [`templates/user-story.md`](../templates/user-story.md)
-- Folder guide: `docs/internal/testing/README.md` (structural)
+- Templates: [`templates/test-strategy.md`](../templates/test-strategy.md), [`templates/user-story.md`](../templates/user-story.md) (traceability)
+- Folder guide: `docs/internal/testing/` (structural)
 
 ---
 
