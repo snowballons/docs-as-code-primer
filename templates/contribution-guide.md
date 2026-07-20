@@ -21,7 +21,7 @@
 
 ### Branch naming
 
-```
+```text
 <type>/<short-description>
 ```
 
@@ -31,7 +31,7 @@ Types: `feat/`, `fix/`, `refactor/`, `docs/`, `chore/`
 
 We use [conventional commits](https://www.conventionalcommits.org/):
 
-```
+```text
 <type>(<scope>): <description>
 ```
 
