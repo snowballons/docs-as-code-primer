@@ -18,5 +18,8 @@ Polished marketing copy; content intended for public customers without curation.
 
 ## Next
 
-- See the matching chapter under `primer/`
-- Use a template from `templates/` when creating a new file
+- In-repo stub policy: [../GOVERNANCE.md](../GOVERNANCE.md)
+- Upstream chapters / templates / examples: [../KIT.md](../KIT.md) (does not break after copy)
+- This folder → upstream chapter: `primer/02-two-audiences.md`
+- Upstream template(s): `—`
+- Note: Internal stream root
