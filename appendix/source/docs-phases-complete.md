@@ -1,5 +1,7 @@
 # Documentation as Code — Complete Phase Guide
 
+<!-- markdownlint-disable MD024 MD036 -->
+
 > **This document is Part 1 of 2.**
 > It defines *what* to document and *when*, organized by project phase.
 > Part 2 (`two-versions-strategy-complete.md`) defines *where* each document lives, *who* it is for, and how Internal and User-facing documentation are structured, maintained, and published as two coordinated but distinct outputs from the same source.
