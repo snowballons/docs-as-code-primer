@@ -18,8 +18,8 @@ User troubleshooting that belongs in docs/user/troubleshooting.
 
 ## Next
 
-- Primer: `primer/10-phase-6-operations.md` (Phase 6)
-- Template(s): `templates/runbook.md (see runbooks/)`
-- Example runbook in examples/acme-export-platform/internal/operations/runbooks/
-- Stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
-- Phase map (canonical): primer repo `appendix/phase-folder-map.md`
+- In-repo stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
+- Upstream chapters / templates / examples: [../../KIT.md](../../KIT.md) (does not break after copy)
+- This folder → upstream chapter: `primer/10-phase-6-operations.md`
+- Upstream template(s): `templates/runbook.md`
+- Note: See runbooks/
