@@ -365,6 +365,7 @@ For any entity in the system that has a lifecycle — an order, a job, a user ac
 
 **Security Design Details**
 Expand on the security cross-cutting concern from Phase 2 with implementation-level specifics:
+
 - Threat model: what are the identified threat vectors? (Use STRIDE or OWASP methodology)
 - Data classification: which fields contain PII, financial data, or sensitive business data?
 - Encryption: what is encrypted at rest and in transit? What keys are used and how are they managed?
@@ -373,6 +374,7 @@ Expand on the security cross-cutting concern from Phase 2 with implementation-le
 
 **Frontend Architecture (If Applicable)**
 If the system has a frontend, document:
+
 - Component hierarchy
 - State management strategy (Redux, Zustand, React Query, server state vs client state)
 - Routing structure
@@ -381,6 +383,7 @@ If the system has a frontend, document:
 - Accessibility implementation approach
 
 ### Documentation Version
+
 All Phase 3 content lives in **Internal Documentation**. OpenAPI specs live under `/docs/internal/api-specs/` and are the source from which user-facing API reference documentation is generated in Phase 7 (the user-facing version strips internal annotations and adds consumer-friendly language).
 
 ### Definition of Done
