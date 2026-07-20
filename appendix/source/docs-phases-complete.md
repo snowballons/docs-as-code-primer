@@ -510,6 +510,7 @@ The test strategy is a high-level document that defines the approach to testing 
 
 **Test Cases**
 For each acceptance criterion from Phase 1, write a corresponding test case. Test cases should specify:
+
 - **Test Case ID**: Unique identifier
 - **Title**: What is being tested
 - **Pre-conditions**: What must be true before the test runs
@@ -527,6 +528,7 @@ For any system with performance requirements (which should be all of them, per P
 
 **Security Test Results**
 Document the output of:
+
 - Static analysis (SAST) scans
 - Dependency vulnerability scans
 - Dynamic analysis (DAST) results (if applicable)
@@ -539,6 +541,7 @@ These documents are often required for compliance certifications and security au
 Document the conventions for recording, prioritising, and resolving bugs found during QA. What priority levels exist? What does each mean? What is the SLA for fixing each priority level before release?
 
 ### Documentation Version
+
 All Phase 5 content lives in **Internal Documentation** under `/docs/internal/testing/`. Test results and coverage reports are often automatically published to the internal documentation site via CI.
 
 ### Definition of Done
