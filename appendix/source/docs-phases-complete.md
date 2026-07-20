@@ -542,6 +542,7 @@ Document the conventions for recording, prioritising, and resolving bugs found d
 All Phase 5 content lives in **Internal Documentation** under `/docs/internal/testing/`. Test results and coverage reports are often automatically published to the internal documentation site via CI.
 
 ### Definition of Done
+
 - [ ] Test strategy document reviewed and approved by Tech Lead and QA Lead
 - [ ] Test cases written for 100% of Must Have acceptance criteria from Phase 1
 - [ ] Automated test coverage meeting stated targets, enforced in CI
@@ -572,6 +573,7 @@ Phase 6 documentation begins during Phase 4 and must be complete and reviewed be
 
 **Deployment Pipelines**
 Document the entire CI/CD pipeline:
+
 - Every stage in the pipeline and what it does
 - What must pass for a build to proceed to the next stage
 - How to trigger a deployment to each environment (automated vs manual approval gates)
@@ -580,6 +582,7 @@ Document the entire CI/CD pipeline:
 
 **Infrastructure as Code Overview**
 All infrastructure should be managed as code (Terraform, Pulumi, CloudFormation, etc.). Document:
+
 - Where the IaC code lives
 - How to apply infrastructure changes
 - The environment hierarchy (dev, staging, production)
