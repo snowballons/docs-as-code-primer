@@ -38,7 +38,7 @@ Technical writer or PM with eng support; non-technical clarity review recommende
 
 ## Use
 
-- Template: [`templates/feature-user-doc.md`](../templates/feature-user-doc.md)
+- Templates: [`templates/getting-started.md`](../templates/getting-started.md), [`templates/feature-user-doc.md`](../templates/feature-user-doc.md), [`templates/tutorial.md`](../templates/tutorial.md), [`templates/troubleshooting.md`](../templates/troubleshooting.md)
 - Examples: [`quickstart.md`](../examples/acme-export-platform/user/getting-started/quickstart.md), [`overview.md`](../examples/acme-export-platform/user/api-reference/overview.md)
 - Recipe: [`recipes/openapi-to-user-api-ref.md`](../recipes/openapi-to-user-api-ref.md)
 
