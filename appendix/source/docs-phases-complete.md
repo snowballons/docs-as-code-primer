@@ -473,6 +473,7 @@ Phase 4 content lives in **Internal Documentation**. The root README, per-servic
 - [ ] Local development guide covers common setup errors and resolutions
 
 ### Common Mistakes to Avoid
+
 - Writing a local setup guide and never testing it on a clean machine. Within weeks it will be wrong.
 - Treating documentation updates as optional additions to PRs. They are mandatory.
 - Writing too many inline comments that describe obvious code. This creates noise that makes the genuine "why" comments harder to find.
@@ -500,6 +501,7 @@ Phase 5 runs in parallel with Phase 4 and Phase 3. Test documentation begins as 
 
 **Test Strategy**
 The test strategy is a high-level document that defines the approach to testing across the entire project. It covers:
+
 - What types of testing will be performed (unit, integration, end-to-end, contract, performance, security, accessibility, smoke, regression)
 - The test coverage targets for each type
 - Who is responsible for each type of testing
