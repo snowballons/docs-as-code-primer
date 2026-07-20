@@ -55,14 +55,15 @@ You may keep one combined charter file instead; if you do, replace the split stu
 | Phase | Template |
 |-------|----------|
 | 0 | [`templates/vision-charter.md`](../templates/vision-charter.md) |
-| 1 | [`templates/user-story.md`](../templates/user-story.md), [`templates/nfr.md`](../templates/nfr.md), [`templates/persona.md`](../templates/persona.md) |
-| 2 | [`templates/adr.md`](../templates/adr.md) |
-| 3 | [`templates/module-spec.md`](../templates/module-spec.md), [`templates/frontend-architecture.md`](../templates/frontend-architecture.md) |
+| 1 | [`templates/user-story.md`](../templates/user-story.md), [`templates/nfr.md`](../templates/nfr.md), [`templates/persona.md`](../templates/persona.md), [`templates/user-journey.md`](../templates/user-journey.md), [`templates/functional-requirements.md`](../templates/functional-requirements.md) |
+| 2 | [`templates/adr.md`](../templates/adr.md), [`templates/c4-architecture-outline.md`](../templates/c4-architecture-outline.md), [`templates/cross-cutting-concerns-checklist.md`](../templates/cross-cutting-concerns-checklist.md) |
+| 3 | [`templates/module-spec.md`](../templates/module-spec.md), [`templates/frontend-architecture.md`](../templates/frontend-architecture.md), [`templates/db-schema-migration.md`](../templates/db-schema-migration.md), [`templates/sequence-diagram-page.md`](../templates/sequence-diagram-page.md), [`templates/state-machine-page.md`](../templates/state-machine-page.md), [`templates/security-threat-model.md`](../templates/security-threat-model.md) |
 | 4 | [`templates/contribution-guide.md`](../templates/contribution-guide.md) |
-| 5 | [`templates/test-strategy.md`](../templates/test-strategy.md) |
-| 6 | [`templates/runbook.md`](../templates/runbook.md), [`templates/slo.md`](../templates/slo.md), [`templates/on-call-handbook.md`](../templates/on-call-handbook.md) |
+| 5 | [`templates/test-strategy.md`](../templates/test-strategy.md), [`templates/test-case.md`](../templates/test-case.md) |
+| 6 | [`templates/runbook.md`](../templates/runbook.md), [`templates/slo.md`](../templates/slo.md), [`templates/on-call-handbook.md`](../templates/on-call-handbook.md), [`templates/dr-plan.md`](../templates/dr-plan.md) |
 | 7 | [`templates/feature-user-doc.md`](../templates/feature-user-doc.md), [`templates/getting-started.md`](../templates/getting-started.md), [`templates/tutorial.md`](../templates/tutorial.md), [`templates/troubleshooting.md`](../templates/troubleshooting.md) |
-| 8 | [`templates/deprecation-notice.md`](../templates/deprecation-notice.md), [`templates/migration-guide.md`](../templates/migration-guide.md), [`templates/incident-retrospective.md`](../templates/incident-retrospective.md) |
+| 8 | [`templates/deprecation-notice.md`](../templates/deprecation-notice.md), [`templates/migration-guide.md`](../templates/migration-guide.md), [`templates/incident-retrospective.md`](../templates/incident-retrospective.md), [`templates/user-changelog.md`](../templates/user-changelog.md), [`templates/internal-changelog.md`](../templates/internal-changelog.md) |
+| 9 | [`templates/retirement-kt.md`](../templates/retirement-kt.md), [`templates/knowledge-transfer.md`](../templates/knowledge-transfer.md), [`templates/archival-policy.md`](../templates/archival-policy.md) |
 
 ## Related
 
