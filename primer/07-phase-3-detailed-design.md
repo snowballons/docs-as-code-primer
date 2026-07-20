@@ -21,7 +21,16 @@ Senior module owners; peer review; runs **in parallel** with early implementatio
 - Sequence diagrams for multi-component flows
 - State machines for lifecycle entities
 - Security design detail (threat model summary, encryption, validation)
-- Frontend architecture if applicable (component hierarchy, state, routing, a11y — no dedicated template in this kit yet; use `module-spec.md` as a starting outline)
+- Frontend architecture if applicable — use [`templates/frontend-architecture.md`](../templates/frontend-architecture.md)
+
+### Bad → good (design docs)
+
+| Bad | Good |
+|-----|------|
+| OpenAPI with 200-only responses | Document 4xx/5xx with schemas and examples |
+| “The export service talks to the DB” | Module spec: owns / does not own, deps + failure modes, error model, observability |
+| State rules only in code | Explicit state machine: states, transitions, triggers, side effects |
+
 
 ## OpenAPI rule
 

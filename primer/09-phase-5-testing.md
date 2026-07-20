@@ -20,6 +20,15 @@ QA lead; developers own automation; security owns security test evidence.
 - Coverage / performance / security scan results (CI artifacts OK if linked)
 - Bug triage conventions and severity SLAs
 
+### Bad → good (QA docs)
+
+| Bad | Good |
+|-----|------|
+| “We’ll test thoroughly.” | Test strategy with types, owners, coverage targets, environments |
+| Acceptance criteria with no cases | Each Must-have criterion has a traced test case ID |
+| “Perf looks fine on my laptop” | Baseline benchmark with load profile, tool, and stored results |
+
+
 ## Definition of Done (MVP)
 
 - [ ] Strategy approved
