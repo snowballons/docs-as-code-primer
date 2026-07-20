@@ -19,5 +19,6 @@ A change that affects behavior, contracts, operations, or onboarding is not done
 
 - New repo: [`../FIRST_WEEK.md`](../FIRST_WEEK.md)
 - Stub policy: [`../scaffold/docs/GOVERNANCE.md`](../scaffold/docs/GOVERNANCE.md)
+- Post-copy upstream index: [`../scaffold/docs/KIT.md`](../scaffold/docs/KIT.md)
 
 Next: [Phase 0](04-phase-0-charter.md)
