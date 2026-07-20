@@ -10,6 +10,8 @@
 
 ## Entry points
 
+- docs/KIT.md
+- docs/GOVERNANCE.md
 - docs/internal/charter/vision.md
 - docs/internal/architecture/
 - docs/internal/decisions/
@@ -24,3 +26,4 @@
 - Do not invent endpoints or fields not present in OpenAPI or code
 - Distinguish internal vs user documentation; do not mix audiences
 - Cite file paths when proposing doc edits
+- For upstream primer/templates, use docs/KIT.md — do not assume ../primer paths exist in this repo
