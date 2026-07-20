@@ -587,6 +587,7 @@ All infrastructure should be managed as code (Terraform, Pulumi, CloudFormation,
 
 **Monitoring & Observability Setup**
 Document:
+
 - What metrics are collected and from where
 - What the dashboards show and how to read them
 - What alerts exist, what they mean, and what the first-response action is for each
@@ -595,6 +596,7 @@ Document:
 
 **Runbooks — Incident Response**
 For every operational scenario that a first-responder might encounter, write a runbook:
+
 - **Title**: What is this runbook for?
 - **Symptoms**: How does this scenario manifest? (Which alert fired? What does the user see?)
 - **Probable Causes**: What are the most likely causes of this symptom?
@@ -607,6 +609,7 @@ Runbooks must be written in imperative, precise language. No ambiguity. No assum
 
 **Service Level Objectives (SLOs) & Error Budget Policy**
 Document the SLOs for each user-facing service:
+
 - Availability target (e.g., 99.9%)
 - Latency targets (e.g., p95 response time < 300ms)
 - Error rate target (e.g., < 0.1% error rate on critical endpoints)
