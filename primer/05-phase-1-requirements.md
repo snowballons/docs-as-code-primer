@@ -91,6 +91,31 @@ Start with the persona's goal, then list 5–7 stages from start to completion. 
 | “We want fast page loads.” | “p95 HTML TTFB < 300ms on production P75 hardware for the 90th-percentile catalog page.” |
 | “Exports should be fast.” | “Export jobs for ≤ 1M rows complete in < 30s under nominal warehouse load.” |
 
+### Backlog prioritization (MoSCoW)
+
+Every requirement belongs to one of four buckets:
+
+| Bucket | Label | What it means | Who decides |
+|--------|-------|---------------|-------------|
+| **Must** | MVP | Without this, the release has no value. Non-negotiable for go-live. | Product Owner + Sponsor sign-off |
+| **Should** | Important | High-value but not critical. Include if capacity allows; defer without renegotiating scope. | Product Owner (feasibility check from Tech Lead) |
+| **Could** | Nice-to-have | Low-risk, low-cost additions. Only include after all Musts and Shoulds are covered. | Tech Lead (cost estimate) |
+| **Won't** | Explicitly excluded | Documented to prevent scope creep. Review at each milestone. | Sponsor |
+
+**Rules:**
+- Must = MVP. If everything is Must, nothing is Must.
+- Should and Could are ordered within each bucket.
+- Won't is as important as Must — it defines what the team is *not* doing.
+- Revisit at each phase gate; items can move between buckets as context changes.
+
+#### Bad → good (backlog)
+
+| Bad | Good |
+|-----|------|
+| "Everything is P1" (40 items) with no scope definition | 5 Must, 8 Should, 12 Could, 10 Won't — each with a one-line rationale |
+| Backlog exists only in the team's heads or a shared doc that predates the project | Backlog in `docs/internal/requirements/backlog.md` with MoSCoW buckets, last-reviewed date, and a link to the issue tracker |
+| "We'll add it in v2" (no further detail) | Won't items have a rationale and a "revisit at" milestone |
+
 ## Definition of Done (MVP)
 
 - [ ] Must-have stories have acceptance criteria
