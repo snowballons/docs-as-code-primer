@@ -1,36 +1,42 @@
 # Using the scaffold
 
-Copy this folder’s contents into your project when you want a Docs-as-Code structure on day one.
+> **This file lives in the Docs-as-Code Primer repository** (next to `FIRST_WEEK.md`, `primer/`, `templates/`).  
+> It is **not** part of the copy set. After copy, use `docs/KIT.md` and `docs/GOVERNANCE.md` inside the product repo.
 
-**Start here after copy:** [`../FIRST_WEEK.md`](../FIRST_WEEK.md)  
-**Canonical paths:** [`../appendix/phase-folder-map.md`](../appendix/phase-folder-map.md)  
-**Stub policy:** [`docs/GOVERNANCE.md`](docs/GOVERNANCE.md)
+Copy the scaffold into your project when you want a Docs-as-Code structure on day one.
+
+**After copy:** [`../FIRST_WEEK.md`](../FIRST_WEEK.md)  
+**Canonical paths (kit repo):** [`../appendix/phase-folder-map.md`](../appendix/phase-folder-map.md)  
+**Copied into product repos:** `docs/GOVERNANCE.md`, `docs/KIT.md`
 
 ## What to copy
 
-From `scaffold/`, copy into your repository root (or adjust paths to match your monorepo):
+From `scaffold/`, copy into your repository root (or adjust paths for a monorepo):
 
 ```text
-docs/                    → your repo docs/
+docs/                              → your repo docs/   (includes GOVERNANCE.md + KIT.md)
 .github/workflows/docs.yml
-.github/PULL_REQUEST_TEMPLATE.md   (merge with yours if you already have one)
+.github/PULL_REQUEST_TEMPLATE.md   (merge if you already have one)
 AGENTS.md
 .markdownlint.json
-llms.txt.example         → rename/adapt to llms.txt when ready
+llms.txt.example                   → rename/adapt to llms.txt when ready
 ```
+
+Do **not** expect `../primer/...` or `../FIRST_WEEK.md` to resolve inside the product repo. Upstream teaching paths are listed in `docs/KIT.md` (set `KIT_URL` there).
 
 You do **not** need a static site generator to start. The scaffold is plain Markdown.
 
-Default CI: Markdown lint + link check. Optional Spectral / Mermaid jobs are commented in `docs.yml` — enable when ready ([primer: CI](../primer/16-ci-and-quality-gates.md)).
+Default CI: Markdown lint + link check. Optional Spectral / Mermaid jobs are commented in `docs.yml` — enable when ready (kit: [`../primer/16-ci-and-quality-gates.md`](../primer/16-ci-and-quality-gates.md)).
 
 ## Directory model
 
 ```text
 docs/
-├── GOVERNANCE.md ← stub policy (how to treat READMEs vs replace-me files)
-├── internal/     # engineers, SREs, auditors — private / access-controlled
-├── user/         # customers, API consumers — public or customer-facing
-└── shared/       # glossary, high-level diagrams, shared concepts
+├── KIT.md        ← upstream reference policy (post-copy safe)
+├── GOVERNANCE.md ← stub policy
+├── internal/     # builders & operators
+├── user/         # product consumers
+└── shared/       # glossary, shared diagrams/concepts
 ```
 
 | Stream | Optimize for | Update style |
@@ -41,13 +47,14 @@ docs/
 
 ## Phase → folder map
 
-**Do not maintain a second map here.** Use [`../appendix/phase-folder-map.md`](../appendix/phase-folder-map.md).
+**Kit repo canonical map:** [`../appendix/phase-folder-map.md`](../appendix/phase-folder-map.md)  
+**Product repo:** see `docs/KIT.md` (upstream path names) or vendor a copy of the map.
 
 ## How to fill it
 
-1. Follow [`../FIRST_WEEK.md`](../FIRST_WEEK.md) for the minimum file set.
-2. Use templates from [`../templates/`](../templates/) (indexed in the phase map).
-3. Put runbooks under `operations/runbooks/` **by symptom** (e.g. `high-error-rate.md`).
+1. Follow [`../FIRST_WEEK.md`](../FIRST_WEEK.md).
+2. Use upstream `templates/` (indexed in the phase map / `docs/KIT.md`).
+3. Put runbooks under `operations/runbooks/` **by symptom**.
 4. Keep OpenAPI under `internal/system-design/api-specs/`; derive consumer docs under `user/api-reference/`.
 5. Enable the workflow; uncomment Spectral when specs exist.
 
@@ -55,13 +62,13 @@ docs/
 
 **Greenfield:** copy the tree, follow the first-week pack, leave unused folders as structural READMEs.
 
-**Retrofit:** do not boil the ocean. Map existing docs into this tree. Move the top critical families first (architecture, ADRs, runbooks, API, getting started).
+**Retrofit:** map existing docs into this tree. Move critical families first (architecture, ADRs, runbooks, API, getting started).
 
 ## Publishing
 
-Structure first. When you are ready to publish, see [`../recipes/`](../recipes/).
+Structure first. Kit recipes: [`../recipes/`](../recipes/).
 
-## Related primer chapters
+## Related (kit repo only — these links work here)
 
 - [Two audiences](../primer/02-two-audiences.md)
 - [Content governance](../primer/14-content-governance.md)
