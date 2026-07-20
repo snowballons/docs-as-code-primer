@@ -18,8 +18,8 @@ Detailed requirements (Phase 1) or architecture (Phase 2).
 
 ## Next
 
-- Primer: `primer/04-phase-0-charter.md` (Phase 0)
-- Template(s): `templates/vision-charter.md`
-- Split files map to template sections — see appendix/phase-folder-map.md (charter table).
-- Stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
-- Phase map (canonical): primer repo `appendix/phase-folder-map.md`
+- In-repo stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
+- Upstream chapters / templates / examples: [../../KIT.md](../../KIT.md) (does not break after copy)
+- This folder → upstream chapter: `primer/04-phase-0-charter.md`
+- Upstream template(s): `templates/vision-charter.md`
+- Note: Split stubs map to template sections — see GOVERNANCE.md
