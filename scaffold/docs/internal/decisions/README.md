@@ -18,8 +18,7 @@ Deleting old ADRs; silently rewriting history.
 
 ## Next
 
-- Primer: `primer/06-phase-2-architecture.md` (Phase 2+)
-- Template(s): `templates/adr.md`
-- Example: examples/acme-export-platform/internal/decisions/adr-001-queue-for-exports.md
-- Stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
-- Phase map (canonical): primer repo `appendix/phase-folder-map.md`
+- In-repo stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
+- Upstream chapters / templates / examples: [../../KIT.md](../../KIT.md) (does not break after copy)
+- This folder → upstream chapter: `primer/06-phase-2-architecture.md`
+- Upstream template(s): `templates/adr.md`

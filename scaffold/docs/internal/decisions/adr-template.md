@@ -1,6 +1,6 @@
 # ADR template
 
-Copy to `adr-NNN-title.md`. Prefer the fuller `templates/adr.md` from the primer repo when available.
+Copy to `adr-NNN-title.md`. Prefer the fuller upstream `templates/adr.md` (see [`../../KIT.md`](../../KIT.md)).
 
 ## Status
 
