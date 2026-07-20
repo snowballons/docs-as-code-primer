@@ -38,6 +38,15 @@ Each runbook should include:
 | Post-incident | Report + follow-ups |
 | Last tested | Date, environment, result |
 
+### Bad → good (ops)
+
+| Bad | Good |
+|-----|------|
+| Runbooks nested only under service names | Symptom entry points (`high-error-rate.md`) that on-call can find at 2am |
+| “Restart the pod” as the whole runbook | Diagnosis → per-cause remediation → verify → escalation → last tested |
+| SLO: “be highly available” | “99.9% monthly availability; error budget policy when burned” |
+
+
 ## Definition of Done (MVP)
 
 - [ ] Rollback documented
