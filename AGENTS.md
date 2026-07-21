@@ -33,7 +33,7 @@ npx cspell 'primer/**/*.md' 'templates/**/*.md' 'appendix/**/*.md' 'README.md'
 # (custom check defined in .github/workflows/docs.yml)
 ```
 
-CI runs on pushes to `primer/`, `templates/`, `appendix/`, `recipes/`, `llms.txt`, `README.md`, `CONTRIBUTING.md`, and `.github/workflows/`.
+CI runs on pushes to `primer/`, `templates/`, `appendix/`, `recipes/`, `llms.txt`, `README.md`, `CONTRIBUTING.md`, `.rumdl.toml`, and `.github/workflows/`.
 
 ## Rules
 
