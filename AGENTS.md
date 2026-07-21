@@ -16,18 +16,17 @@ A teaching kit for documentation judgment. 19 primer chapters teach the phases, 
 | `examples/acme-export-platform/` | Worked example for a fictional product |
 | `recipes/` | Publishing/tooling setup guides |
 | `appendix/` | Phase-folder map, glossary, maturity model, tooling map |
-| `scripts/init-docs.sh` | Automates scaffold copy |
 
 ## Build & test commands
 
 ```bash
-# Lint all Markdown
-npx markdownlint-cli2 '**/*.md' '#node_modules' '#scaffold/docs'
+# Lint all Markdown (config lives in scaffold/ — canonical source)
+npx markdownlint-cli2 --config scaffold/.markdownlint.json '**/*.md' '#node_modules' '#scaffold/docs'
 
 # Check links (internal + external)
 npx lychee --format detailed 'primer/**/*.md' 'templates/**/*.md' 'appendix/**/*.md' 'README.md'
 
-# Spell check
+# Spell check (custom word list in docs/spelling-exceptions.txt)
 npx cspell 'primer/**/*.md' 'templates/**/*.md' 'appendix/**/*.md' 'README.md'
 
 # Verify all ../templates/ and ../examples/ cross-references resolve
