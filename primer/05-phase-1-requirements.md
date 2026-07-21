@@ -103,6 +103,7 @@ Every requirement belongs to one of four buckets:
 | **Won't** | Explicitly excluded | Documented to prevent scope creep. Review at each milestone. | Sponsor |
 
 **Rules:**
+
 - Must = MVP. If everything is Must, nothing is Must.
 - Should and Could are ordered within each bucket.
 - Won't is as important as Must — it defines what the team is *not* doing.
