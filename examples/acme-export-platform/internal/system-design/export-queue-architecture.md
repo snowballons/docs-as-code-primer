@@ -14,7 +14,7 @@ ADR-001 chose a pull-based job queue over a synchronous HTTP export for three re
 
 ## Architecture sketch
 
-```
+```text
 ┌─────────────┐     ┌────────────────┐     ┌──────────────┐
 │  API Server  │────▶│  Job Queue     │────▶│  Workers (4) │
 │  (Rails)     │     │  (PG + Redis)  │     │  (Sidekiq)   │
