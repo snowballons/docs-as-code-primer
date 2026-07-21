@@ -87,6 +87,7 @@ This page helps you understand where Docs-as-Code Primer fits in the broader doc
 - Increasingly adopted by teams (Django, Kubernetes, others)
 
 **Limitations:**
+
 - Only solves content type organization, not folder/phase organization
 - No scaffolding or template repo
 - No automation, CI, or workflow guidance
