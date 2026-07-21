@@ -52,61 +52,65 @@ Bad:
 ```text
 # export-service
 
-  Exports data. Uses Go.
+Exports data. Uses Go.
 
-  ## Setup
+## Setup
 
-  Install Go, run `go run .`
+Install Go, run `go run .`
+```
 
 Good:
 
-  # export-service
+```text
+# export-service
 
-  **What:** Schedules and runs CSV/JSON exports for enterprise tenants.
-  Adheres to the Export Platform API contract at `docs/internal/architecture/`.
+**What:** Schedules and runs CSV/JSON exports for enterprise tenants.
+Adheres to the Export Platform API contract at `docs/internal/architecture/`.
 
-  | | |
-  |---|---|
-  | **Language** | Go 1.22 |
-  | **Build** | `make build` |
-  | **Test** | `make test` → `make coverage` |
-  | **Lint** | `make lint` (golangci-lint) |
-  | **CI** | ![ci](https://github.com/org/export-service/actions/workflows/ci.yml/badge.svg) |
+| | |
+|---|---|---|
+| **Language** | Go 1.22 |
+| **Build** | `make build` |
+| **Test** | `make test` → `make coverage` |
+| **Lint** | `make lint` (golangci-lint) |
+| **CI** | ![ci](https://github.com/org/export-service/actions/workflows/ci.yml/badge.svg) |
 
-  ## Prerequisites
+## Prerequisites
 
-  - Go ≥ 1.22 (see `.tool-versions`)
-  - PostgreSQL 16 running locally or via `docker compose up -d db`
-  - `golangci-lint` (optional — CI lints for you)
+- Go ≥ 1.22 (see `.tool-versions`)
+- PostgreSQL 16 running locally or via `docker compose up -d db`
+- `golangci-lint` (optional — CI lints for you)
 
-  ## Local setup
+## Local setup
 
-  ```bash
-  git clone https://github.com/org/export-service
-  cd export-service
-  go mod download
-  cp .env.example .env          # edit DB_DSN if different
-  make migrate                  # runs schema migrations
-  make test                     # 237 passing, 0 skipped
-  ```
+```bash
+git clone https://github.com/org/export-service
+cd export-service
+go mod download
+cp .env.example .env          # edit DB_DSN if different
+make migrate                  # runs schema migrations
+make test                     # 237 passing, 0 skipped
+```
 
-  ## Architecture
+## Architecture
 
-  See [docs/internal/architecture/context-diagram.md](docs/internal/architecture/context-diagram.md)
-  and [ADR-001: queue for exports](docs/internal/decisions/adr-001-queue-for-exports.md).
+See [context diagram in the Acme example](../examples/acme-export-platform/internal/architecture/context-diagram.md)
+and [ADR-001: queue for exports](../examples/acme-export-platform/internal/decisions/adr-001-queue-for-exports.md).
 
-  ## Debugging / footguns
+## Debugging / footguns
 
-  - Port 8080 is hard-coded in dev mode; change via `EXPORT_PORT`.
-  - CSV export of >1M rows needs `WORKER_COUNT=4` or it times out after 30 s.
-  - Postgres `LISTEN/NOTIFY` channel may drop under PgBouncer — use direct connection.
+- Port 8080 is hard-coded in dev mode; change via `EXPORT_PORT`.
+- CSV export of >1M rows needs `WORKER_COUNT=4` or it times out after 30 s.
+- Postgres `LISTEN/NOTIFY` channel may drop under PgBouncer — use direct connection.
 
-  ## License
+## License
 
-  MIT
+MIT
 ```
 
 ### Bad → good (comments)
+
+```
 
 ```text
 Bad:  // Increment i by 1
