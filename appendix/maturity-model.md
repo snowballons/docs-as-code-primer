@@ -17,7 +17,7 @@ A framework for assessing where your team is and what to aim for next. Based on 
 
 **You're here if:** You can't find the architecture overview in 5 minutes. A new engineer takes a week to get productive.
 
-**Next step:** Copy the scaffold. `scripts/init-docs.sh` into your repo.
+**Next step:** Copy the scaffold. Follow `FIRST_WEEK.md` Day 0 to copy `scaffold/` into your repo.
 
 ### Level 1 — Scaffold
 
