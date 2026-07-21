@@ -80,6 +80,7 @@ This page helps you understand where Docs-as-Code Primer fits in the broader doc
 **What it is:** A framework for organizing documentation into four types: Tutorial, How-to Guide, Reference, and Explanation.
 
 **Strengths:**
+
 - Clear mental model for content structure
 - Solves the "what should this page be?" problem
 - Language/platform-agnostic
