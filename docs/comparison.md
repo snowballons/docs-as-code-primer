@@ -104,12 +104,14 @@ This page helps you understand where Docs-as-Code Primer fits in the broader doc
 **What it is:** A framework for drawing system architecture diagrams at four levels of abstraction: Context, Container, Component, Code.
 
 **Strengths:**
+
 - Reduces diagrams to a clear, repeatable pattern
 - Works across many tools (PlantUML, Draw.io, Structurizr)
 - Solves "how do we show architecture clearly?" problem
 - Increasingly adopted by architects
 
 **Limitations:**
+
 - Only covers diagrams, not documentation
 - No text guidance, scaffolding, or templates
 - No governance, automation, or CI
