@@ -76,7 +76,7 @@ Write an ADR at `docs/internal/decisions/adr-NNN-title.md`.
 | `review-runbook` | Auditing a runbook for completeness | Runbook checklist |
 | `write-changelog` | Drafting a user-facing changelog entry | Changelog template |
 | `audit-doc-drift` | Checking docs against current system state | Drift checklist from governance chapter |
-| `scaffold-new-project` | Setting up the scaffold for a new repo | `scripts/init-docs.sh` |
+| `scaffold-new-project` | Setting up the scaffold for a new repo | `FIRST_WEEK.md` (Day 0 checklist) |
 
 ### Benefits over putting everything in AGENTS.md
 
