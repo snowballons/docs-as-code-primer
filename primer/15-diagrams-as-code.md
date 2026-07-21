@@ -22,6 +22,7 @@ flowchart LR
 ### When Mermaid is not enough
 
 Mermaid struggles with:
+
 - Precise visual layout (diagrams where position carries meaning)
 - Industry-specific icons (AWS, Azure, P&ID, Cisco, Kubernetes)
 - Large or complex state machines with many transitions
