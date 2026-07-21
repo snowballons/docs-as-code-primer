@@ -65,6 +65,21 @@ docs/
 - Refer to shared glossary for term definitions
 - When in doubt, ask — do not guess
 
+## Agent skills for docs workflows
+
+Agent skills (`SKILL.md`) package reusable doc workflows that agents load on demand. Unlike `AGENTS.md` (always loaded), skills use progressive disclosure — the agent sees only the name and description until a task matches:
+
+| Primer concept | Agent skill |
+|----------------|-------------|
+| Write an ADR | `write-adr` skill |
+| Review a runbook for completeness | `review-runbook` skill |
+| Draft a changelog entry | `write-changelog` skill |
+| Check audience boundaries | `check-audience-boundary` skill |
+
+Skills follow the open [Agent Skills](https://github.com/agentskills/agentskills) standard. Place them in `.agents/skills/<name>/SKILL.md` in your repo. Compatible agents (Codex, Cursor, Copilot, Devin, Cline, and others) discover them automatically.
+
+See the full guide: [Agent skills for docs-as-code](../appendix/agent-skills.md).
+
 ## MCP and docs
 
 Model Context Protocol (MCP) lets agents call tools from within their context. For docs, this means:
