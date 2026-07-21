@@ -179,6 +179,7 @@ This page helps you understand where Docs-as-Code Primer fits in the broader doc
 **What it is:** Curated lists of documentation tools, frameworks, and resources (on GitHub and elsewhere).
 
 **Strengths:**
+
 - Comprehensive tooling overview
 - Helps discover new tools
 
