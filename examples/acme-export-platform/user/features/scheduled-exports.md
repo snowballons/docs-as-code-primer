@@ -85,6 +85,6 @@ Yes — use the dashboard or API to cancel any export with status `queued` or `p
 ## Related
 
 - [API reference: Exports](../api-reference/overview.md)
-- [Tutorial: Schedule automated reports](../../../user/tutorials/schedule-automated-exports.md)
-- [Troubleshooting: Export issues](../../../user/troubleshooting/export-issues.md)
-- [Changelog: Export improvements](../../../user/changelog/2024-03-15-export-improvements.md)
+- [Tutorial: Schedule automated reports](../tutorials/schedule-automated-exports.md)
+- [Troubleshooting: Export issues](../troubleshooting/export-issues.md)
+- [Changelog: Export improvements](../changelog/2024-03-15-export-improvements.md)
