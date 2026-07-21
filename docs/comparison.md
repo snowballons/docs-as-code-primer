@@ -215,7 +215,7 @@ Choose this primer if your team:
 
 Example combination: Docs-as-Code Primer + Diataxis + Google Tech Writing
 
-```
+```text
 Docs-as-Code Primer
   Provides phases and scaffold
 
