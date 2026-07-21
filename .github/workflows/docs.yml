@@ -20,7 +20,7 @@ on:
       - "recipes/**"
       - "*.md"
       - ".github/workflows/docs.yml"
-      - "scaffold/.markdownlint.json"
+      - ".rumdl.toml"
       - ".cspell.json"
       - "docs/spelling-exceptions.txt"
 
