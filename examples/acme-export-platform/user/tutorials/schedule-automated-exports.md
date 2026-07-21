@@ -47,11 +47,13 @@ You are the team lead for analytics at Acme Corp. Your team needs a weekly CSV o
 Pick one:
 
 **Email delivery (simplest):**
+
 1. Select **Email**.
 2. Enter `analytics-team@acme-corp.com`.
 3. Acme sends the CSV as a download link when each export completes.
 
 **Webhook delivery (automation):**
+
 1. Select **Webhook**.
 2. Enter `https://hooks.acme-corp.com/export-receiver`.
 3. Acme POSTs JSON to your URL with `{ "status": "completed", "download_url": "..." }`.
