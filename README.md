@@ -87,6 +87,27 @@ docs-as-code-primer/
 └── appendix/                 ← glossary, tooling map, phase→folder map
 ```
 
+Scaffold tree view (copied into your project):
+
+```text
+docs/                         ← copy scaffold/docs/ into your repo
+├── internal/                 ← engineers, ops, compliance
+│   ├── charter/              ← vision, scope, stakeholders, risks
+│   ├── requirements/         ← user stories, functional, NFRs
+│   ├── architecture/         ← context, container, C4 diagrams
+│   ├── decisions/            ← ADRs (append-only)
+│   ├── system-design/        ← services, APIs, DB schemas, security
+│   ├── development/          ← how to build, test, deploy
+│   └── operations/           ← runbooks, SLOs, monitoring, DR
+├── user/                     ← customers, support
+│   ├── getting-started/      ← quickstart, tutorial
+│   ├── guides/               ← how-to, feature docs
+│   └── api-reference/        ← generated or curated API docs
+└── shared/                   ← both audiences
+    ├── glossary.md           ← single source of term definitions
+    └── diagrams/             ← reusable Mermaid files
+```
+
 ---
 
 ## What this is not
@@ -95,6 +116,8 @@ docs-as-code-primer/
 - A replacement for Confluence/CCMS in regulated enterprise publishing
 - A SaaS or static site generator
 - A general “how to run your company” handbook
+
+See [docs/comparison.md](docs/comparison.md) to understand how this primer relates to Write the Docs, Google Tech Writing, Diataxis, C4 Model, adr-tools, and other documentation resources.
 
 ## When this kit may hurt
 
