@@ -96,5 +96,5 @@ Logs: structured JSON with `job_id`, `org_id`, `status`. Search in Loki: `{app="
 
 - [ADR-001: Why a queue](../decisions/adr-001-queue-for-exports.md) — the decision that created this design
 - [Module spec: Export service](services/export-service.md) — interface and dependency contract
-- [Runbook: Queue backlog](../../operations/runbooks/export-queue-backlog.md) — what to do when workers stall
-- [User feature: Scheduled exports](../../../user/features/scheduled-exports.md) — how users see this system
+- [Runbook: Queue backlog](../operations/runbooks/export-queue-backlog.md) — what to do when workers stall
+- [User feature: Scheduled exports](../../user/features/scheduled-exports.md) — how users see this system
