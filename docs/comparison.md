@@ -28,12 +28,14 @@ This page helps you understand where Docs-as-Code Primer fits in the broader doc
 **What it is:** A global community and conference series for technical writers, documentarians, and documentation enthusiasts.
 
 **Strengths:**
+
 - Vibrant, inclusive community (Slack, meetups, annual conference)
 - Emphasis on writing craft and communication
 - Peer support and mentorship
 - Resources covering industry trends, tooling ecosystem
 
 **Limitations:**
+
 - Not a methodology for organizing or automating documentation
 - No copy-paste scaffold or templates
 - No CI/automation guidance (assumes external tooling)
