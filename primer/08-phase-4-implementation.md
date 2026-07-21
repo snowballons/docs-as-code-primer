@@ -47,7 +47,6 @@ Copy into your project's PR checklist or issue template. Every root README needs
 
 ### README bad → good (full example)
 
-```text
 Bad:
 
   # export-service
