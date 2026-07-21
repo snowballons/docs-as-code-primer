@@ -31,15 +31,10 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Markdown lint
-        uses: DavidAnson/markdownlint-cli2-action@v16
+        uses: rvben/rumdl@v0
         with:
-          config: scaffold/.markdownlint.json
-          globs: |
-            primer/**/*.md
-            templates/**/*.md
-            appendix/**/*.md
-            recipes/**/*.md
-            *.md
+          config: .rumdl.toml
+          report-type: annotations
 
       - name: Link check
         uses: lycheeverse/lychee-action@v2
