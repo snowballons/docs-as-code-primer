@@ -31,6 +31,12 @@ sequenceDiagram
   Client->>API: GET download_url
 ```
 
+## Webhooks
+
+Configure a webhook endpoint in the dashboard to receive `POST` notifications when exports complete or fail. Each payload carries a `job_id` and `status`.
+
+See [tutorial: Schedule automated exports](../tutorials/schedule-automated-exports.md) for configuration steps.
+
 ## Errors (common)
 
 | Code | Meaning | What to do |
