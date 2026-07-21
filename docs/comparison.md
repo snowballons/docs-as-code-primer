@@ -152,11 +152,13 @@ This page helps you understand where Docs-as-Code Primer fits in the broader doc
 **What it is:** A GitHub repo with articles and diagrams on large-scale system design topics (load balancing, databases, caching, etc.).
 
 **Strengths:**
+
 - Excellent reference for system design concepts
 - Clear explanations of distributed systems patterns
 - Well-maintained and widely cited
 
 **Limitations:**
+
 - Not a methodology or scaffold
 - Educational resource, not a kit you can copy
 - No governance, phases, or audience split
