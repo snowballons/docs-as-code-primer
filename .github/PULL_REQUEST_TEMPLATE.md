@@ -9,7 +9,7 @@ Thank you for contributing to the Docs-as-Code Primer.
 ## Checklist
 
 - [ ] Template/primer cross-references resolve
-- [ ] Markdown lint passes (`markdownlint **/*.md`)
+- [ ] Markdown lint passes (`rumdl check .`)
 - [ ] Links are valid (internal and external)
 - [ ] Language matches the editorial stance (opinionated, senior-eng tone)
 - [ ] If this is a template: it follows the existing template format (metadata table, required sections, fill-in-the-blank)
