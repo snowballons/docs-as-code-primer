@@ -1,0 +1,13 @@
+flowchart LR
+  Admin[Enterprise Admin]
+  Dev[API Developer]
+  Acme[Acme Export Platform]
+  Billing[Billing System]
+  Mail[Email Provider]
+  DW[(Account Data Warehouse)]
+
+  Admin -->|Requests export / downloads file| Acme
+  Dev -->|REST API| Acme
+  Acme -->|Read usage data| DW
+  Acme -->|Verify entitlement| Billing
+  Acme -->|Send ready notification| Mail
