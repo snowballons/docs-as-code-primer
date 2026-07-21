@@ -20,8 +20,8 @@ A teaching kit for documentation judgment. 19 primer chapters teach the phases, 
 ## Build & test commands
 
 ```bash
-# Lint all Markdown (config lives in scaffold/ — canonical source)
-npx markdownlint-cli2 --config scaffold/.markdownlint.json '**/*.md' '#node_modules' '#scaffold/docs'
+# Lint all Markdown (config in .rumdl.toml — excludes scaffold/docs)
+rumdl check primer/ templates/ appendix/ recipes/ examples/ docs/ README.md CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md FIRST_WEEK.md LEARNING_PATH.md llms.txt
 
 # Check links (internal + external)
 npx lychee --format detailed 'primer/**/*.md' 'templates/**/*.md' 'appendix/**/*.md' 'README.md'
