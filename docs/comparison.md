@@ -185,6 +185,7 @@ This page helps you understand where Docs-as-Code Primer fits in the broader doc
 - Helps discover new tools
 
 **Limitations:**
+
 - Not a methodology
 - No guidance on which tool to use
 - No scaffolding, templates, or governance
