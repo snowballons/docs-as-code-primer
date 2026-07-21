@@ -53,6 +53,7 @@ This page helps you understand where Docs-as-Code Primer fits in the broader doc
 **What it is:** Free online course teaching clear, concise technical writing.
 
 **Strengths:**
+
 - Practical, evidence-based writing principles
 - Highly readable; short lessons
 - Covers audience analysis, tone, structure, examples
