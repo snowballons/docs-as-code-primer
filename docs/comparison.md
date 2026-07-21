@@ -138,6 +138,7 @@ This page helps you understand where Docs-as-Code Primer fits in the broader doc
 - Helps teams justify architectural decisions
 
 **Limitations:**
+
 - Only covers ADRs, not full documentation
 - No scaffolding beyond ADR structure
 - Does not address phases, audiences, or governance

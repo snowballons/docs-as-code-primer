@@ -83,7 +83,7 @@ Problems with exporting your data and how to fix them.
 If these steps don't resolve your issue:
 
 - Search our [status page](https://status.acme.io) for ongoing incidents
-- Contact support at support@acme.io with:
+- Contact support at <support@acme.io> with:
   - The export job ID (from **Export history**)
   - The date range and format you used
   - Whether this is a new export or a recurring schedule
