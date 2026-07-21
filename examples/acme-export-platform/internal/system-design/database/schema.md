@@ -107,6 +107,7 @@ DROP TABLE IF EXISTS schedule CASCADE;
 ```
 
 Rollback steps:
+
 1. Deploy old code (which doesn't reference the new schema).
 2. Run rollback DDL.
 3. Verify query plans don't reference dropped objects.
