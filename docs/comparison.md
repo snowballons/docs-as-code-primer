@@ -130,6 +130,7 @@ This page helps you understand where Docs-as-Code Primer fits in the broader doc
 **What it is:** A command-line tool for creating, managing, and linking Architecture Decision Records (ADRs) in a Git repository.
 
 **Strengths:**
+
 - Simple, repeatable ADR format
 - Lightweight CLI for fast creation
 - Git-based (version control + history built-in)
