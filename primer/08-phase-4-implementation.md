@@ -49,7 +49,8 @@ Copy into your project's PR checklist or issue template. Every root README needs
 
 Bad:
 
-  # export-service
+```text
+# export-service
 
   Exports data. Uses Go.
 
