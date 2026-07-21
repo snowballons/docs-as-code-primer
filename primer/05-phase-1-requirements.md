@@ -25,7 +25,7 @@ Product / BA primary; Tech Lead for feasibility; QA for testability.
 
 A functional requirement is a **single testable statement** about system behavior. Write them as:
 
-```
+```text
 The <system> shall <action> <object> [under <condition>].
 ```
 

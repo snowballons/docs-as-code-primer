@@ -59,12 +59,14 @@ C4 has four levels. The primer mandates Level 1 and Level 2 for every project. L
 | 4 | Code | Detailed class/interface design | ❌ No — use inline docstrings or module specs (Phase 3) | N/A (code) |
 
 **When Level 3 is worth it:**
+
 - A container has 15+ source files or 5+ packages with non-obvious dependencies
 - Multiple teams contribute to the same container
 - The container has a plugin/extension architecture
 - Auditors or compliance require a dependency graph
 
 **When Level 3 is overkill:**
+
 - The container is a small CLI tool (< 5 files)
 - A module spec (Phase 3 template) already describes the internals
 - The code is well-structured and the team is stable
