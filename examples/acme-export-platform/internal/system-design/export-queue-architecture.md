@@ -31,7 +31,7 @@ The queue is backed by Redis for fast enqueue/dequeue, with PostgreSQL as the du
 
 ## Job lifecycle
 
-```
+```text
 enqueued ──▶ queued ──▶ processing ──▶ completed
                           │
                           ▼
