@@ -9,8 +9,9 @@ on:
       - "recipes/**"
       - "*.md"
       - ".github/workflows/docs.yml"
-      - ".markdownlint.json"
+      - "scaffold/.markdownlint.json"
       - ".cspell.json"
+      - "docs/spelling-exceptions.txt"
   pull_request:
     paths:
       - "primer/**"
@@ -19,8 +20,9 @@ on:
       - "recipes/**"
       - "*.md"
       - ".github/workflows/docs.yml"
-      - ".markdownlint.json"
+      - "scaffold/.markdownlint.json"
       - ".cspell.json"
+      - "docs/spelling-exceptions.txt"
 
 jobs:
   lint-and-links:
@@ -31,6 +33,7 @@ jobs:
       - name: Markdown lint
         uses: DavidAnson/markdownlint-cli2-action@v16
         with:
+          config: scaffold/.markdownlint.json
           globs: |
             primer/**/*.md
             templates/**/*.md
