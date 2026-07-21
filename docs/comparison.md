@@ -60,6 +60,7 @@ This page helps you understand where Docs-as-Code Primer fits in the broader doc
 - Can be paired with any documentation system
 
 **Limitations:**
+
 - Writing skill alone, not methodology
 - No organization structure (where do docs live?)
 - No automation, CI, or Git workflow guidance
