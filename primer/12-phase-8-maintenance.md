@@ -38,6 +38,7 @@ The internal changelog serves **engineers and operators**, not users. Use it to 
 An entry looks like:
 
 > **2026-Q1** (2026-01-01 – 2026-03-31)
+>
 > - **Architecture:** ADR-012: export queue Redis → RabbitMQ. Consumer code unchanged; rebuild required for new `amqp` package.
 > - **Ops:** Prod deploy switched from blue-green to canary (2026-02-10). See deploy-pipeline-canary.md.
 > - **Deprecation:** `POST /v1/export-legacy` deprecated; migration window closes 2026-Q3.
