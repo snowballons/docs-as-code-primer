@@ -1,3 +1,7 @@
+---
+title: "Documentation maturity model"
+description: "A framework for assessing where your team is and what to aim for next. Based on the practices in this kit."
+---
 # Documentation maturity model
 
 A framework for assessing where your team is and what to aim for next. Based on the practices in this kit.
@@ -91,6 +95,6 @@ Level 0 ──scaffold──→ Level 1 ──phases──→ Level 2 ──plat
 
 ## Related
 
-- [Why now (2026)](../primer/19-why-now-2026.md)
-- [CI and quality gates](../primer/16-ci-and-quality-gates.md)
-- [Content governance](../primer/14-content-governance.md)
+- [Why now (2026)](/primer/why-now-2026/)
+- [CI and quality gates](/primer/ci-and-quality-gates/)
+- [Content governance](/primer/content-governance/)

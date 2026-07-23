@@ -1,3 +1,6 @@
+---
+title: "Frontend architecture: [Project / App name]"
+---
 # Frontend architecture: [Project / App name]
 
 ## Technology stack

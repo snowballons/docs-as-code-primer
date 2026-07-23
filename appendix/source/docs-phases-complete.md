@@ -1,3 +1,7 @@
+---
+title: "Documentation as Code — Complete Phase Guide"
+description: "<!-- markdownlint-disable MD024 MD036 -->"
+---
 # Documentation as Code — Complete Phase Guide
 
 <!-- markdownlint-disable MD024 MD036 -->

@@ -1,3 +1,6 @@
+---
+title: "Disaster recovery plan"
+---
 # Disaster recovery plan
 
 ## Metadata

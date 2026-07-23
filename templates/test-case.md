@@ -1,3 +1,6 @@
+---
+title: "Test case: [ID]"
+---
 # Test case: [ID]
 
 ## Metadata

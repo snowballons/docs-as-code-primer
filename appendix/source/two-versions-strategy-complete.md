@@ -1,3 +1,7 @@
+---
+title: "Documentation as Code — Two-Version Strategy"
+description: "> **This document is Part 2 of 2.** > It defines *where* documentation lives, *who* it is for, and how Internal and User-Facing documentation are structured, maintained, and published as two coordinat"
+---
 # Documentation as Code — Two-Version Strategy
 
 > **This document is Part 2 of 2.**

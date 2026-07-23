@@ -1,3 +1,7 @@
+---
+title: "Getting started with [Product name]"
+description: "> A getting-started guide is the shortest path from zero to first value. If it takes longer than [N] minutes, it's a tutorial or a setup reference, not a getting-started."
+---
 # Getting started with [Product name]
 
 > A getting-started guide is the shortest path from zero to first value. If it takes longer than [N] minutes, it's a tutorial or a setup reference, not a getting-started.

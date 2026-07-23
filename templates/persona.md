@@ -1,3 +1,7 @@
+---
+title: "Persona: [Name]"
+description: "> A persona is a named archetype representing a user segment, grounded in research or validated assumptions — not a made-up character."
+---
 # Persona: [Name]
 
 > A persona is a named archetype representing a user segment, grounded in research or validated assumptions — not a made-up character.

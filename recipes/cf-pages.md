@@ -1,3 +1,7 @@
+---
+title: "Recipe: Deploy to Cloudflare Pages"
+description: "Publish your MkDocs or Docusaurus site via Cloudflare Pages, with optional access policy for internal docs."
+---
 # Recipe: Deploy to Cloudflare Pages
 
 Publish your MkDocs or Docusaurus site via Cloudflare Pages, with optional access policy for internal docs.
@@ -46,7 +50,7 @@ For a single repository publishing both internal and user sites:
 
 ### Option A: Two Cloudflare Pages projects
 
-One project per site, with different build triggers (path filters). See [dual publish recipe](dual-publish.md) for the CI approach.
+One project per site, with different build triggers (path filters). See [dual publish recipe](/recipes/dual-publish/) for the CI approach.
 
 ### Option B: One project with branch-based routing
 
@@ -69,6 +73,6 @@ Useful for reviewing doc changes before merging.
 
 ## Related
 
-- [GitHub Pages recipe](gh-pages.md)
-- [Dual publish recipe](dual-publish.md)
-- [MkDocs end-to-end recipe](mkdocs-e2e.md)
+- [GitHub Pages recipe](/recipes/gh-pages/)
+- [Dual publish recipe](/recipes/dual-publish/)
+- [MkDocs end-to-end recipe](/recipes/mkdocs-e2e/)

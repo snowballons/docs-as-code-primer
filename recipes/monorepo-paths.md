@@ -1,3 +1,7 @@
+---
+title: "Recipe: Monorepo path variants"
+description: "When your docs scaffold lives inside a monorepo with multiple services, adjust paths to avoid naming collisions."
+---
 # Recipe: Monorepo path variants
 
 When your docs scaffold lives inside a monorepo with multiple services, adjust paths to avoid naming collisions.
@@ -75,6 +79,6 @@ docs/user/features/scheduled-exports.md
 
 ## Related
 
-- [Dual publish recipe](dual-publish.md)
-- [MkDocs end-to-end recipe](mkdocs-e2e.md)
+- [Dual publish recipe](/recipes/dual-publish/)
+- [MkDocs end-to-end recipe](/recipes/mkdocs-e2e/)
 - [Scaffold](../scaffold/README.DOCS.md)

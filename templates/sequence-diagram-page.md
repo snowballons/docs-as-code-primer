@@ -1,3 +1,6 @@
+---
+title: "Sequence diagram: [Flow name]"
+---
 # Sequence diagram: [Flow name]
 
 ## Participants

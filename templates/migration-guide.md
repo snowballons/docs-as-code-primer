@@ -1,3 +1,7 @@
+---
+title: "Migration guide: [Version / feature name]"
+description: "> A migration guide tells someone what changed, why, and exactly what they need to do. If they skip the window, they break."
+---
 # Migration guide: [Version / feature name]
 
 > A migration guide tells someone what changed, why, and exactly what they need to do. If they skip the window, they break.

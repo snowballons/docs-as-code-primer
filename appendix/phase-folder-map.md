@@ -1,3 +1,7 @@
+---
+title: "Phase → folder map (canonical)"
+description: "> **This is the canonical map.** Other docs should link here instead of redefining paths. > Adopters: after copying the scaffold, this map still applies under your repo’s `docs/`."
+---
 # Phase → folder map (canonical)
 
 > **This is the canonical map.** Other docs should link here instead of redefining paths.
@@ -38,7 +42,7 @@
 
 ## Charter file mapping (Phase 0)
 
-Scaffold splits the charter into files. Map from [`templates/vision-charter.md`](../templates/vision-charter.md):
+Scaffold splits the charter into files. Map from [`templates/vision-charter.md`](/templates/vision-charter/):
 
 | Template section | Scaffold file |
 |------------------|---------------|
@@ -54,20 +58,20 @@ You may keep one combined charter file instead; if you do, replace the split stu
 
 | Phase | Template |
 |-------|----------|
-| 0 | [`templates/vision-charter.md`](../templates/vision-charter.md) |
-| 1 | [`templates/user-story.md`](../templates/user-story.md), [`templates/nfr.md`](../templates/nfr.md), [`templates/persona.md`](../templates/persona.md), [`templates/user-journey.md`](../templates/user-journey.md), [`templates/functional-requirements.md`](../templates/functional-requirements.md) |
-| 2 | [`templates/adr.md`](../templates/adr.md), [`templates/c4-architecture-outline.md`](../templates/c4-architecture-outline.md), [`templates/cross-cutting-concerns-checklist.md`](../templates/cross-cutting-concerns-checklist.md) |
-| 3 | [`templates/module-spec.md`](../templates/module-spec.md), [`templates/frontend-architecture.md`](../templates/frontend-architecture.md), [`templates/db-schema-migration.md`](../templates/db-schema-migration.md), [`templates/sequence-diagram-page.md`](../templates/sequence-diagram-page.md), [`templates/state-machine-page.md`](../templates/state-machine-page.md), [`templates/security-threat-model.md`](../templates/security-threat-model.md) |
-| 4 | [`templates/contribution-guide.md`](../templates/contribution-guide.md) |
-| 5 | [`templates/test-strategy.md`](../templates/test-strategy.md), [`templates/test-case.md`](../templates/test-case.md) |
-| 6 | [`templates/runbook.md`](../templates/runbook.md), [`templates/slo.md`](../templates/slo.md), [`templates/on-call-handbook.md`](../templates/on-call-handbook.md), [`templates/dr-plan.md`](../templates/dr-plan.md) |
-| 7 | [`templates/feature-user-doc.md`](../templates/feature-user-doc.md), [`templates/getting-started.md`](../templates/getting-started.md), [`templates/tutorial.md`](../templates/tutorial.md), [`templates/troubleshooting.md`](../templates/troubleshooting.md) |
-| 8 | [`templates/deprecation-notice.md`](../templates/deprecation-notice.md), [`templates/migration-guide.md`](../templates/migration-guide.md), [`templates/incident-retrospective.md`](../templates/incident-retrospective.md), [`templates/user-changelog.md`](../templates/user-changelog.md), [`templates/internal-changelog.md`](../templates/internal-changelog.md) |
-| 9 | [`templates/retirement-kt.md`](../templates/retirement-kt.md), [`templates/knowledge-transfer.md`](../templates/knowledge-transfer.md), [`templates/archival-policy.md`](../templates/archival-policy.md) |
+| 0 | [`templates/vision-charter.md`](/templates/vision-charter/) |
+| 1 | [`templates/user-story.md`](/templates/user-story/), [`templates/nfr.md`](/templates/nfr/), [`templates/persona.md`](/templates/persona/), [`templates/user-journey.md`](/templates/user-journey/), [`templates/functional-requirements.md`](/templates/functional-requirements/) |
+| 2 | [`templates/adr.md`](/templates/adr/), [`templates/c4-architecture-outline.md`](/templates/c4-architecture-outline/), [`templates/cross-cutting-concerns-checklist.md`](/templates/cross-cutting-concerns-checklist/) |
+| 3 | [`templates/module-spec.md`](/templates/module-spec/), [`templates/frontend-architecture.md`](/templates/frontend-architecture/), [`templates/db-schema-migration.md`](/templates/db-schema-migration/), [`templates/sequence-diagram-page.md`](/templates/sequence-diagram-page/), [`templates/state-machine-page.md`](/templates/state-machine-page/), [`templates/security-threat-model.md`](/templates/security-threat-model/) |
+| 4 | [`templates/contribution-guide.md`](/templates/contribution-guide/) |
+| 5 | [`templates/test-strategy.md`](/templates/test-strategy/), [`templates/test-case.md`](/templates/test-case/) |
+| 6 | [`templates/runbook.md`](/templates/runbook/), [`templates/slo.md`](/templates/slo/), [`templates/on-call-handbook.md`](/templates/on-call-handbook/), [`templates/dr-plan.md`](/templates/dr-plan/) |
+| 7 | [`templates/feature-user-doc.md`](/templates/feature-user-doc/), [`templates/getting-started.md`](/templates/getting-started/), [`templates/tutorial.md`](/templates/tutorial/), [`templates/troubleshooting.md`](/templates/troubleshooting/) |
+| 8 | [`templates/deprecation-notice.md`](/templates/deprecation-notice/), [`templates/migration-guide.md`](/templates/migration-guide/), [`templates/incident-retrospective.md`](/templates/incident-retrospective/), [`templates/user-changelog.md`](/templates/user-changelog/), [`templates/internal-changelog.md`](/templates/internal-changelog/) |
+| 9 | [`templates/retirement-kt.md`](/templates/retirement-kt/), [`templates/knowledge-transfer.md`](/templates/knowledge-transfer/), [`templates/archival-policy.md`](/templates/archival-policy/) |
 
 ## Related
 
-- [First week pack](../FIRST_WEEK.md) — what to fill first
+- [First week pack](/FIRST_WEEK/) — what to fill first
 - [Scaffold usage](../scaffold/README.DOCS.md) — kit-repo copy instructions
 - [Stub policy](../scaffold/docs/GOVERNANCE.md) — copied with scaffold
 - [Upstream index for product repos](../scaffold/docs/KIT.md) — post-copy safe path names

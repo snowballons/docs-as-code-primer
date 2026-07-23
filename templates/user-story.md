@@ -1,3 +1,7 @@
+---
+title: "User story"
+description: "**As a** [persona], **I want** [goal], **so that** [reason]."
+---
 # User story
 
 **As a** [persona],  

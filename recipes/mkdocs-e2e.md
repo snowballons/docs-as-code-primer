@@ -1,3 +1,7 @@
+---
+title: "Recipe: Scaffold → MkDocs site in 15 minutes"
+description: "End-to-end walkthrough: copy the scaffold, wire MkDocs, and see a live site with internal + user + shared docs."
+---
 # Recipe: Scaffold → MkDocs site in 15 minutes
 
 End-to-end walkthrough: copy the scaffold, wire MkDocs, and see a live site with internal + user + shared docs.
@@ -110,6 +114,6 @@ Open `http://localhost:8000` — you have a docs site.
 
 ## See also
 
-- [MkDocs recipe](mkdocs.md) (detailed config options)
-- [Docusaurus recipe](docusaurus.md) (alternative SSG)
-- [CI and quality gates](../primer/16-ci-and-quality-gates.md)
+- [MkDocs recipe](/recipes/mkdocs/) (detailed config options)
+- [Docusaurus recipe](/recipes/docusaurus/) (alternative SSG)
+- [CI and quality gates](/primer/ci-and-quality-gates/)

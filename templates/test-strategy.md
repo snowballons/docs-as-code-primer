@@ -1,3 +1,7 @@
+---
+title: "Test strategy: [Project name]"
+description: "> A test strategy is a shared contract between dev, QA, and product — not a test plan that quotes ticket titles. It answers: who tests what, at what level, against which bar, and how we know we're don"
+---
 # Test strategy: [Project name]
 
 > A test strategy is a shared contract between dev, QA, and product — not a test plan that quotes ticket titles. It answers: who tests what, at what level, against which bar, and how we know we're done.

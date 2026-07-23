@@ -1,3 +1,6 @@
+---
+title: "Archival policy"
+---
 # Archival policy
 
 ## Scope
@@ -49,5 +52,5 @@ This policy covers documentation for systems, features, and components that have
 
 ## Related
 
-- Internal changelog: [`templates/internal-changelog.md`](internal-changelog.md)
-- Retirement KT: [`templates/retirement-kt.md`](retirement-kt.md)
+- Internal changelog: [`templates/internal-changelog.md`](/templates/internal-changelog/)
+- Retirement KT: [`templates/retirement-kt.md`](/templates/retirement-kt/)

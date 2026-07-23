@@ -1,3 +1,7 @@
+---
+title: "Documentation as Code in 2026"
+description: "*A research report for engineering & DevEx leaders*"
+---
 # Documentation as Code in 2026
 
 *A research report for engineering & DevEx leaders*

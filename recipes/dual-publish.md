@@ -1,3 +1,7 @@
+---
+title: "Recipe: Dual publish — internal + user site"
+description: "Publish internal docs to a private site and user docs to a public site from the same repository."
+---
 # Recipe: Dual publish — internal + user site
 
 Publish internal docs to a private site and user docs to a public site from the same repository.
@@ -147,6 +151,6 @@ jobs:
 
 ## Related
 
-- [MkDocs end-to-end recipe](mkdocs-e2e.md)
-- [CI and quality gates](../primer/16-ci-and-quality-gates.md)
-- [Content governance](../primer/14-content-governance.md)
+- [MkDocs end-to-end recipe](/recipes/mkdocs-e2e/)
+- [CI and quality gates](/primer/ci-and-quality-gates/)
+- [Content governance](/primer/content-governance/)

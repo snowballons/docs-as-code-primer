@@ -1,3 +1,7 @@
+---
+title: "Recipe: Docusaurus"
+description: "Use when you want a React-based docs site, versioning, and MDX components."
+---
 # Recipe: Docusaurus
 
 Use when you want a React-based docs site, versioning, and MDX components.

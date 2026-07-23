@@ -1,3 +1,7 @@
+---
+title: "Comparison with other documentation resources"
+description: "This page helps you understand where Docs-as-Code Primer fits in the broader documentation ecosystem. We are not an awesome list, not a writing course, and not a community. We are a structured methodo"
+---
 # Comparison with other documentation resources
 
 This page helps you understand where Docs-as-Code Primer fits in the broader documentation ecosystem. We are not an awesome list, not a writing course, and not a community. We are a structured methodology plus scaffold for building documentation in teams that use Git.
@@ -264,7 +268,7 @@ Docs-as-Code Primer
 
 ## Further Reading
 
-- [Docs-as-Code Primer: LEARNING_PATH.md](../LEARNING_PATH.md) -- start here
+- [Docs-as-Code Primer: LEARNING_PATH.md](/LEARNING_PATH/) -- start here
 - [Diataxis documentation framework](https://diataxis.fr/)
 - [Write the Docs community](https://www.writethedocs.org/)
 - [Google Technical Writing Courses](https://developers.google.com/tech-writing)

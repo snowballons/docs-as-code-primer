@@ -1,3 +1,7 @@
+---
+title: "Cross-cutting concerns checklist"
+description: "For each concern, document the approach and where it is configured/implemented. Mark N/A only when the concern genuinely does not apply."
+---
 # Cross-cutting concerns checklist
 
 For each concern, document the approach and where it is configured/implemented. Mark N/A only when the concern genuinely does not apply.
@@ -55,5 +59,5 @@ For each concern, document the approach and where it is configured/implemented. 
 
 ## Related
 
-- Architecture overview: [`templates/c4-architecture-outline.md`](c4-architecture-outline.md)
-- ADR template: [`templates/adr.md`](adr.md)
+- Architecture overview: [`templates/c4-architecture-outline.md`](/templates/c4-architecture-outline/)
+- ADR template: [`templates/adr.md`](/templates/adr/)

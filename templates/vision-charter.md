@@ -1,3 +1,7 @@
+---
+title: "Project vision & charter"
+description: "Use this as a set of sections (or split across `vision.md`, `scope.md`, etc. under `docs/internal/charter/`)."
+---
 # Project vision & charter
 
 Use this as a set of sections (or split across `vision.md`, `scope.md`, etc. under `docs/internal/charter/`).

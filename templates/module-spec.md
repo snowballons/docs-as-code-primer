@@ -1,3 +1,6 @@
+---
+title: "Module / service specification: [Name]"
+---
 # Module / service specification: [Name]
 
 ## Responsibility

@@ -1,3 +1,7 @@
+---
+title: "Bad examples gallery"
+description: "Before/after pairs showing common documentation anti-patterns. Each example is based on the Acme Export Platform concept."
+---
 # Bad examples gallery
 
 Before/after pairs showing common documentation anti-patterns. Each example is based on the Acme Export Platform concept.

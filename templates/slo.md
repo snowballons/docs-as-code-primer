@@ -1,3 +1,7 @@
+---
+title: "SLO / error budget: [Service name]"
+description: "> SLOs are a shared vocabulary between engineering and product about how reliable the service needs to be — and what happens when it isn't."
+---
 # SLO / error budget: [Service name]
 
 > SLOs are a shared vocabulary between engineering and product about how reliable the service needs to be — and what happens when it isn't.

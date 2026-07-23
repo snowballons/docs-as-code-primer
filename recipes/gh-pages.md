@@ -1,3 +1,7 @@
+---
+title: "Recipe: Deploy to GitHub Pages"
+description: "Publish your MkDocs or Docusaurus site via GitHub Pages."
+---
 # Recipe: Deploy to GitHub Pages
 
 Publish your MkDocs or Docusaurus site via GitHub Pages.
@@ -96,10 +100,10 @@ For dual publish (internal private + user public):
 - User site → GitHub Pages on the main repository (public)
 - Internal site → deploy to a private repository's Pages or use Cloudflare Pages with access policy
 
-See [dual publish recipe](dual-publish.md).
+See [dual publish recipe](/recipes/dual-publish/).
 
 ## See also
 
-- [Cloudflare Pages recipe](cf-pages.md)
-- [Dual publish recipe](dual-publish.md)
-- [MkDocs end-to-end recipe](mkdocs-e2e.md)
+- [Cloudflare Pages recipe](/recipes/cf-pages/)
+- [Dual publish recipe](/recipes/dual-publish/)
+- [MkDocs end-to-end recipe](/recipes/mkdocs-e2e/)

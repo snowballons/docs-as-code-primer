@@ -1,3 +1,7 @@
+---
+title: "Tutorial: [Goal title]"
+description: "> A tutorial walks through a complete, realistic scenario from start to finish. The reader should end with a working outcome and the confidence to adapt it."
+---
 # Tutorial: [Goal title]
 
 > A tutorial walks through a complete, realistic scenario from start to finish. The reader should end with a working outcome and the confidence to adapt it.

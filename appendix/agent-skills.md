@@ -1,3 +1,7 @@
+---
+title: "Agent skills for docs-as-code"
+description: "Agent skills (`.agents/skills/<name>/SKILL.md`) package reusable workflows that AI coding agents can load on demand. They complement `AGENTS.md` (repo-level conventions) with task-specific procedures "
+---
 # Agent skills for docs-as-code
 
 Agent skills (`.agents/skills/<name>/SKILL.md`) package reusable workflows that AI coding agents can load on demand. They complement `AGENTS.md` (repo-level conventions) with task-specific procedures — and they fit naturally into a docs-as-code pipeline.
@@ -110,8 +114,8 @@ Most agents also support explicit invocation — `@skills:write-adr` or `/write-
 
 ## Related
 
-- [Agent-ready docs chapter](../primer/17-agent-ready-docs.md)
-- [AGENTS.md (repo root)](../AGENTS.md)
-- [Maturity model — Level 3 includes agent hooks](maturity-model.md)
+- [Agent-ready docs chapter](/primer/agent-ready-docs/)
+- [AGENTS.md (repo root)](/AGENTS/)
+- [Maturity model — Level 3 includes agent hooks](/appendix/maturity-model/)
 - [Agent Skills specification](https://github.com/agentskills/agentskills)
 - [skills.sh](https://skills.sh) — community skill registry

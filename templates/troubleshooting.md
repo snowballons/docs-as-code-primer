@@ -1,3 +1,7 @@
+---
+title: "Troubleshooting: [Product / feature]"
+description: "> Seed troubleshooting from support tickets, community questions, and QA findings. A good troubleshooting guide saves more time than it costs to write."
+---
 # Troubleshooting: [Product / feature]
 
 > Seed troubleshooting from support tickets, community questions, and QA findings. A good troubleshooting guide saves more time than it costs to write.

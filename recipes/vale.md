@@ -1,3 +1,7 @@
+---
+title: "Recipe: Vale prose linting"
+description: "Enforce tone, terminology, and audience-appropriate language with Vale — a markup-aware linter that understands audience boundaries."
+---
 # Recipe: Vale prose linting
 
 Enforce tone, terminology, and audience-appropriate language with Vale — a markup-aware linter that understands audience boundaries.
@@ -123,6 +127,6 @@ This fails the build on any user-doc style error but only warns on internal issu
 
 ## Related
 
-- [CI and quality gates](../primer/16-ci-and-quality-gates.md)
-- [Dual publish recipe](dual-publish.md)
-- [MkDocs end-to-end recipe](mkdocs-e2e.md)
+- [CI and quality gates](/primer/ci-and-quality-gates/)
+- [Dual publish recipe](/recipes/dual-publish/)
+- [MkDocs end-to-end recipe](/recipes/mkdocs-e2e/)

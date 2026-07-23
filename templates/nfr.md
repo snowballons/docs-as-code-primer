@@ -1,3 +1,7 @@
+---
+title: "Non-functional requirements"
+description: "Vague NFRs are not NFRs. Every row needs a measurable target."
+---
 # Non-functional requirements
 
 Vague NFRs are not NFRs. Every row needs a measurable target.

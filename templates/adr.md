@@ -1,3 +1,6 @@
+---
+title: "Architecture Decision Record (ADR)"
+---
 # Architecture Decision Record (ADR)
 
 ## Title
