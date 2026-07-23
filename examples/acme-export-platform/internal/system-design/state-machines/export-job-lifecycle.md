@@ -1,3 +1,6 @@
+---
+title: "Export job state machine"
+---
 # Export job state machine
 
 ## States
@@ -66,6 +69,6 @@ If a worker crashes without updating the job status, the lease mechanism recover
 
 ## Related
 
-- [Sequence diagram: export processing](../sequence-diagrams/export-processing.md)
-- [Export queue architecture](../export-queue-architecture.md)
-- [Runbook: queue backlog](../../operations/runbooks/export-queue-backlog.md)
+- [Sequence diagram: export processing](/examples/acme-export-platform/internal/system-design/sequence-diagrams/export-processing/)
+- [Export queue architecture](/examples/acme-export-platform/internal/system-design/export-queue-architecture/)
+- [Runbook: queue backlog](/examples/acme-export-platform/internal/operations/runbooks/export-queue-backlog/)

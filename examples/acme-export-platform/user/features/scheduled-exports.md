@@ -1,3 +1,7 @@
+---
+title: "Scheduled exports"
+description: "> **User doc.** This describes what the feature does, how to use it, and what to expect — not how it works internally."
+---
 # Scheduled exports
 
 > **User doc.** This describes what the feature does, how to use it, and what to expect — not how it works internally.
@@ -84,7 +88,7 @@ Yes — use the dashboard or API to cancel any export with status `queued` or `p
 
 ## Related
 
-- [API reference: Exports](../api-reference/overview.md)
-- [Tutorial: Schedule automated reports](../tutorials/schedule-automated-exports.md)
-- [Troubleshooting: Export issues](../troubleshooting/export-issues.md)
-- [Changelog: Export improvements](../changelog/2024-03-15-export-improvements.md)
+- [API reference: Exports](/examples/acme-export-platform/user/api-reference/overview/)
+- [Tutorial: Schedule automated reports](/examples/acme-export-platform/user/tutorials/schedule-automated-exports/)
+- [Troubleshooting: Export issues](/examples/acme-export-platform/user/troubleshooting/export-issues/)
+- [Changelog: Export improvements](/examples/acme-export-platform/user/changelog/03-15-export-improvements/)

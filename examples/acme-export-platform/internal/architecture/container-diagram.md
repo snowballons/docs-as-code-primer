@@ -1,3 +1,7 @@
+---
+title: "Container diagram — Acme Export Platform"
+description: "C4 Level 2 view. Shows the major system containers and their responsibilities."
+---
 # Container diagram — Acme Export Platform
 
 C4 Level 2 view. Shows the major system containers and their responsibilities.

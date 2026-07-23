@@ -1,3 +1,7 @@
+---
+title: "Quickstart: Export your data"
+description: "Get your first export in a few minutes."
+---
 # Quickstart: Export your data
 
 Get your first export in a few minutes.
@@ -21,5 +25,5 @@ You have a complete file that opens in your spreadsheet or tools without corrupt
 
 ## Next
 
-- Automate with the [API overview](../api-reference/overview.md)
+- Automate with the [API overview](/examples/acme-export-platform/user/api-reference/overview/)
 - Troubleshoot stuck exports in the product help center (sample omitted)

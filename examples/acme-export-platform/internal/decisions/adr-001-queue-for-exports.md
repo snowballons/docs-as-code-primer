@@ -1,3 +1,6 @@
+---
+title: "ADR-001: Use a queue for export job processing"
+---
 # ADR-001: Use a queue for export job processing
 
 ## Status

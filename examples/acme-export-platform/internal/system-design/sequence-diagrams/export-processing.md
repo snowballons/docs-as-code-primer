@@ -1,3 +1,7 @@
+---
+title: "Export processing sequence"
+description: "**Flow:** API request → queue → worker → storage → notification"
+---
 # Export processing sequence
 
 **Flow:** API request → queue → worker → storage → notification
@@ -78,6 +82,6 @@ sequenceDiagram
 
 ## Related
 
-- [State machine: export job lifecycle](../state-machines/export-job-lifecycle.md)
-- [Export queue architecture](../export-queue-architecture.md)
-- [Runbook: queue backlog](../../operations/runbooks/export-queue-backlog.md)
+- [State machine: export job lifecycle](/examples/acme-export-platform/internal/system-design/state-machines/export-job-lifecycle/)
+- [Export queue architecture](/examples/acme-export-platform/internal/system-design/export-queue-architecture/)
+- [Runbook: queue backlog](/examples/acme-export-platform/internal/operations/runbooks/export-queue-backlog/)

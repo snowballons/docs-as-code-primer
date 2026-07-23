@@ -1,3 +1,6 @@
+---
+title: "Scope: Acme Export Platform v2"
+---
 # Scope: Acme Export Platform v2
 
 ## In scope

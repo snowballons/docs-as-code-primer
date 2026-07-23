@@ -1,3 +1,7 @@
+---
+title: "Export queue architecture"
+description: "> **Internal doc.** This describes the export queue system as it exists — including the decisions that felt right at the time, the sharp edges we know about, and the things we'd do differently."
+---
 # Export queue architecture
 
 > **Internal doc.** This describes the export queue system as it exists — including the decisions that felt right at the time, the sharp edges we know about, and the things we'd do differently.
@@ -94,7 +98,7 @@ Logs: structured JSON with `job_id`, `org_id`, `status`. Search in Loki: `{app="
 
 ## Related
 
-- [ADR-001: Why a queue](../decisions/adr-001-queue-for-exports.md) — the decision that created this design
-- [Module spec: Export service](services/export-service.md) — interface and dependency contract
-- [Runbook: Queue backlog](../operations/runbooks/export-queue-backlog.md) — what to do when workers stall
-- [User feature: Scheduled exports](../../user/features/scheduled-exports.md) — how users see this system
+- [ADR-001: Why a queue](/examples/acme-export-platform/internal/decisions/adr-001-queue-for-exports/) — the decision that created this design
+- [Module spec: Export service](/examples/acme-export-platform/internal/system-design/services/export-service/) — interface and dependency contract
+- [Runbook: Queue backlog](/examples/acme-export-platform/internal/operations/runbooks/export-queue-backlog/) — what to do when workers stall
+- [User feature: Scheduled exports](/examples/acme-export-platform/user/features/scheduled-exports/) — how users see this system

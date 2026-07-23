@@ -1,3 +1,7 @@
+---
+title: "SLOs and error budget"
+description: "| | | |--|--| | **Domain** | Export Platform — job orchestration and delivery | | **Owner** | Platform SRE team | | **Review cadence** | Monthly (burn check); Quarterly (SLO adjustment) |"
+---
 # SLOs and error budget
 
 | | |
@@ -39,6 +43,6 @@
 
 ## Related
 
-- [Runbook: export queue backlog](runbooks/export-queue-backlog.md)
+- [Runbook: export queue backlog](/examples/acme-export-platform/internal/operations/runbooks/export-queue-backlog/)
 - [Dashboard: Export Platform](https://acme.grafana.internal/d/export-platform)
-- [Phase 6 primer chapter](../../../../primer/10-phase-6-operations.md)
+- [Phase 6 primer chapter](/primer/phase-6-operations/)

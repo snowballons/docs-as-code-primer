@@ -1,3 +1,7 @@
+---
+title: "Contributing"
+description: "This repository is a primer and structure kit. Contributions should improve **clarity, accuracy, or usability** of the scaffolding and guidance."
+---
 # Contributing
 
 This repository is a primer and structure kit. Contributions should improve **clarity, accuracy, or usability** of the scaffolding and guidance.

@@ -1,3 +1,7 @@
+---
+title: "User journey: Self-serve data export"
+description: "**Persona:** Enterprise Admin **Scenario:** Export usage data for quarterly compliance audit"
+---
 # User journey: Self-serve data export
 
 **Persona:** Enterprise Admin

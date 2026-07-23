@@ -1,3 +1,7 @@
+---
+title: "Export API overview"
+description: "Use the Export API to create export jobs and download results when ready."
+---
 # Export API overview
 
 Use the Export API to create export jobs and download results when ready.
@@ -35,7 +39,7 @@ sequenceDiagram
 
 Configure a webhook endpoint in the dashboard to receive `POST` notifications when exports complete or fail. Each payload carries a `job_id` and `status`.
 
-See [tutorial: Schedule automated exports](../tutorials/schedule-automated-exports.md) for configuration steps.
+See [tutorial: Schedule automated exports](/examples/acme-export-platform/user/tutorials/schedule-automated-exports/) for configuration steps.
 
 ## Errors (common)
 
@@ -48,5 +52,5 @@ See [tutorial: Schedule automated exports](../tutorials/schedule-automated-expor
 
 ## Related
 
-- Product quickstart: [../getting-started/quickstart.md](../getting-started/quickstart.md)
-- Shared terms: [../../shared/glossary.md](../../shared/glossary.md)
+- Product quickstart: [../getting-started/quickstart.md](/examples/acme-export-platform/user/getting-started/quickstart/)
+- Shared terms: [../../shared/glossary.md](/examples/acme-export-platform/shared/glossary/)

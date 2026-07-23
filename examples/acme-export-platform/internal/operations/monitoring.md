@@ -1,3 +1,7 @@
+---
+title: "Monitoring and dashboards — Export Platform"
+description: "| | | |--|--| | **Owner** | Platform SRE | | **Dashboard** | `https://acme.grafana.internal/d/export-platform` (placeholder) | | **Alert channel** | #exports-alerts (Slack); PagerDuty for SEV-1/SEV-2 "
+---
 # Monitoring and dashboards — Export Platform
 
 | | |
@@ -87,6 +91,6 @@ Log aggregation: Loki. Search patterns:
 
 ## Related
 
-- [SLOs and error budget](slos.md)
-- [Runbook: Export queue backlog](runbooks/export-queue-backlog.md)
-- [Observability section in export queue architecture](../system-design/export-queue-architecture.md#observability)
+- [SLOs and error budget](/examples/acme-export-platform/internal/operations/slos/)
+- [Runbook: Export queue backlog](/examples/acme-export-platform/internal/operations/runbooks/export-queue-backlog/)
+- [Observability section in export queue architecture](/examples/acme-export-platform/internal/system-design/export-queue-architecture/#observability)

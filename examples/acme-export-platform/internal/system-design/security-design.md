@@ -1,3 +1,7 @@
+---
+title: "Security design"
+description: "| | | |--|--| | **Scope** | Export Platform — job orchestration, data access, artifact storage | | **Reviewed** | Security team (see `docs/internal/charter/stakeholders.md` RACI) |"
+---
 # Security design
 
 | | |
@@ -84,6 +88,6 @@ Audit logs are append-only (S3 Object Lock) with a 1-year retention policy.
 
 ## Related
 
-- [Threat model template](../../../../templates/security-threat-model.md)
-- [Stakeholders + RACI](../charter/stakeholders.md)
-- [Export service module spec](services/export-service.md)
+- [Threat model template](/templates/security-threat-model/)
+- [Stakeholders + RACI](/examples/acme-export-platform/internal/charter/stakeholders/)
+- [Export service module spec](/examples/acme-export-platform/internal/system-design/services/export-service/)

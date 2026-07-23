@@ -1,3 +1,7 @@
+---
+title: "Docs-as-Code Primer"
+description: "**Structure, phases, and templates for documentation that ships with your code.**"
+---
 # Docs-as-Code Primer
 
 **Structure, phases, and templates for documentation that ships with your code.**
@@ -13,12 +17,12 @@ This is a **primer + project structure kit** — not an awesome list, not a host
 
 | Path | Who it's for | Go to |
 |------|----------------|-------|
-| **First week pack** | Copy scaffold, fill the minimum set fast | [`FIRST_WEEK.md`](FIRST_WEEK.md) |
+| **First week pack** | Copy scaffold, fill the minimum set fast | [`FIRST_WEEK.md`](/FIRST_WEEK/) |
 | **Use the scaffold** | Structure, stub policy, CI | [`scaffold/README.DOCS.md`](scaffold/README.DOCS.md) |
-| **Read the primer** | Judgment before (or while) adopting | [`LEARNING_PATH.md`](LEARNING_PATH.md) |
+| **Read the primer** | Judgment before (or while) adopting | [`LEARNING_PATH.md`](/LEARNING_PATH/) |
 | **See the example** | Filled samples (Acme Export Platform) | [`examples/acme-export-platform/`](examples/acme-export-platform/) |
 
-**Canonical phase → folder map:** [`appendix/phase-folder-map.md`](appendix/phase-folder-map.md)  
+**Canonical phase → folder map:** [`appendix/phase-folder-map.md`](/appendix/phase-folder-map/)  
 **After copy into a product repo:** set `KIT_URL` in `docs/KIT.md` (ships with the scaffold).
 
 ```text
@@ -66,7 +70,7 @@ This is a **primer + project structure kit** — not an awesome list, not a host
 
 Phases overlap. Phase 8 never ends. Use them as a mental model, not a bureaucracy.
 
-Full phase → folder → template index: **[`appendix/phase-folder-map.md`](appendix/phase-folder-map.md)**.
+Full phase → folder → template index: **[`appendix/phase-folder-map.md`](/appendix/phase-folder-map/)**.
 
 ---
 
@@ -117,7 +121,7 @@ docs/                         ← copy scaffold/docs/ into your repo
 - A SaaS or static site generator
 - A general “how to run your company” handbook
 
-See [docs/comparison.md](docs/comparison.md) to understand how this primer relates to Write the Docs, Google Tech Writing, Diataxis, C4 Model, adr-tools, and other documentation resources.
+See [docs/comparison.md](/docs/comparison/) to understand how this primer relates to Write the Docs, Google Tech Writing, Diataxis, C4 Model, adr-tools, and other documentation resources.
 
 ## When this kit may hurt
 

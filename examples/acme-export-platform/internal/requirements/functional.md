@@ -1,3 +1,7 @@
+---
+title: "Functional requirements — Acme Export Platform (sample)"
+description: "Derived from user stories and charter scope. Each FR maps to a test case and a feature doc."
+---
 # Functional requirements — Acme Export Platform (sample)
 
 Derived from user stories and charter scope. Each FR maps to a test case and a feature doc.
@@ -178,7 +182,7 @@ Scenario: Burst requests rate-limited
 
 ## Related
 
-- [Non-functional requirements](non-functional.md)
-- [User story: Export CSV](user-stories/export-csv.md)
-- [Feature doc: Scheduled exports](../../user/features/scheduled-exports.md)
-- [Template: functional-requirements](../../../../templates/functional-requirements.md)
+- [Non-functional requirements](/examples/acme-export-platform/internal/requirements/non-functional/)
+- [User story: Export CSV](/examples/acme-export-platform/internal/requirements/user-stories/export-csv/)
+- [Feature doc: Scheduled exports](/examples/acme-export-platform/user/features/scheduled-exports/)
+- [Template: functional-requirements](/templates/functional-requirements/)

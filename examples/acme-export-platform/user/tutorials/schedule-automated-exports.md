@@ -1,3 +1,7 @@
+---
+title: "Tutorial: Schedule automated exports"
+description: "Set up a recurring CSV export so your team gets weekly data without manual downloads."
+---
 # Tutorial: Schedule automated exports
 
 Set up a recurring CSV export so your team gets weekly data without manual downloads.
@@ -84,9 +88,9 @@ You now have a weekly CSV export delivered automatically. Your analytics team ge
 
 ## Next steps
 
-- [API overview: Automate exports](../api-reference/overview.md) — control exports programmatically
-- [Feature reference: Scheduled exports](../features/scheduled-exports.md) — all options and limitations
-- [Troubleshooting: Export issues](../troubleshooting/export-issues.md) — what to do if a scheduled export doesn't arrive
+- [API overview: Automate exports](/examples/acme-export-platform/user/api-reference/overview/) — control exports programmatically
+- [Feature reference: Scheduled exports](/examples/acme-export-platform/user/features/scheduled-exports/) — all options and limitations
+- [Troubleshooting: Export issues](/examples/acme-export-platform/user/troubleshooting/export-issues/) — what to do if a scheduled export doesn't arrive
 
 ## Troubleshooting
 

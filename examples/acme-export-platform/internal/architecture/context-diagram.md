@@ -1,3 +1,7 @@
+---
+title: "System context — Acme Export Platform"
+description: "C4 Level 1 style view for onboarding and shared orientation."
+---
 # System context — Acme Export Platform
 
 C4 Level 1 style view for onboarding and shared orientation.
@@ -22,4 +26,4 @@ flowchart LR
 
 - Billing is the entitlement source of truth for who may export.
 - Warehouse access is read-only from the export workers.
-- See [Container diagram](container-diagram.md) for the Level 2 view.
+- See [Container diagram](/examples/acme-export-platform/internal/architecture/container-diagram/) for the Level 2 view.

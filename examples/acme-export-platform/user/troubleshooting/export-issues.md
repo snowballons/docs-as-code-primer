@@ -1,3 +1,7 @@
+---
+title: "Troubleshooting: Export issues"
+description: "Problems with exporting your data and how to fix them."
+---
 # Troubleshooting: Export issues
 
 Problems with exporting your data and how to fix them.
@@ -91,7 +95,7 @@ If these steps don't resolve your issue:
 
 ## Related
 
-- [Quickstart: Export your data](../getting-started/quickstart.md)
-- [Feature: Scheduled exports](../features/scheduled-exports.md)
-- [Tutorial: Schedule automated exports](../tutorials/schedule-automated-exports.md)
-- [API overview](../api-reference/overview.md)
+- [Quickstart: Export your data](/examples/acme-export-platform/user/getting-started/quickstart/)
+- [Feature: Scheduled exports](/examples/acme-export-platform/user/features/scheduled-exports/)
+- [Tutorial: Schedule automated exports](/examples/acme-export-platform/user/tutorials/schedule-automated-exports/)
+- [API overview](/examples/acme-export-platform/user/api-reference/overview/)

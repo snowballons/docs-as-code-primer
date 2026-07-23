@@ -1,3 +1,7 @@
+---
+title: "Deploy pipeline — Export Platform"
+description: "| | | |--|--| | **Owner** | Platform SRE | | **Cadence** | Continuous deploy (merge to main → staging → prod) | | **Last updated** | 2026-03-10 |"
+---
 # Deploy pipeline — Export Platform
 
 | | |
@@ -68,6 +72,6 @@ We follow expand-contract for zero-downtime deploys:
 
 ## Related
 
-- [DB schema + migration strategy](../system-design/database/schema.md)
-- [Runbook: Export queue backlog](runbooks/export-queue-backlog.md)
-- [Recipe: Dual publish pattern](../../../../recipes/dual-publish.md)
+- [DB schema + migration strategy](/examples/acme-export-platform/internal/system-design/database/schema/)
+- [Runbook: Export queue backlog](/examples/acme-export-platform/internal/operations/runbooks/export-queue-backlog/)
+- [Recipe: Dual publish pattern](/recipes/dual-publish/)

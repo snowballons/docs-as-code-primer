@@ -1,3 +1,7 @@
+---
+title: "Glossary — Acme Export Platform"
+description: "| Term | Definition | |------|------------| | Export job | An asynchronous request to produce a downloadable data file | | Entitlement | Billing-verified right to use export features |"
+---
 # Glossary — Acme Export Platform
 
 | Term | Definition |

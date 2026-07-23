@@ -1,3 +1,7 @@
+---
+title: "User story: Export usage data as CSV"
+description: "**As an** enterprise administrator, **I want** to download my organisation's usage data as a CSV, **so that** I can import it into our internal reporting tool."
+---
 # User story: Export usage data as CSV
 
 **As an** enterprise administrator,  

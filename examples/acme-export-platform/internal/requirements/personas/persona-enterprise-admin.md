@@ -1,3 +1,7 @@
+---
+title: "Persona: Enterprise Admin"
+description: "| | | |--|--| | **Role** | Administers an enterprise Acme account | | **Technical level** | Comfortable with SaaS admin consoles; not necessarily a developer |"
+---
 # Persona: Enterprise Admin
 
 | | |

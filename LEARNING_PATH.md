@@ -1,44 +1,48 @@
+---
+title: "Learning path"
+description: "Work through these in order if you are learning."
+---
 # Learning path
 
 Work through these in order if you are learning.
 
-If you are adopting today: follow [`FIRST_WEEK.md`](FIRST_WEEK.md) (copy scaffold + minimum files), keep [`appendix/phase-folder-map.md`](appendix/phase-folder-map.md) as the path SSoT, then read primer chapters as you fill each phase.
+If you are adopting today: follow [`FIRST_WEEK.md`](/FIRST_WEEK/) (copy scaffold + minimum files), keep [`appendix/phase-folder-map.md`](/appendix/phase-folder-map/) as the path SSoT, then read primer chapters as you fill each phase.
 
 ## Core (required)
 
-1. [What Docs as Code means](primer/01-what-is-docs-as-code.md)
-2. [Two audiences](primer/02-two-audiences.md)
-3. [Phases overview](primer/03-phases-overview.md)
-4. [Content governance](primer/14-content-governance.md)
+1. [What Docs as Code means](/primer/what-is-docs-as-code/)
+2. [Two audiences](/primer/two-audiences/)
+3. [Phases overview](/primer/phases-overview/)
+4. [Content governance](/primer/content-governance/)
 
 ## Lifecycle chapters
 
-1. [Phase 0 — Charter](primer/04-phase-0-charter.md)
-2. [Phase 1 — Requirements](primer/05-phase-1-requirements.md)
-3. [Phase 2 — Architecture](primer/06-phase-2-architecture.md)
-4. [Phase 3 — Detailed design](primer/07-phase-3-detailed-design.md)
-5. [Phase 4 — Implementation docs](primer/08-phase-4-implementation.md)
-6. [Phase 5 — Testing](primer/09-phase-5-testing.md)
-7. [Phase 6 — Operations](primer/10-phase-6-operations.md)
-8. [Phase 7 — User docs](primer/11-phase-7-user-docs.md)
-9. [Phase 8 — Maintenance](primer/12-phase-8-maintenance.md)
-10. [Phase 9 — Retirement](primer/13-phase-9-retirement.md)
+1. [Phase 0 — Charter](/primer/phase-0-charter/)
+2. [Phase 1 — Requirements](/primer/phase-1-requirements/)
+3. [Phase 2 — Architecture](/primer/phase-2-architecture/)
+4. [Phase 3 — Detailed design](/primer/phase-3-detailed-design/)
+5. [Phase 4 — Implementation docs](/primer/phase-4-implementation/)
+6. [Phase 5 — Testing](/primer/phase-5-testing/)
+7. [Phase 6 — Operations](/primer/phase-6-operations/)
+8. [Phase 7 — User docs](/primer/phase-7-user-docs/)
+9. [Phase 8 — Maintenance](/primer/phase-8-maintenance/)
+10. [Phase 9 — Retirement](/primer/phase-9-retirement/)
 
 ## Practice layers
 
-1. [Diagrams as code](primer/15-diagrams-as-code.md)
-2. [CI and quality gates](primer/16-ci-and-quality-gates.md)
-3. [Agent-ready docs](primer/17-agent-ready-docs.md)
-4. [Anti-patterns](primer/18-anti-patterns.md)
-5. [Why now (2026)](primer/19-why-now-2026.md)
+1. [Diagrams as code](/primer/diagrams-as-code/)
+2. [CI and quality gates](/primer/ci-and-quality-gates/)
+3. [Agent-ready docs](/primer/agent-ready-docs/)
+4. [Anti-patterns](/primer/anti-patterns/)
+5. [Why now (2026)](/primer/why-now-2026/)
 
 ## Then use the kit
 
-- [`FIRST_WEEK.md`](FIRST_WEEK.md) — minimum fill set
+- [`FIRST_WEEK.md`](/FIRST_WEEK/) — minimum fill set
 - [`scaffold/README.DOCS.md`](scaffold/README.DOCS.md) — copy instructions (kit repo)
 - [`scaffold/docs/GOVERNANCE.md`](scaffold/docs/GOVERNANCE.md) — stub policy (copied)
 - [`scaffold/docs/KIT.md`](scaffold/docs/KIT.md) — upstream path index (copied; post-copy safe)
-- [`appendix/phase-folder-map.md`](appendix/phase-folder-map.md) — canonical paths (kit repo)
+- [`appendix/phase-folder-map.md`](/appendix/phase-folder-map/) — canonical paths (kit repo)
 - [`templates/`](templates/) · [`examples/acme-export-platform/`](examples/acme-export-platform/) · [`recipes/`](recipes/)
 
 ## Suggested timeboxes

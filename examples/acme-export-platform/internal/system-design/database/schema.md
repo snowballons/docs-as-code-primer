@@ -1,3 +1,7 @@
+---
+title: "Database schema"
+description: "| | | |--|--| | **Domain** | Export job orchestration | | **Primary store** | PostgreSQL 16 (RDS) | | **Consistency** | Strong on job rows; eventual on analytics warehouse reads |"
+---
 # Database schema
 
 | | |
@@ -124,6 +128,6 @@ Archive export_jobs older than 90 days to cold storage per compliance policy. Se
 
 ## Related
 
-- [Export service module spec](../services/export-service.md)
-- [Export job state machine](../state-machines/export-job-lifecycle.md)
-- [Sequence diagram: export processing](../sequence-diagrams/export-processing.md)
+- [Export service module spec](/examples/acme-export-platform/internal/system-design/services/export-service/)
+- [Export job state machine](/examples/acme-export-platform/internal/system-design/state-machines/export-job-lifecycle/)
+- [Sequence diagram: export processing](/examples/acme-export-platform/internal/system-design/sequence-diagrams/export-processing/)

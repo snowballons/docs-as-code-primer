@@ -1,3 +1,7 @@
+---
+title: "Non-functional requirements — Acme Export Platform (sample)"
+description: "Vague NFRs are not NFRs. Targets below are illustrative for the example product."
+---
 # Non-functional requirements — Acme Export Platform (sample)
 
 Vague NFRs are not NFRs. Targets below are illustrative for the example product.
