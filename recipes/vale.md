@@ -2,6 +2,7 @@
 title: "Recipe: Vale prose linting"
 description: "Enforce tone, terminology, and audience-appropriate language with Vale — a markup-aware linter that understands audience boundaries."
 ---
+
 # Recipe: Vale prose linting
 
 Enforce tone, terminology, and audience-appropriate language with Vale — a markup-aware linter that understands audience boundaries.

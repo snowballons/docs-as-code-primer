@@ -2,6 +2,7 @@
 title: "Two audiences"
 description: "A single documentation stream rarely serves both engineers and customers well."
 ---
+
 # Two audiences
 
 A single documentation stream rarely serves both engineers and customers well.

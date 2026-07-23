@@ -1,6 +1,7 @@
 ---
 title: "Architecture overview (C4)"
 ---
+
 # Architecture overview (C4)
 
 ## Level 1 — System context
@@ -56,6 +57,6 @@ Key architecture decisions should link to ADRs:
 
 ## Related
 
-- ADRs: [`docs/internal/decisions/`](../docs/internal/decisions/)
+- ADRs: [`docs/internal/decisions/`](#)
 - Cross-cutting concerns: [`templates/cross-cutting-concerns-checklist.md`](/templates/cross-cutting-concerns-checklist/)
 - Sequence diagrams: [`templates/sequence-diagram-page.md`](/templates/sequence-diagram-page/)

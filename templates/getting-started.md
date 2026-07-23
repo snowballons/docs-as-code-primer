@@ -2,6 +2,7 @@
 title: "Getting started with [Product name]"
 description: "> A getting-started guide is the shortest path from zero to first value. If it takes longer than [N] minutes, it's a tutorial or a setup reference, not a getting-started."
 ---
+
 # Getting started with [Product name]
 
 > A getting-started guide is the shortest path from zero to first value. If it takes longer than [N] minutes, it's a tutorial or a setup reference, not a getting-started.
@@ -37,9 +38,9 @@ Expected output or confirmation page shown
 
 ## Next steps
 
-- [Tutorial: [real scenario]](link)
-- [Feature doc: [key feature]](link)
-- [API reference](link)
+- [Tutorial: [real scenario]](#)
+- [Feature doc: [key feature]](#)
+- [API reference](#)
 
 ## Troubleshooting
 
@@ -50,6 +51,6 @@ Expected output or confirmation page shown
 
 ## Related
 
-- [Full setup guide](link) (if different from quick-start)
-- [SDK reference](link)
-- [Sample code / demo repo](link)
+- [Full setup guide](#) (if different from quick-start)
+- [SDK reference](#)
+- [Sample code / demo repo](#)

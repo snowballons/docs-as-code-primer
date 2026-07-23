@@ -18,7 +18,7 @@ disable = ["MD013", "MD033"]
 exclude = [
     ".git",
     "node_modules",
-    "scaffold/docs",
+    "scaffold",
     "LICENSE.md",
 ]
 

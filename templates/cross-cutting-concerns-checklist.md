@@ -2,6 +2,7 @@
 title: "Cross-cutting concerns checklist"
 description: "For each concern, document the approach and where it is configured/implemented. Mark N/A only when the concern genuinely does not apply."
 ---
+
 # Cross-cutting concerns checklist
 
 For each concern, document the approach and where it is configured/implemented. Mark N/A only when the concern genuinely does not apply.

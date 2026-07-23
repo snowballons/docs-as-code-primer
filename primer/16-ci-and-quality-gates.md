@@ -2,6 +2,7 @@
 title: "CI and quality gates"
 description: "Automation enforces what process cannot. The scaffold ships a minimal CI workflow; this chapter explains how to grow it."
 ---
+
 # CI and quality gates
 
 Automation enforces what process cannot. The scaffold ships a minimal CI workflow; this chapter explains how to grow it.

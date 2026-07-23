@@ -1,21 +1,22 @@
 ---
 title: "Documentation as Code in 2026"
-description: "*A research report for engineering & DevEx leaders*"
+description: "A research report for engineering and DevEx leaders"
 ---
+
 # Documentation as Code in 2026
 
-*A research report for engineering & DevEx leaders*
+A research report for engineering and DevEx leaders
 
 ---
 
 ## Table of Contents
 
 1. [Overview & Definitions](#overview--definitions)  
-2. [2024–2026 Evolution & Adoption](#2024-2026-evolution-adoption)  
+2. 2024–2026 Evolution & Adoption  
 3. [Tools, Platforms & Ecosystem (2026)](#tools-platforms--ecosystem-2026)  
 4. [Methodologies & Best Practices](#methodologies--best-practices)  
 5. [Benefits, Challenges & Real-World Impact](#benefits-challenges--real-world-impact)  
-6. [Future Outlook: 2026–2030](#future-outlook-2026-2030)  
+6. Future Outlook: 2026–2030  
 7. [Maturity Model & Roadmap](#maturity-model--roadmap)  
 8. [Tool Selection Framework](#tool-selection-framework)  
 9. [Actionable Starter Kit](#actionable-starter-kit)  
@@ -94,7 +95,8 @@ Precise percentage breakdowns of “teams using Docs as Code” are still rare; 
   - Agentic coding and RAG systems intensify the need for **machine-readable, versioned documentation**.  
   - Postman/Levo synthesis: only **24%** of teams design APIs explicitly for agents; 13% equally for humans and agents; 7% primarily for agents; 5% are “transitioning” [30]. But the guidance is clear: agent-ready API docs must be **spec-complete, error-typed, and runtime-synced** [30].  
 
-**Overall assessment (2026)**  
+#### Overall assessment (2026)  
+
 - For *technical* documentation (APIs, SDKs, infra, internal platforms), docs-as-code is **de facto mainstream** in cloud-native and API-first companies, and a strong minority/standard aspirational model in the rest.  
 - For broader enterprise content (end‑user docs, compliance manuals), docs-as-code is common where teams have strong DevOps culture or AI-readiness goals, but traditional HAT/CCMS remains significant.
 
@@ -371,6 +373,7 @@ Drawing from Amplitude’s implicit four-stage model, anivar’s Seeds→Foundat
 - No CI checks, minimal or no analytics.  
 
 **Near-term goals:**  
+
 - Identify top 3–5 critical doc families (APIs, onboarding, runbooks).  
 - Start mirroring them into a Git repo in Markdown; choose a simple SSG (MkDocs or Docusaurus).
 
@@ -381,6 +384,7 @@ Drawing from Amplitude’s implicit four-stage model, anivar’s Seeds→Foundat
 - Single-language; limited analytics; AI tools used opportunistically.
 
 **Key practices:**  
+
 - Introduce style/linting, link checking, and strict build gates.  
 - Map at least one major API or service to OpenAPI and generate reference docs.
 
@@ -392,6 +396,7 @@ Drawing from Amplitude’s implicit four-stage model, anivar’s Seeds→Foundat
 - Search, versioning, and localization in place; basic analytics on search, page views, support tickets.
 
 **Key practices:**  
+
 - Centralize docs where possible (Grab pattern).  
 - Introduce **documentation metrics**: time-to-answer, docs-touched-before-ticket, search failure rate, update latency after release.  
 - Start building `llms.txt` and agent guidance files.
@@ -404,6 +409,7 @@ Drawing from Amplitude’s implicit four-stage model, anivar’s Seeds→Foundat
 - Evidence packages for regulated systems are versioned artifacts, with clear chain of approvals.
 
 **Key practices:**  
+
 - Adopt a documentation observability framework (e.g., signals like weak evidence, version conflicts, unsupported feature demand).  
 - Treat AI as a contributor class with governance and metrics (PR acceptance rate, hallucination incidents avoided).  
 - Align doc governance with NIST AI RMF and ISO/IEC 42001 where applicable [32].
@@ -559,8 +565,4 @@ mkdocs.yml / docusaurus.config.js / next.config.js
 [33] Docs Observability: Why Your AI Isn’t Lying. <https://alexanderfashakin.substack.com/p/docs-observability-why-your-ai-isnt>  
 [34] The State of WebAssembly – 2025 and 2026. <https://platform.uno/blog/the-state-of-webassembly-2025-2026/>
 
-
-
-
-
-https://dr.miromind.ai/report/share/CXioxGewb71wyxA
+<https://dr.miromind.ai/report/share/CXioxGewb71wyxA>

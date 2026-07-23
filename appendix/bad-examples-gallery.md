@@ -2,6 +2,7 @@
 title: "Bad examples gallery"
 description: "Before/after pairs showing common documentation anti-patterns. Each example is based on the Acme Export Platform concept."
 ---
+
 # Bad examples gallery
 
 Before/after pairs showing common documentation anti-patterns. Each example is based on the Acme Export Platform concept.
@@ -28,7 +29,7 @@ The export job is processed asynchronously. Poll GET /v1/exports/{id} until stat
 
 ### Good — goal-oriented
 
-```markdown
+````markdown
 # Export your data
 
 Generate a CSV or JSON export of your account data for reporting, auditing, or analysis.
@@ -38,11 +39,13 @@ curl -X POST https://api.acme.io/v1/exports \
   -H "Authorization: Bearer $API_KEY" \
   -d '{"format": "csv", "filters": {"date_range": {"from": "2024-01-01", "to": "2024-12-31"}}}'
 ```
+````
 
 Acme processes your request in the background and notifies you when the file is ready. Most exports complete within 2 minutes.
 
 **Note:** Large exports (over 1M rows) may take longer. You can close the browser and come back — the download link stays valid for 24 hours.
-```
+
+```text
 
 **What changed:** Goal-first headline, concrete example, user-oriented guarantees, appropriate tone.
 
@@ -128,7 +131,7 @@ ADR-001 chose a pull-based job queue because exports for >500k rows exceed 30s. 
 
 ### Bad — organised by component
 
-```
+```text
 docs/internal/operations/runbooks/
 ├── api-server-down.md
 ├── redis-cache-miss-spike.md
@@ -140,7 +143,7 @@ docs/internal/operations/runbooks/
 
 ### Good — organised by symptom
 
-```
+```text
 docs/internal/operations/runbooks/
 ├── high-error-rate-on-exports.md
 │   └── (linked from: api-server-down, worker-crash, webhook-timeout)
@@ -166,7 +169,7 @@ A single page at `docs/user/api-reference/` that renders the full OpenAPI spec w
 
 ### Good — curated API reference
 
-```
+```text
 docs/user/api-reference/
 ├── overview.md              ← auth, base URL, rate limits, common headers
 ├── exports.md               ← Create, check, cancel — with curl examples

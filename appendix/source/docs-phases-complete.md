@@ -2,6 +2,7 @@
 title: "Documentation as Code — Complete Phase Guide"
 description: "<!-- markdownlint-disable MD024 MD036 -->"
 ---
+
 # Documentation as Code — Complete Phase Guide
 
 <!-- markdownlint-disable MD024 MD036 -->
@@ -40,6 +41,7 @@ Before diving into individual phases, it is essential to understand that every d
 Part 2 of this document set describes exactly how to structure, maintain, and publish these two streams. In this guide, every phase will explicitly note which version its outputs belong to.
 
 A rough rule of thumb:
+
 - **Phases 0–6** produce content that is primarily **Internal**.
 - **Phase 7** produces content that is primarily **User-Facing**.
 - **Phase 8** produces content that spans **both**.
@@ -94,6 +96,7 @@ A single, clear paragraph — ideally two to four sentences — describing what 
 List the specific, measurable outcomes the business expects from this project. Each objective should have a corresponding metric and a target value. Vague objectives ("improve performance") are not acceptable here. Every KPI must be something you can actually measure.
 
 *Example:*
+
 - *Reduce data export support tickets by 60% within 3 months of launch.*
 - *Achieve 80% of enterprise customers using self-service export within 6 months.*
 - *Maintain export job completion time under 30 seconds for datasets up to 1 million rows.*
@@ -111,9 +114,11 @@ Document the constraints (budget, timeline, technology mandates, regulatory requ
 A short, initial list of the biggest risks to project success. This is not an exhaustive risk analysis — that comes later — but a starting point. Include the risk, the likelihood (High/Medium/Low), the impact (High/Medium/Low), and an initial mitigation thought.
 
 ### Documentation Version
+
 All Phase 0 content lives in **Internal Documentation** under `/docs/internal/charter/`. None of this content is user-facing.
 
 ### Definition of Done
+
 - [ ] Vision statement reviewed and approved by executive sponsor
 - [ ] All KPIs are measurable and have baseline and target values
 - [ ] Scope document clearly lists both in-scope and out-of-scope items
@@ -124,6 +129,7 @@ All Phase 0 content lives in **Internal Documentation** under `/docs/internal/ch
 - [ ] Pull request approved by Tech Lead before Phase 1 begins
 
 ### Common Mistakes to Avoid
+
 - Writing a vision statement that sounds like a marketing pitch. The charter is for the team, not for sales.
 - Skipping the out-of-scope section. It feels unnecessary until scope creep hits.
 - Treating the charter as a one-time artifact. Revisit it at the start of every major milestone to confirm the project is still solving the right problem.
@@ -175,6 +181,7 @@ Write each user story in the format:
 Each story must be accompanied by acceptance criteria written in Given/When/Then format. These criteria become the basis for QA test cases in Phase 5.
 
 *Example:*
+
 - *User Story: As an enterprise administrator, I want to download my organisation's usage data as a CSV, so that I can import it into our internal reporting tool.*
 - *Acceptance Criteria:*
   - *Given I am an authenticated enterprise admin, when I navigate to the Data Export page, then I see an option to export in CSV, JSON, and XLSX formats.*
@@ -191,9 +198,11 @@ For each primary persona, document the end-to-end journey through the feature or
 Organise all requirements and stories into a prioritised backlog using a clear framework (MoSCoW: Must Have, Should Have, Could Have, Won't Have — or similar). Every item in the Must Have category defines the Minimum Viable Product.
 
 ### Documentation Version
+
 All Phase 1 content lives in **Internal Documentation** under `/docs/internal/requirements/`. User journey maps and simplified persona descriptions may later be adapted for user-facing onboarding materials in Phase 7, but the source documents live internally.
 
 ### Definition of Done
+
 - [ ] All functional requirements written in testable format and reviewed by QA for testability
 - [ ] Non-functional requirements documented with specific numeric targets (not vague statements)
 - [ ] User stories written with Given/When/Then acceptance criteria
@@ -204,6 +213,7 @@ All Phase 1 content lives in **Internal Documentation** under `/docs/internal/re
 - [ ] All documents committed to version control and PR approved
 
 ### Common Mistakes to Avoid
+
 - Writing requirements that describe the solution rather than the need. "The button should be green" is a design decision masquerading as a requirement.
 - Leaving acceptance criteria vague. "The export should be fast" is not a criterion. "The export should complete in under 30 seconds for files up to 100MB" is.
 - Neglecting non-functional requirements until after launch, when they are much more expensive to address.
@@ -246,6 +256,7 @@ For complex containers — particularly the main API service or a complex data p
 
 **Data Architecture**
 Document the data model at a high level. This is not the full database schema (that is Phase 3), but rather:
+
 - What types of data does the system store?
 - What is the retention policy for each data type?
 - How does data flow through the system from ingestion to storage to output?
@@ -280,6 +291,7 @@ ADRs are immutable once accepted. If a decision is later reversed, a new ADR is 
 
 **Technology Selection Rationale**
 For every major technology choice (database type, cloud platform, programming language, framework, message broker, etc.), document:
+
 - Why this technology was selected
 - What alternatives were evaluated
 - What vendor lock-in risks exist
@@ -289,6 +301,7 @@ For every major technology choice (database type, cloud platform, programming la
 Document the expected load profile at launch and at 6/12/24 months. Translate this into infrastructure sizing and cost estimates. This is not a financial commitment but a planning reference. Include the assumptions behind the estimates so they can be revisited when assumptions change.
 
 ### Documentation Version
+
 All Phase 2 content lives in **Internal Documentation** under `/docs/internal/architecture/`. ADRs live under `/docs/internal/decisions/`. High-level context diagrams and integration architecture overviews may be referenced (not reproduced) in user-facing API documentation in Phase 7.
 
 ### Definition of Done

@@ -1,6 +1,7 @@
 ---
 title: "Deprecation notice: [Feature or API]"
 ---
+
 # Deprecation notice: [Feature or API]
 
 ## What is being deprecated

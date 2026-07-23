@@ -2,6 +2,7 @@
 title: "Recipe: Deploy to Cloudflare Pages"
 description: "Publish your MkDocs or Docusaurus site via Cloudflare Pages, with optional access policy for internal docs."
 ---
+
 # Recipe: Deploy to Cloudflare Pages
 
 Publish your MkDocs or Docusaurus site via Cloudflare Pages, with optional access policy for internal docs.

@@ -1,6 +1,7 @@
 ---
 title: "Security threat model: [System/Feature]"
 ---
+
 # Security threat model: [System/Feature]
 
 ## Scope

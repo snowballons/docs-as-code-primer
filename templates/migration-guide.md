@@ -2,6 +2,7 @@
 title: "Migration guide: [Version / feature name]"
 description: "> A migration guide tells someone what changed, why, and exactly what they need to do. If they skip the window, they break."
 ---
+
 # Migration guide: [Version / feature name]
 
 > A migration guide tells someone what changed, why, and exactly what they need to do. If they skip the window, they break.
@@ -57,6 +58,6 @@ If something goes wrong:
 
 ## Related
 
-- [Deprecation notice](link)
-- [Changelog entry](link)
-- [Support contact](link)
+- [Deprecation notice](#)
+- [Changelog entry](#)
+- [Support contact](#)

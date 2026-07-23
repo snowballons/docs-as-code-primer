@@ -2,6 +2,7 @@
 title: "Phase 6 — Deployment & Operations"
 description: "| | | |--|--| | **Phase** | 6 | | **Primary path** | `docs/internal/operations/` |"
 ---
+
 # Phase 6 — Deployment & Operations
 
 | | |

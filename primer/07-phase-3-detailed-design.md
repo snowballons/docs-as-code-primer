@@ -2,6 +2,7 @@
 title: "Phase 3 — Detailed System Design"
 description: "| | | |--|--| | **Phase** | 3 | | **Primary path** | `docs/internal/system-design/` |"
 ---
+
 # Phase 3 — Detailed System Design
 
 | | |

@@ -2,6 +2,7 @@
 title: "Templates"
 description: "Fill-in-the-blank artifacts. Copy into your repo's `docs/` tree (or keep this folder and reference it)."
 ---
+
 # Templates
 
 Fill-in-the-blank artifacts. Copy into your repo's `docs/` tree (or keep this folder and reference it).

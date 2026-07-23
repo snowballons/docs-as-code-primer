@@ -2,6 +2,7 @@
 title: "Database schema"
 description: "| | | |--|--| | **Domain** | Export job orchestration | | **Primary store** | PostgreSQL 16 (RDS) | | **Consistency** | Strong on job rows; eventual on analytics warehouse reads |"
 ---
+
 # Database schema
 
 | | |

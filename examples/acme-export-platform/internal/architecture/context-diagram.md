@@ -2,6 +2,7 @@
 title: "System context — Acme Export Platform"
 description: "C4 Level 1 style view for onboarding and shared orientation."
 ---
+
 # System context — Acme Export Platform
 
 C4 Level 1 style view for onboarding and shared orientation.

@@ -2,6 +2,7 @@
 title: "Phase 0 — Project Vision & Charter"
 description: "| | | |--|--| | **Phase** | 0 | | **Primary path** | `docs/internal/charter/` |"
 ---
+
 # Phase 0 — Project Vision & Charter
 
 | | |

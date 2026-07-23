@@ -2,6 +2,7 @@
 title: "Agent-ready docs"
 description: "AI coding agents increasingly consume documentation. Structure helps humans and agents find what they need."
 ---
+
 # Agent-ready docs
 
 AI coding agents increasingly consume documentation. Structure helps humans and agents find what they need.

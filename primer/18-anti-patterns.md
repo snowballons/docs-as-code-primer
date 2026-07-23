@@ -2,6 +2,7 @@
 title: "Anti-patterns"
 description: "Each anti-pattern includes a condensed example and the preferred pattern. See the [Bad examples gallery](/appendix/bad-examples-gallery/) for full before/after pairs."
 ---
+
 # Anti-patterns
 
 Each anti-pattern includes a condensed example and the preferred pattern. See the [Bad examples gallery](/appendix/bad-examples-gallery/) for full before/after pairs.

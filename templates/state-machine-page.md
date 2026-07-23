@@ -1,6 +1,7 @@
 ---
 title: "State machine: [Entity name]"
 ---
+
 # State machine: [Entity name]
 
 ## States

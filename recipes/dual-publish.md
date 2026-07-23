@@ -2,6 +2,7 @@
 title: "Recipe: Dual publish — internal + user site"
 description: "Publish internal docs to a private site and user docs to a public site from the same repository."
 ---
+
 # Recipe: Dual publish — internal + user site
 
 Publish internal docs to a private site and user docs to a public site from the same repository.

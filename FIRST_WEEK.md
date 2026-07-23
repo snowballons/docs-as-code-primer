@@ -2,6 +2,7 @@
 title: "First week pack"
 description: "Use this after you copy [`scaffold/`](scaffold/) into your repository. Goal: a **usable** docs spine in about one working week for a small team — not every folder filled."
 ---
+
 # First week pack
 
 Use this after you copy [`scaffold/`](scaffold/) into your repository. Goal: a **usable** docs spine in about one working week for a small team — not every folder filled.

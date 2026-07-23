@@ -2,6 +2,7 @@
 title: "Documentation as Code — Two-Version Strategy"
 description: "> **This document is Part 2 of 2.** > It defines *where* documentation lives, *who* it is for, and how Internal and User-Facing documentation are structured, maintained, and published as two coordinat"
 ---
+
 # Documentation as Code — Two-Version Strategy
 
 > **This document is Part 2 of 2.**
@@ -490,25 +491,32 @@ When a feature or API is being deprecated:
 
 ## Common Pitfalls and How to Avoid Them
 
-**Pitfall 1: Treating the split as optional until later**
+### Pitfall 1: Treating the split as optional until later
+
 Teams often start with a single documentation stream with the intention of splitting it "when the project matures". In practice, the split never happens because refactoring documentation is difficult and low-priority. Start with the two-directory structure from day one, even if both are sparsely populated initially. Structure is easy to fill; retrofitting structure onto an existing flat structure is painful.
 
-**Pitfall 2: Internal documentation that is too sanitised**
+### Pitfall 2: Internal documentation that is too sanitised
+
 If internal documentation reads like public documentation — carefully worded, avoiding mention of trade-offs or known issues — it is failing its audience. Engineers need the honest version. A design document that says "we chose this approach because of time pressure and will need to revisit it" is more valuable than one that presents the decision as obviously correct.
 
-**Pitfall 3: User-facing documentation that is too engineering-centred**
+### Pitfall 3: User-facing documentation that is too engineering-centred
+
 User-facing documentation written by engineers for engineers and then published to users is one of the most common documentation failures. "The export endpoint accepts a YYYY-MM-DD date format in the `from` query parameter" is engineering documentation. "Enter the start date for your export using the calendar picker, or type it in the format 2026-07-19" is user documentation. Ask: is this written from the user's goal or from the system's implementation?
 
-**Pitfall 4: Content duplication instead of content reuse**
+### Pitfall 4: Content duplication instead of content reuse
+
 When the same information appears in both streams as separately maintained copies, they will diverge. Use the shared directory and content reuse mechanisms described above. Any piece of information with two maintained copies is a synchronisation problem waiting to happen.
 
-**Pitfall 5: Runbooks that have never been tested**
+### Pitfall 5: Runbooks that have never been tested
+
 A runbook that looks complete on paper but has never been followed during an actual incident is an untested assumption. Game days — scheduled exercises where on-call engineers execute runbooks against a staging environment under simulated failure conditions — are the only reliable way to validate that runbooks work. Schedule them, document the results, and update the runbooks based on findings.
 
-**Pitfall 6: User-facing API documentation that is a raw export of the internal OpenAPI spec**
+### Pitfall 6: User-facing API documentation that is a raw export of the internal OpenAPI spec
+
 The internal OpenAPI spec is a contract for engineers. The consumer-facing API reference is documentation for developers integrating with your product. They are not the same thing. The consumer reference needs: a conceptual introduction to what the API is for, an authentication guide written for a first-time user, code examples in multiple languages, clear explanations of pagination and rate limiting as standalone concepts, and error handling guidance that goes beyond listing error codes.
 
-**Pitfall 7: Publishing pipelines that deploy both streams together**
+### Pitfall 7: Publishing pipelines that deploy both streams together
+
 If the internal and user-facing documentation build and deploy together, a documentation review bottleneck in one stream blocks the other. They should be independent pipelines with independent deployment schedules. Internal documentation deploys on every merge. User-facing documentation deploys on release or when explicitly triggered.
 
 ---

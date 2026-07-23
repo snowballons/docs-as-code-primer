@@ -2,6 +2,7 @@
 title: "Phase 2 — Architecture & System Design"
 description: "| | | |--|--| | **Phase** | 2 | | **Primary path** | `docs/internal/architecture/` + `docs/internal/decisions/` |"
 ---
+
 # Phase 2 — Architecture & System Design
 
 | | |

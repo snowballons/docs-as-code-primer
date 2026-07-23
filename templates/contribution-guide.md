@@ -2,6 +2,7 @@
 title: "Contribution guide"
 description: "> Every developer should know how to contribute within their first hour of reading the codebase."
 ---
+
 # Contribution guide
 
 > Every developer should know how to contribute within their first hour of reading the codebase.

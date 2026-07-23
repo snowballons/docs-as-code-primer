@@ -7,10 +7,10 @@ assignees: ''
 
 ---
 
-**What's broken**
+## What's broken
 
 **Where** (file path or section):
 
-**Expected behaviour**
+## Expected behaviour
 
 **Screenshots or error output** (if applicable)

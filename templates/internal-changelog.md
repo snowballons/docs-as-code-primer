@@ -1,6 +1,7 @@
 ---
 title: "Internal changelog"
 ---
+
 # Internal changelog
 
 ## [Version / Sprint] — YYYY-MM-DD

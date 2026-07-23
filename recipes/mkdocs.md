@@ -2,6 +2,7 @@
 title: "Recipe: MkDocs Material"
 description: "Publish the scaffold Markdown with MkDocs when you want a simple internal or public site."
 ---
+
 # Recipe: MkDocs Material
 
 Publish the scaffold Markdown with MkDocs when you want a simple internal or public site.

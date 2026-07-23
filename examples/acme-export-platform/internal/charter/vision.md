@@ -1,6 +1,7 @@
 ---
 title: "Vision — Acme Export Platform"
 ---
+
 # Vision — Acme Export Platform
 
 ## Vision statement

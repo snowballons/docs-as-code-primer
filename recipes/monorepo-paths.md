@@ -2,6 +2,7 @@
 title: "Recipe: Monorepo path variants"
 description: "When your docs scaffold lives inside a monorepo with multiple services, adjust paths to avoid naming collisions."
 ---
+
 # Recipe: Monorepo path variants
 
 When your docs scaffold lives inside a monorepo with multiple services, adjust paths to avoid naming collisions.

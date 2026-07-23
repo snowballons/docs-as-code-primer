@@ -1,6 +1,7 @@
 ---
 title: "Knowledge transfer: [Topic]"
 ---
+
 # Knowledge transfer: [Topic]
 
 ## Session metadata

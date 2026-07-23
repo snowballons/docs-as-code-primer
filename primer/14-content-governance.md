@@ -2,6 +2,7 @@
 title: "Content governance"
 description: "Governance prevents drift between what the system does and what the docs say."
 ---
+
 # Content governance
 
 Governance prevents drift between what the system does and what the docs say.

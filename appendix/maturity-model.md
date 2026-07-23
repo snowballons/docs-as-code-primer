@@ -2,6 +2,7 @@
 title: "Documentation maturity model"
 description: "A framework for assessing where your team is and what to aim for next. Based on the practices in this kit."
 ---
+
 # Documentation maturity model
 
 A framework for assessing where your team is and what to aim for next. Based on the practices in this kit.

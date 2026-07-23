@@ -2,6 +2,7 @@
 title: "Functional requirements — Acme Export Platform (sample)"
 description: "Derived from user stories and charter scope. Each FR maps to a test case and a feature doc."
 ---
+
 # Functional requirements — Acme Export Platform (sample)
 
 Derived from user stories and charter scope. Each FR maps to a test case and a feature doc.

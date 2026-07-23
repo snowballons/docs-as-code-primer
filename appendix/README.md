@@ -2,6 +2,7 @@
 title: "Appendix"
 description: "| Doc | Purpose | |-----|---------| | [phase-folder-map.md](/appendix/phase-folder-map/) | **Canonical** phase → folder → template map | | [glossary.md](/appendix/glossary/) | Terms used across this repository |"
 ---
+
 # Appendix
 
 | Doc | Purpose |

@@ -2,6 +2,7 @@
 title: "Phase 1 — User & Business Requirements"
 description: "| | | |--|--| | **Phase** | 1 | | **Primary path** | `docs/internal/requirements/` |"
 ---
+
 # Phase 1 — User & Business Requirements
 
 | | |

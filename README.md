@@ -2,6 +2,7 @@
 title: "Docs-as-Code Primer"
 description: "**Structure, phases, and templates for documentation that ships with your code.**"
 ---
+
 # Docs-as-Code Primer
 
 **Structure, phases, and templates for documentation that ships with your code.**

@@ -2,6 +2,7 @@
 title: "What Docs as Code means"
 description: "Documentation as Code means applying software engineering discipline to documentation:"
 ---
+
 # What Docs as Code means
 
 Documentation as Code means applying software engineering discipline to documentation:

@@ -2,6 +2,7 @@
 title: "Phases overview"
 description: "Ten phases mirror a software lifecycle. They are a **mental model**, not a waterfall gate system. Phases 3–5 often run in parallel. Phase 8 never ends."
 ---
+
 # Phases overview
 
 Ten phases mirror a software lifecycle. They are a **mental model**, not a waterfall gate system. Phases 3–5 often run in parallel. Phase 8 never ends.

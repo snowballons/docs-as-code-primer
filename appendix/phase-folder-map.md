@@ -2,6 +2,7 @@
 title: "Phase → folder map (canonical)"
 description: "> **This is the canonical map.** Other docs should link here instead of redefining paths. > Adopters: after copying the scaffold, this map still applies under your repo’s `docs/`."
 ---
+
 # Phase → folder map (canonical)
 
 > **This is the canonical map.** Other docs should link here instead of redefining paths.

@@ -1,6 +1,7 @@
 ---
 title: "Recipe: OpenAPI → user API reference"
 ---
+
 # Recipe: OpenAPI → user API reference
 
 ## Rule

@@ -2,6 +2,7 @@
 title: "Recipes"
 description: "Short publish/wiring guides. The kit stays SSG-agnostic; these are optional next steps."
 ---
+
 # Recipes
 
 Short publish/wiring guides. The kit stays SSG-agnostic; these are optional next steps.

@@ -2,6 +2,7 @@
 title: "Phase 4 — Implementation & Code Documentation"
 description: "| | | |--|--| | **Phase** | 4 | | **Primary path** | `docs/internal/development/` |"
 ---
+
 # Phase 4 — Implementation & Code Documentation
 
 | | |
@@ -87,6 +88,8 @@ Adheres to the Export Platform API contract at `docs/internal/architecture/`.
 
 ## Local setup
 
+```
+
 ```bash
 git clone https://github.com/org/export-service
 cd export-service
@@ -110,7 +113,8 @@ and [ADR-001: queue for exports](../examples/acme-export-platform/internal/decis
 ## License
 
 MIT
-```
+
+```text
 
 ### Bad → good (comments)
 

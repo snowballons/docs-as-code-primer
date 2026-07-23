@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-**What's missing**
+## What's missing
 
-**Which phase or section does this belong to**
+## Which phase or section does this belong to
 
 **Why it matters** (what would it enable?)
 

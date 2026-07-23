@@ -2,6 +2,7 @@
 title: "Tutorial: [Goal title]"
 description: "> A tutorial walks through a complete, realistic scenario from start to finish. The reader should end with a working outcome and the confidence to adapt it."
 ---
+
 # Tutorial: [Goal title]
 
 > A tutorial walks through a complete, realistic scenario from start to finish. The reader should end with a working outcome and the confidence to adapt it.
@@ -62,9 +63,9 @@ You now have [working outcome]. Your [key files / config] should look like:
 
 ## Next steps
 
-- [Related tutorial](link)
-- [Feature reference](link)
-- [How to customise / extend what you built](link)
+- [Related tutorial](#)
+- [Feature reference](#)
+- [How to customise / extend what you built](#)
 
 ## Troubleshooting
 

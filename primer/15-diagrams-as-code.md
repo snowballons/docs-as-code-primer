@@ -2,6 +2,7 @@
 title: "Diagrams as code"
 description: "Prefer **text diagrams** in Git for living engineering documentation. Diagrams that live outside the PR review cycle rot."
 ---
+
 # Diagrams as code
 
 Prefer **text diagrams** in Git for living engineering documentation. Diagrams that live outside the PR review cycle rot.

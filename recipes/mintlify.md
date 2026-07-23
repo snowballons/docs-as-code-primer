@@ -2,6 +2,7 @@
 title: "Recipe: Mintlify (hosted)"
 description: "Use when you want Git-synced hosting with less SSG maintenance."
 ---
+
 # Recipe: Mintlify (hosted)
 
 Use when you want Git-synced hosting with less SSG maintenance.

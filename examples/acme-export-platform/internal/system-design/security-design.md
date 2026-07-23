@@ -2,6 +2,7 @@
 title: "Security design"
 description: "| | | |--|--| | **Scope** | Export Platform — job orchestration, data access, artifact storage | | **Reviewed** | Security team (see `docs/internal/charter/stakeholders.md` RACI) |"
 ---
+
 # Security design
 
 | | |

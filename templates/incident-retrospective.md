@@ -2,6 +2,7 @@
 title: "Incident retrospective: [Title]"
 description: "> A retrospective is not a blame instrument. It is a shared record — what went wrong, what went right, and what we will not repeat."
 ---
+
 # Incident retrospective: [Title]
 
 > A retrospective is not a blame instrument. It is a shared record — what went wrong, what went right, and what we will not repeat.

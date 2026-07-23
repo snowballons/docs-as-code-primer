@@ -1,6 +1,7 @@
 ---
 title: "User journey"
 ---
+
 # User journey
 
 ## Metadata

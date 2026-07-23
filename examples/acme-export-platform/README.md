@@ -2,6 +2,7 @@
 title: "Example: Acme Export Platform"
 description: "Fictional product used to show the kit filled in — not a real system."
 ---
+
 # Example: Acme Export Platform
 
 Fictional product used to show the kit filled in — not a real system.

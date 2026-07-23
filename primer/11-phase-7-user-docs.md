@@ -2,6 +2,7 @@
 title: "Phase 7 — User & End-User Documentation"
 description: "| | | |--|--| | **Phase** | 7 | | **Primary path** | `docs/user/` |"
 ---
+
 # Phase 7 — User & End-User Documentation
 
 | | |

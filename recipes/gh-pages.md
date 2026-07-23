@@ -2,6 +2,7 @@
 title: "Recipe: Deploy to GitHub Pages"
 description: "Publish your MkDocs or Docusaurus site via GitHub Pages."
 ---
+
 # Recipe: Deploy to GitHub Pages
 
 Publish your MkDocs or Docusaurus site via GitHub Pages.
@@ -97,6 +98,7 @@ jobs:
 For a single public site, use the workflow above.
 
 For dual publish (internal private + user public):
+
 - User site → GitHub Pages on the main repository (public)
 - Internal site → deploy to a private repository's Pages or use Cloudflare Pages with access policy
 

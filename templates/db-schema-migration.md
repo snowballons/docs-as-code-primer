@@ -1,6 +1,7 @@
 ---
 title: "Database schema / migration: [Name]"
 ---
+
 # Database schema / migration: [Name]
 
 ## Schema overview
@@ -33,6 +34,7 @@ title: "Database schema / migration: [Name]"
 ```
 
 **Rollback:**
+
 ```sql
 -- Reverse
 ```
@@ -43,6 +45,7 @@ title: "Database schema / migration: [Name]"
 ```
 
 **Rollback:**
+
 ```sql
 ```
 

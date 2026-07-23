@@ -2,6 +2,7 @@
 title: "Recipe: Mermaid in CI"
 description: "Keep diagrams as text; fail the build if they cannot render (optional hardening)."
 ---
+
 # Recipe: Mermaid in CI
 
 Keep diagrams as text; fail the build if they cannot render (optional hardening).

@@ -2,6 +2,7 @@
 title: "Troubleshooting: [Product / feature]"
 description: "> Seed troubleshooting from support tickets, community questions, and QA findings. A good troubleshooting guide saves more time than it costs to write."
 ---
+
 # Troubleshooting: [Product / feature]
 
 > Seed troubleshooting from support tickets, community questions, and QA findings. A good troubleshooting guide saves more time than it costs to write.
@@ -70,6 +71,6 @@ If these steps don't resolve your issue:
 
 ## Related
 
-- [Getting started](link)
-- [API reference](link)
-- [Feature docs](link)
+- [Getting started](#)
+- [API reference](#)
+- [Feature docs](#)

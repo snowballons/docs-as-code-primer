@@ -2,6 +2,7 @@
 title: "Feature: [User-goal oriented title]"
 description: "> Write from the user's goal, not from the system's internals."
 ---
+
 # Feature: [User-goal oriented title]
 
 > Write from the user's goal, not from the system's internals.

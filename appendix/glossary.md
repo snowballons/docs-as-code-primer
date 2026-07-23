@@ -2,6 +2,7 @@
 title: "Glossary"
 description: "| Term | Definition | |------|------------| | **Docs as Code** | Authoring, reviewing, testing, and releasing documentation with software engineering tooling and discipline |"
 ---
+
 # Glossary
 
 | Term | Definition |

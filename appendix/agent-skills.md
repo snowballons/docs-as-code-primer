@@ -2,6 +2,7 @@
 title: "Agent skills for docs-as-code"
 description: "Agent skills (`.agents/skills/<name>/SKILL.md`) package reusable workflows that AI coding agents can load on demand. They complement `AGENTS.md` (repo-level conventions) with task-specific procedures "
 ---
+
 # Agent skills for docs-as-code
 
 Agent skills (`.agents/skills/<name>/SKILL.md`) package reusable workflows that AI coding agents can load on demand. They complement `AGENTS.md` (repo-level conventions) with task-specific procedures — and they fit naturally into a docs-as-code pipeline.
@@ -10,7 +11,7 @@ Agent skills (`.agents/skills/<name>/SKILL.md`) package reusable workflows that 
 
 The open [Agent Skills](https://github.com/agentskills/agentskills) standard defines a skill as a directory containing a `SKILL.md` file:
 
-```
+```text
 .agents/skills/<skill-name>/
 ├── SKILL.md          # Frontmatter (name, description) + instructions
 ├── scripts/          # Optional executable helpers

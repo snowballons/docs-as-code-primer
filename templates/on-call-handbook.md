@@ -2,6 +2,7 @@
 title: "On-call handbook"
 description: "> The handbook is what a new team member reads before their first shift — and what an experienced operator skims when context-switching at 2am."
 ---
+
 # On-call handbook
 
 > The handbook is what a new team member reads before their first shift — and what an experienced operator skims when context-switching at 2am.

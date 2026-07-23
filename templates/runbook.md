@@ -2,6 +2,7 @@
 title: "Runbook: [Symptom name]"
 description: "> Organize runbooks by **symptom** (what the responder sees), not only by component."
 ---
+
 # Runbook: [Symptom name]
 
 > Organize runbooks by **symptom** (what the responder sees), not only by component.
