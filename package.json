@@ -1,0 +1,15 @@
+{
+  "name": "docs-as-code-primer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "blume dev",
+    "build": "blume build",
+    "preview": "blume preview"
+  },
+  "dependencies": {
+    "blume": "^1.1.4",
+    "zod": "^4.4.3"
+  }
+}
