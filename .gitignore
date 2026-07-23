@@ -5,3 +5,10 @@ site/
 *.log
 .vscode/
 .idea/
+
+# Blume build output
+dist/
+.blume/
+
+# Caches
+.rumdl_cache/
