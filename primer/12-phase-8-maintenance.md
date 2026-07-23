@@ -1,3 +1,7 @@
+---
+title: "Phase 8 — Maintenance & Evolution"
+description: "| | | |--|--| | **Phase** | 8 | | **Primary path** | both streams |"
+---
 # Phase 8 — Maintenance & Evolution
 
 | | |
@@ -98,9 +102,9 @@ Copy these into your team's recurring review issue template.
 
 ## Use
 
-- Templates: [`templates/deprecation-notice.md`](../templates/deprecation-notice.md), [`templates/migration-guide.md`](../templates/migration-guide.md), [`templates/incident-retrospective.md`](../templates/incident-retrospective.md), [`templates/user-changelog.md`](../templates/user-changelog.md), [`templates/internal-changelog.md`](../templates/internal-changelog.md)
-- Map: [`appendix/phase-folder-map.md`](../appendix/phase-folder-map.md)
+- Templates: [`templates/deprecation-notice.md`](/templates/deprecation-notice/), [`templates/migration-guide.md`](/templates/migration-guide/), [`templates/incident-retrospective.md`](/templates/incident-retrospective/), [`templates/user-changelog.md`](/templates/user-changelog/), [`templates/internal-changelog.md`](/templates/internal-changelog/)
+- Map: [`appendix/phase-folder-map.md`](/appendix/phase-folder-map/)
 
 ---
 
-[Phases overview](03-phases-overview.md) · [Learning path](../LEARNING_PATH.md)
+[Phases overview](/primer/phases-overview/) · [Learning path](/LEARNING_PATH/)

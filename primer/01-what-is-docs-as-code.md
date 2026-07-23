@@ -1,3 +1,7 @@
+---
+title: "What Docs as Code means"
+description: "Documentation as Code means applying software engineering discipline to documentation:"
+---
 # What Docs as Code means
 
 Documentation as Code means applying software engineering discipline to documentation:
@@ -64,4 +68,4 @@ A team practicing Docs as Code can answer "yes" to:
 | Automation | Starter GitHub Actions workflow |
 | Agents | `AGENTS.md` + `llms.txt.example` |
 
-Next: [Two audiences](02-two-audiences.md)
+Next: [Two audiences](/primer/two-audiences/)

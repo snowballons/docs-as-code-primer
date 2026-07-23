@@ -1,3 +1,7 @@
+---
+title: "Agent-ready docs"
+description: "AI coding agents increasingly consume documentation. Structure helps humans and agents find what they need."
+---
 # Agent-ready docs
 
 AI coding agents increasingly consume documentation. Structure helps humans and agents find what they need.
@@ -78,7 +82,7 @@ Agent skills (`SKILL.md`) package reusable doc workflows that agents load on dem
 
 Skills follow the open [Agent Skills](https://github.com/agentskills/agentskills) standard. Place them in `.agents/skills/<name>/SKILL.md` in your repo. Compatible agents (Codex, Cursor, Copilot, Devin, Cline, and others) discover them automatically.
 
-See the full guide: [Agent skills for docs-as-code](../appendix/agent-skills.md).
+See the full guide: [Agent skills for docs-as-code](/appendix/agent-skills/).
 
 ## MCP and docs
 

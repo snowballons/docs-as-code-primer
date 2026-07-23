@@ -1,3 +1,7 @@
+---
+title: "Phase 4 — Implementation & Code Documentation"
+description: "| | | |--|--| | **Phase** | 4 | | **Primary path** | `docs/internal/development/` |"
+---
 # Phase 4 — Implementation & Code Documentation
 
 | | |

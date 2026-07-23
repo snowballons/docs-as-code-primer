@@ -1,3 +1,7 @@
+---
+title: "Phase 0 — Project Vision & Charter"
+description: "| | | |--|--| | **Phase** | 0 | | **Primary path** | `docs/internal/charter/` |"
+---
 # Phase 0 — Project Vision & Charter
 
 | | |
@@ -22,7 +26,7 @@ Product Owner / sponsor primary; Tech Lead reviews; formal sign-off before Phase
 - Constraints and assumptions (assumptions are risks until validated)
 - Initial risk register
 
-Split across scaffold files using the charter table in [`appendix/phase-folder-map.md`](../appendix/phase-folder-map.md).
+Split across scaffold files using the charter table in [`appendix/phase-folder-map.md`](/appendix/phase-folder-map/).
 
 ### RACI example
 
@@ -86,9 +90,9 @@ Split across scaffold files using the charter table in [`appendix/phase-folder-m
 
 ## Use
 
-- Template: [`templates/vision-charter.md`](../templates/vision-charter.md)
-- Example: [`examples/acme-export-platform/internal/charter/vision.md`](../examples/acme-export-platform/internal/charter/vision.md)
+- Template: [`templates/vision-charter.md`](/templates/vision-charter/)
+- Example: [`examples/acme-export-platform/internal/charter/vision.md`](/examples/acme-export-platform/internal/charter/vision/)
 
 ---
 
-[Phases overview](03-phases-overview.md) · [Learning path](../LEARNING_PATH.md)
+[Phases overview](/primer/phases-overview/) · [Learning path](/LEARNING_PATH/)

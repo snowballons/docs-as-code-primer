@@ -1,3 +1,7 @@
+---
+title: "Phase 3 — Detailed System Design"
+description: "| | | |--|--| | **Phase** | 3 | | **Primary path** | `docs/internal/system-design/` |"
+---
 # Phase 3 — Detailed System Design
 
 | | |
@@ -21,7 +25,7 @@ Senior module owners; peer review; runs **in parallel** with early implementatio
 - Sequence diagrams for multi-component flows
 - State machines for lifecycle entities
 - Security design detail (threat model summary, encryption, validation)
-- Frontend architecture if applicable — use [`templates/frontend-architecture.md`](../templates/frontend-architecture.md)
+- Frontend architecture if applicable — use [`templates/frontend-architecture.md`](/templates/frontend-architecture/)
 
 ### Migration strategy patterns
 
@@ -74,10 +78,10 @@ Canonical specs live in `docs/internal/system-design/api-specs/`. User API docs 
 
 ## Use
 
-- Templates: [`templates/module-spec.md`](../templates/module-spec.md), [`templates/frontend-architecture.md`](../templates/frontend-architecture.md), [`templates/db-schema-migration.md`](../templates/db-schema-migration.md), [`templates/sequence-diagram-page.md`](../templates/sequence-diagram-page.md), [`templates/state-machine-page.md`](../templates/state-machine-page.md), [`templates/security-threat-model.md`](../templates/security-threat-model.md)
-- Examples: [`export-service.md`](../examples/acme-export-platform/internal/system-design/services/export-service.md), [`database/schema.md`](../examples/acme-export-platform/internal/system-design/database/schema.md), [`security-design.md`](../examples/acme-export-platform/internal/system-design/security-design.md), [`export-api.yaml`](../examples/acme-export-platform/internal/system-design/api-specs/export-api.yaml)
-- Recipe: [`recipes/openapi-to-user-api-ref.md`](../recipes/openapi-to-user-api-ref.md)
+- Templates: [`templates/module-spec.md`](/templates/module-spec/), [`templates/frontend-architecture.md`](/templates/frontend-architecture/), [`templates/db-schema-migration.md`](/templates/db-schema-migration/), [`templates/sequence-diagram-page.md`](/templates/sequence-diagram-page/), [`templates/state-machine-page.md`](/templates/state-machine-page/), [`templates/security-threat-model.md`](/templates/security-threat-model/)
+- Examples: [`export-service.md`](/examples/acme-export-platform/internal/system-design/services/export-service/), [`database/schema.md`](/examples/acme-export-platform/internal/system-design/database/schema/), [`security-design.md`](/examples/acme-export-platform/internal/system-design/security-design/), [`export-api.yaml`](../examples/acme-export-platform/internal/system-design/api-specs/export-api.yaml)
+- Recipe: [`recipes/openapi-to-user-api-ref.md`](/recipes/openapi-to-user-api-ref/)
 
 ---
 
-[Phases overview](03-phases-overview.md) · [Learning path](../LEARNING_PATH.md)
+[Phases overview](/primer/phases-overview/) · [Learning path](/LEARNING_PATH/)

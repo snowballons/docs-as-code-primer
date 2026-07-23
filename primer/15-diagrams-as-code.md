@@ -1,3 +1,7 @@
+---
+title: "Diagrams as code"
+description: "Prefer **text diagrams** in Git for living engineering documentation. Diagrams that live outside the PR review cycle rot."
+---
 # Diagrams as code
 
 Prefer **text diagrams** in Git for living engineering documentation. Diagrams that live outside the PR review cycle rot.
@@ -87,4 +91,4 @@ A PR that adds a new service includes the Mermaid changes in the same diff. Revi
 | Render | Site build | Built-in SSG plugin |
 | Stale diagram alert | Weekly / monthly | Check `git log` on diagram files — flag if older than the surrounding code |
 
-See also: [recipes/mermaid-in-ci.md](../recipes/mermaid-in-ci.md)
+See also: [recipes/mermaid-in-ci.md](/recipes/mermaid-in-ci/)

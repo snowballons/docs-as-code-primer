@@ -1,3 +1,7 @@
+---
+title: "CI and quality gates"
+description: "Automation enforces what process cannot. The scaffold ships a minimal CI workflow; this chapter explains how to grow it."
+---
 # CI and quality gates
 
 Automation enforces what process cannot. The scaffold ships a minimal CI workflow; this chapter explains how to grow it.
@@ -9,7 +13,7 @@ The starter workflow ([`scaffold/.github/workflows/docs.yml`](../scaffold/.githu
 1. Markdown lint (`markdownlint`)
 2. Link check (`lychee`)
 
-That is the minimum DocOps bar for week 1 ([`FIRST_WEEK.md`](../FIRST_WEEK.md)). Every team should turn these on day one.
+That is the minimum DocOps bar for week 1 ([`FIRST_WEEK.md`](/FIRST_WEEK/)). Every team should turn these on day one.
 
 ## What the scaffold includes but leaves off until you need it
 
@@ -123,6 +127,6 @@ MVP may keep one workflow; split when one stream's review blocks the other.
 
 ## Related
 
-- [Tooling map](../appendix/tooling-map.md)
-- [Mermaid recipe](../recipes/mermaid-in-ci.md)
-- [OpenAPI → user API recipe](../recipes/openapi-to-user-api-ref.md)
+- [Tooling map](/appendix/tooling-map/)
+- [Mermaid recipe](/recipes/mermaid-in-ci/)
+- [OpenAPI → user API recipe](/recipes/openapi-to-user-api-ref/)

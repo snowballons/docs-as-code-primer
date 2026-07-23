@@ -1,3 +1,7 @@
+---
+title: "Content governance"
+description: "Governance prevents drift between what the system does and what the docs say."
+---
 # Content governance
 
 Governance prevents drift between what the system does and what the docs say.
@@ -103,7 +107,7 @@ The goal: **no undocumented change reaches production.** Not every PR needs a do
 
 ## Paths
 
-- Canonical map: [`appendix/phase-folder-map.md`](../appendix/phase-folder-map.md)
+- Canonical map: [`appendix/phase-folder-map.md`](/appendix/phase-folder-map/)
 - Stub policy: [`scaffold/docs/GOVERNANCE.md`](../scaffold/docs/GOVERNANCE.md)
 
-Next: [Anti-patterns](18-anti-patterns.md)
+Next: [Anti-patterns](/primer/anti-patterns/)

@@ -1,3 +1,7 @@
+---
+title: "Phase 6 — Deployment & Operations"
+description: "| | | |--|--| | **Phase** | 6 | | **Primary path** | `docs/internal/operations/` |"
+---
 # Phase 6 — Deployment & Operations
 
 | | |
@@ -85,9 +89,9 @@ Each runbook should include:
 
 ## Use
 
-- Templates: [`templates/runbook.md`](../templates/runbook.md), [`templates/slo.md`](../templates/slo.md), [`templates/on-call-handbook.md`](../templates/on-call-handbook.md), [`templates/dr-plan.md`](../templates/dr-plan.md)
-- Examples: [`slos.md`](../examples/acme-export-platform/internal/operations/slos.md), [`export-queue-backlog.md`](../examples/acme-export-platform/internal/operations/runbooks/export-queue-backlog.md)
+- Templates: [`templates/runbook.md`](/templates/runbook/), [`templates/slo.md`](/templates/slo/), [`templates/on-call-handbook.md`](/templates/on-call-handbook/), [`templates/dr-plan.md`](/templates/dr-plan/)
+- Examples: [`slos.md`](/examples/acme-export-platform/internal/operations/slos/), [`export-queue-backlog.md`](/examples/acme-export-platform/internal/operations/runbooks/export-queue-backlog/)
 
 ---
 
-[Phases overview](03-phases-overview.md) · [Learning path](../LEARNING_PATH.md)
+[Phases overview](/primer/phases-overview/) · [Learning path](/LEARNING_PATH/)

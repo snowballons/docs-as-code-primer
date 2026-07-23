@@ -1,3 +1,7 @@
+---
+title: "Phase 2 — Architecture & System Design"
+description: "| | | |--|--| | **Phase** | 2 | | **Primary path** | `docs/internal/architecture/` + `docs/internal/decisions/` |"
+---
 # Phase 2 — Architecture & System Design
 
 | | |
@@ -136,9 +140,9 @@ ADR-012's Context section would open with: "Supersedes ADR-001. Queue volume has
 
 ## Use
 
-- Templates: [`templates/adr.md`](../templates/adr.md), [`templates/c4-architecture-outline.md`](../templates/c4-architecture-outline.md), [`templates/cross-cutting-concerns-checklist.md`](../templates/cross-cutting-concerns-checklist.md)
-- Examples: [`context-diagram.md`](../examples/acme-export-platform/internal/architecture/context-diagram.md), [`container-diagram.md`](../examples/acme-export-platform/internal/architecture/container-diagram.md), [`adr-001-queue-for-exports.md`](../examples/acme-export-platform/internal/decisions/adr-001-queue-for-exports.md)
+- Templates: [`templates/adr.md`](/templates/adr/), [`templates/c4-architecture-outline.md`](/templates/c4-architecture-outline/), [`templates/cross-cutting-concerns-checklist.md`](/templates/cross-cutting-concerns-checklist/)
+- Examples: [`context-diagram.md`](/examples/acme-export-platform/internal/architecture/context-diagram/), [`container-diagram.md`](/examples/acme-export-platform/internal/architecture/container-diagram/), [`adr-001-queue-for-exports.md`](/examples/acme-export-platform/internal/decisions/adr-001-queue-for-exports/)
 
 ---
 
-[Phases overview](03-phases-overview.md) · [Learning path](../LEARNING_PATH.md)
+[Phases overview](/primer/phases-overview/) · [Learning path](/LEARNING_PATH/)

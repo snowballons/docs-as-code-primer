@@ -1,6 +1,10 @@
+---
+title: "Anti-patterns"
+description: "Each anti-pattern includes a condensed example and the preferred pattern. See the [Bad examples gallery](/appendix/bad-examples-gallery/) for full before/after pairs."
+---
 # Anti-patterns
 
-Each anti-pattern includes a condensed example and the preferred pattern. See the [Bad examples gallery](../appendix/bad-examples-gallery.md) for full before/after pairs.
+Each anti-pattern includes a condensed example and the preferred pattern. See the [Bad examples gallery](/appendix/bad-examples-gallery/) for full before/after pairs.
 
 ## 1. Single stream forever
 
@@ -83,6 +87,6 @@ Scaffold early, fill Phase 0–2 honestly, keep docs in the PR, derive user cont
 
 ## Gallery
 
-See Appendix: [Bad examples gallery](../appendix/bad-examples-gallery.md) for detailed before/after pairs of each anti-pattern.
+See Appendix: [Bad examples gallery](/appendix/bad-examples-gallery/) for detailed before/after pairs of each anti-pattern.
 
-Next: [Why now (2026)](19-why-now-2026.md)
+Next: [Why now (2026)](/primer/why-now-2026/)

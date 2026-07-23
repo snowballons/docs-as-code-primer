@@ -1,8 +1,12 @@
+---
+title: "Phases overview"
+description: "Ten phases mirror a software lifecycle. They are a **mental model**, not a waterfall gate system. Phases 3–5 often run in parallel. Phase 8 never ends."
+---
 # Phases overview
 
 Ten phases mirror a software lifecycle. They are a **mental model**, not a waterfall gate system. Phases 3–5 often run in parallel. Phase 8 never ends.
 
-**Canonical phase → folder → template map:** [`../appendix/phase-folder-map.md`](../appendix/phase-folder-map.md)
+**Canonical phase → folder → template map:** [`../appendix/phase-folder-map.md`](/appendix/phase-folder-map/)
 
 ## Rule of thumb
 
@@ -23,8 +27,8 @@ A change that affects behavior, contracts, operations, or onboarding is not done
 
 ## Adoption
 
-- New repo: [`../FIRST_WEEK.md`](../FIRST_WEEK.md)
+- New repo: [`../FIRST_WEEK.md`](/FIRST_WEEK/)
 - Stub policy: [`../scaffold/docs/GOVERNANCE.md`](../scaffold/docs/GOVERNANCE.md)
 - Post-copy upstream index: [`../scaffold/docs/KIT.md`](../scaffold/docs/KIT.md)
 
-Next: [Phase 0](04-phase-0-charter.md)
+Next: [Phase 0](/primer/phase-0-charter/)

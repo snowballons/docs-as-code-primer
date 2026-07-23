@@ -1,3 +1,7 @@
+---
+title: "Phase 1 — User & Business Requirements"
+description: "| | | |--|--| | **Phase** | 1 | | **Primary path** | `docs/internal/requirements/` |"
+---
 # Phase 1 — User & Business Requirements
 
 | | |
@@ -138,9 +142,9 @@ Every requirement belongs to one of four buckets:
 
 ## Use
 
-- Templates: [`templates/user-story.md`](../templates/user-story.md), [`templates/nfr.md`](../templates/nfr.md), [`templates/persona.md`](../templates/persona.md), [`templates/functional-requirements.md`](../templates/functional-requirements.md), [`templates/user-journey.md`](../templates/user-journey.md)
-- Examples: [`export-csv.md`](../examples/acme-export-platform/internal/requirements/user-stories/export-csv.md), [`non-functional.md`](../examples/acme-export-platform/internal/requirements/non-functional.md)
+- Templates: [`templates/user-story.md`](/templates/user-story/), [`templates/nfr.md`](/templates/nfr/), [`templates/persona.md`](/templates/persona/), [`templates/functional-requirements.md`](/templates/functional-requirements/), [`templates/user-journey.md`](/templates/user-journey/)
+- Examples: [`export-csv.md`](/examples/acme-export-platform/internal/requirements/user-stories/export-csv/), [`non-functional.md`](/examples/acme-export-platform/internal/requirements/non-functional/)
 
 ---
 
-[Phases overview](03-phases-overview.md) · [Learning path](../LEARNING_PATH.md)
+[Phases overview](/primer/phases-overview/) · [Learning path](/LEARNING_PATH/)

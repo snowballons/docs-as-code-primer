@@ -1,3 +1,7 @@
+---
+title: "Phase 5 — Testing & Quality Assurance"
+description: "| | | |--|--| | **Phase** | 5 | | **Primary path** | `docs/internal/testing/` |"
+---
 # Phase 5 — Testing & Quality Assurance
 
 | | |
@@ -87,9 +91,9 @@ Document exceptions per PR, not per policy.
 
 ## Use
 
-- Templates: [`templates/test-strategy.md`](../templates/test-strategy.md), [`templates/test-case.md`](../templates/test-case.md), [`templates/user-story.md`](../templates/user-story.md) (traceability)
+- Templates: [`templates/test-strategy.md`](/templates/test-strategy/), [`templates/test-case.md`](/templates/test-case/), [`templates/user-story.md`](/templates/user-story/) (traceability)
 - Folder guide: `docs/internal/testing/` (structural)
 
 ---
 
-[Phases overview](03-phases-overview.md) · [Learning path](../LEARNING_PATH.md)
+[Phases overview](/primer/phases-overview/) · [Learning path](/LEARNING_PATH/)
