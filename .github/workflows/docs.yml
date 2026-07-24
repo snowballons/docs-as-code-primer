@@ -63,7 +63,7 @@ jobs:
         with:
           args: >-
             --no-progress
-            --exclude '^/'
+            --include '^https?://'
             --exclude 'https?://localhost'
             --exclude 'https?://.*\\.local'
             --exclude 'https?://.*\\.internal'
