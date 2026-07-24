@@ -94,13 +94,13 @@ jobs:
           set -euo pipefail
           errors=0
           for f in primer/*.md; do
-            grep -oP '\.\./templates/[\w-]+(?=\.md)' "$f" 2>/dev/null | while read -r ref; do
+            while read -r ref; do
               tmpl=$(echo "$ref" | sed 's|\.\./templates/||').md
               if [ ! -f "templates/$tmpl" ]; then
                 echo "ERROR: $f references templates/$tmpl which does not exist"
                 errors=$((errors + 1))
               fi
-            done
+            done < <(grep -oP '\.\./templates/[\w-]+(?=\.md)' "$f" 2>/dev/null || true)
           done
           if [ "$errors" -gt 0 ]; then exit 1; fi
           echo "All primer template references resolve."
