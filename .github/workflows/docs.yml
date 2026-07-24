@@ -63,8 +63,13 @@ jobs:
         with:
           args: >-
             --no-progress
+            --exclude '^/'
             --exclude 'https?://localhost'
             --exclude 'https?://.*\\.local'
+            --exclude 'https?://.*\\.internal'
+            --exclude 'https?://status\\.acme\\.io'
+            --exclude '\[owner\]'
+            --exclude 'alexanderfashakin\\.substack\\.com'
             "primer/**/*.md"
             "templates/**/*.md"
             "appendix/**/*.md"
