@@ -1,7 +1,9 @@
 Acme
 ADRs
 backlogs
+CCMS
 cookiecutter
+Diataxis
 DocOps
 Docusaurus
 drawio
@@ -28,6 +30,7 @@ SDLC
 SEV
 SLO
 SLOs
+snowballons
 SSG
 SSoT
 stubs

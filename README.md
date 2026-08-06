@@ -12,6 +12,30 @@ Copy the kit. Follow the phases. Keep docs in the PR.
 
 This is a **primer + project structure kit** — not an awesome list, not a hosted docs platform, not a full engineering handbook. It is a portable operating system for documentation.
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/header/graph.svg?title=Docs-as-Code+Primer&subtitle=Documentation+that+ships+with+your+code&logo=markdown&theme=zinc&mode=dark" />
+    <img alt="Docs-as-Code Primer — documentation that ships with your code" src="https://shieldcn.dev/header/graph.svg?title=Docs-as-Code+Primer&subtitle=Documentation+that+ships+with+your+code&logo=markdown&theme=zinc&mode=light" />
+  </picture>
+</p>
+
+<p align="center">
+  <a href="https://github.com/snowballons/docs-as-code-primer/stargazers"><img alt="GitHub stars" src="https://shieldcn.dev/github/stars/snowballons/docs-as-code-primer.svg?variant=secondary" /></a>
+  <a href="https://github.com/snowballons/docs-as-code-primer/blob/main/LICENSE"><img alt="License" src="https://shieldcn.dev/github/license/snowballons/docs-as-code-primer.svg?variant=secondary" /></a>
+  <a href="https://github.com/snowballons/docs-as-code-primer/actions"><img alt="CI status" src="https://shieldcn.dev/github/ci/snowballons/docs-as-code-primer.svg?variant=secondary" /></a>
+  <a href="https://github.com/snowballons/docs-as-code-primer/commits/main"><img alt="Last commit" src="https://shieldcn.dev/github/last-commit/snowballons/docs-as-code-primer.svg?variant=secondary" /></a>
+  <a href="https://github.com/snowballons/docs-as-code-primer/issues"><img alt="Issues" src="https://shieldcn.dev/github/issues/snowballons/docs-as-code-primer.svg?variant=secondary" /></a>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/chart/github/commits/snowballons.svg?theme=zinc&mode=dark" />
+    <img alt="Commit history for the Docs-as-Code Primer maintainer" src="https://shieldcn.dev/chart/github/commits/snowballons.svg?theme=zinc&mode=light" />
+  </picture>
+</p>
+
+<p align="center"><em>Commit activity for maintainer @snowballons — the kit is kept in the PR, like the docs it teaches.</em></p>
+
 ---
 
 ## Start here (pick one)
