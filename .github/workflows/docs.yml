@@ -103,9 +103,9 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
       - name: Install mermaid-cli
-        run: npm install --no-save @mermaid-js/mermaid-cli
+        run: npm install --no-save @mermaid-js/mermaid-cli@11.16.0
       - name: Render .mmd files (fails on invalid diagrams)
         run: |
           set -euo pipefail
