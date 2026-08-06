@@ -11,12 +11,16 @@ If you are adopting today: follow [`FIRST_WEEK.md`](/FIRST_WEEK/) (copy scaffold
 
 ## Core (required)
 
+Read these before anything else.
+
 1. [What Docs as Code means](/primer/what-is-docs-as-code/)
 2. [Two audiences](/primer/two-audiences/)
 3. [Phases overview](/primer/phases-overview/)
 4. [Content governance](/primer/content-governance/)
 
 ## Lifecycle chapters
+
+One chapter per phase, in order. Read alongside the phase you are filling.
 
 1. [Phase 0 — Charter](/primer/phase-0-charter/)
 2. [Phase 1 — Requirements](/primer/phase-1-requirements/)
@@ -31,11 +35,13 @@ If you are adopting today: follow [`FIRST_WEEK.md`](/FIRST_WEEK/) (copy scaffold
 
 ## Practice layers
 
-1. [Diagrams as code](/primer/diagrams-as-code/)
-2. [CI and quality gates](/primer/ci-and-quality-gates/)
-3. [Agent-ready docs](/primer/agent-ready-docs/)
-4. [Anti-patterns](/primer/anti-patterns/)
-5. [Why now (2026)](/primer/why-now-2026/)
+Cross-cutting topics that apply across phases. Read in any order after Core.
+
+- [Diagrams as code](/primer/diagrams-as-code/)
+- [CI and quality gates](/primer/ci-and-quality-gates/)
+- [Agent-ready docs](/primer/agent-ready-docs/)
+- [Anti-patterns](/primer/anti-patterns/)
+- [Why now (2026)](/primer/why-now-2026/)
 
 ## Then use the kit
 
