@@ -2,7 +2,7 @@ name: docs (primer repo)
 
 on:
   push:
-    paths:
+    paths: &watched-paths
       - "primer/**"
       - "templates/**"
       - "appendix/**"
@@ -20,21 +20,7 @@ on:
     branches:
       - main
   pull_request:
-    paths:
-      - "primer/**"
-      - "templates/**"
-      - "appendix/**"
-      - "recipes/**"
-      - "examples/**"
-      - "docs/**"
-      - "public/**"
-      - "*.md"
-      - "blume.config.ts"
-      - "package.json"
-      - ".github/workflows/docs.yml"
-      - ".rumdl.toml"
-      - ".cspell.json"
-      - "docs/spelling-exceptions.txt"
+    paths: *watched-paths
 
 # Allow one deployment at a time
 concurrency:
