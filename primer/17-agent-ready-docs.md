@@ -9,7 +9,7 @@ AI coding agents increasingly consume documentation. Structure helps humans and 
 
 ## Why this matters
 
-Research across documentation-first teams shows that 45% of documentation traffic comes from AI agents (training crawls, RAG pipelines, coding assistants). Agents cannot infer structure — they depend on what you explicitly surface.
+AI coding agents — training crawls, RAG pipelines, and inline coding assistants — are a growing share of documentation traffic. Agents cannot infer structure; they depend on what you explicitly surface.
 
 | Agent access pattern | What helps |
 |----------------------|------------|
