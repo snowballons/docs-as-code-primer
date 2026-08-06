@@ -26,22 +26,19 @@ This is a **primer + project structure kit** — not an awesome list, not a host
 **Canonical phase → folder map:** [`appendix/phase-folder-map.md`](/appendix/phase-folder-map/)  
 **After copy into a product repo:** set `KIT_URL` in `docs/KIT.md` (ships with the scaffold).
 
-```text
-                    ┌─────────────────────────┐
-                    │   Docs-as-Code Primer   │
-                    │   (judgment + phases)   │
-                    └───────────┬─────────────┘
-                                │ informs
-                                ▼
-┌──────────────┐      ┌─────────────────────┐      ┌──────────────┐
-│  Templates   │ ───► │  Project scaffold   │ ◄─── │   Recipes    │
-│  (shape)     │      │  internal/user/shared│      │  (publish)   │
-└──────────────┘      └──────────┬──────────┘      └──────────────┘
-                                 │ copy into
-                                 ▼
-                      ┌─────────────────────┐
-                      │   Your real repo    │
-                      └─────────────────────┘
+```mermaid
+flowchart TB
+    primer["Docs-as-Code Primer\n(judgment + phases)"]
+
+    templates["Templates\n(shape)"]
+    scaffold["Project scaffold\ninternal / user / shared"]
+    recipes["Recipes\n(publish)"]
+    repo["Your real repo"]
+
+    primer -->|informs| scaffold
+    templates -->|shape| scaffold
+    recipes -->|wire| scaffold
+    scaffold -->|copy into| repo
 ```
 
 ---
