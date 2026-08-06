@@ -123,6 +123,7 @@ export default defineConfig({
             "/appendix/tooling-map",
             "/appendix/agent-skills",
             "/appendix/bad-examples-gallery",
+            "/appendix/ecosystem-comparison",
           ],
         },
 
@@ -234,7 +235,7 @@ export default defineConfig({
             { label: "Contributing", href: "/CONTRIBUTING" },
             { label: "Code of conduct", href: "/CODE_OF_CONDUCT" },
             { label: "Security", href: "/SECURITY" },
-            { label: "Comparison with other resources", href: "/docs/comparison" },
+            { label: "Comparison with other resources", href: "/appendix/ecosystem-comparison" },
           ],
         },
       ],

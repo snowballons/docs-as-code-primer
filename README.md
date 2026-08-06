@@ -122,7 +122,7 @@ docs/                         ← copy scaffold/docs/ into your repo
 - A SaaS or static site generator
 - A general “how to run your company” handbook
 
-See [docs/comparison.md](/docs/comparison/) to understand how this primer relates to Write the Docs, Google Tech Writing, Diataxis, C4 Model, adr-tools, and other documentation resources.
+See [appendix/ecosystem-comparison.md](/appendix/ecosystem-comparison/) to understand how this primer relates to Write the Docs, Google Tech Writing, Diataxis, C4 Model, adr-tools, and other documentation resources.
 
 ## When this kit may hurt
 
