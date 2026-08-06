@@ -49,13 +49,8 @@ jobs:
         with:
           args: >-
             --no-progress
-            --include '^https?://'
-            --exclude 'https?://localhost'
-            --exclude 'https?://.*\\.local'
-            --exclude 'https?://.*\\.internal'
-            --exclude 'https?://status\\.acme\\.io'
-            --exclude '\[owner\]'
-            --exclude 'alexanderfashakin\\.substack\\.com'
+            --root-dir .
+            --config .lycheeignore
             "primer/**/*.md"
             "templates/**/*.md"
             "appendix/**/*.md"

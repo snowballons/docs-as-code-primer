@@ -1,0 +1,11 @@
+# Exclude local and internal domains
+https?://localhost
+https?://.*\.local
+https?://.*\.internal
+https?://status\.acme\.io
+
+# Placeholder template parameters
+\[owner\]
+
+# External blog / substack references
+alexanderfashakin\.substack\.com
