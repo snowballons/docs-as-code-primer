@@ -101,8 +101,8 @@ make test                     # 237 passing, 0 skipped
 
 ## Architecture
 
-See [context diagram in the Acme example](../examples/acme-export-platform/internal/architecture/context-diagram.md)
-and [ADR-001: queue for exports](../examples/acme-export-platform/internal/decisions/adr-001-queue-for-exports.md).
+See [context diagram in the Acme example](/examples/acme-export-platform/internal/architecture/context-diagram/)
+and [ADR-001: queue for exports](/examples/acme-export-platform/internal/decisions/adr-001-queue-for-exports/).
 
 ## Debugging / footguns
 
@@ -188,9 +188,9 @@ When a micro-ADR later proves significant enough to need cross-team awareness, p
 
 ## Use
 
-- Template: [`templates/contribution-guide.md`](../templates/contribution-guide.md)
+- Template: [`templates/contribution-guide.md`](/templates/contribution-guide/)
 - Keep docs changes in the scaffold PR template checklist
 
 ---
 
-[Phases overview](03-phases-overview.md) · [Learning path](../LEARNING_PATH.md)
+[Phases overview](/primer/phases-overview/) · [Learning path](/LEARNING_PATH/)

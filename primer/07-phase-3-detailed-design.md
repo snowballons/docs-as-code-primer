@@ -80,7 +80,7 @@ Canonical specs live in `docs/internal/system-design/api-specs/`. User API docs 
 ## Use
 
 - Templates: [`templates/module-spec.md`](/templates/module-spec/), [`templates/frontend-architecture.md`](/templates/frontend-architecture/), [`templates/db-schema-migration.md`](/templates/db-schema-migration/), [`templates/sequence-diagram-page.md`](/templates/sequence-diagram-page/), [`templates/state-machine-page.md`](/templates/state-machine-page/), [`templates/security-threat-model.md`](/templates/security-threat-model/)
-- Examples: [`export-service.md`](/examples/acme-export-platform/internal/system-design/services/export-service/), [`database/schema.md`](/examples/acme-export-platform/internal/system-design/database/schema/), [`security-design.md`](/examples/acme-export-platform/internal/system-design/security-design/), [`export-api.yaml`](../examples/acme-export-platform/internal/system-design/api-specs/export-api.yaml)
+- Examples: [`export-service.md`](/examples/acme-export-platform/internal/system-design/services/export-service/), [`database/schema.md`](/examples/acme-export-platform/internal/system-design/database/schema/), [`security-design.md`](/examples/acme-export-platform/internal/system-design/security-design/), [`export-api.yaml`](/examples/acme-export-platform/internal/system-design/api-specs/export-api/)
 - Recipe: [`recipes/openapi-to-user-api-ref.md`](/recipes/openapi-to-user-api-ref/)
 
 ---
