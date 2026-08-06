@@ -6,10 +6,19 @@
   "scripts": {
     "dev": "blume dev",
     "build": "blume build",
-    "preview": "blume preview"
+    "preview": "blume preview",
+    "lint": "rumdl check primer/ templates/ appendix/ recipes/ examples/ docs/ README.md CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md FIRST_WEEK.md LEARNING_PATH.md llms.txt",
+    "spell-check": "cspell 'primer/**/*.md' 'templates/**/*.md' 'appendix/**/*.md' 'recipes/**/*.md' 'examples/**/*.md' 'docs/**/*.md' '*.md'",
+    "link-check": "lychee --config .lycheeignore 'primer/**/*.md' 'templates/**/*.md' 'appendix/**/*.md' 'recipes/**/*.md' 'examples/**/*.md' 'docs/**/*.md' '*.md'"
   },
   "dependencies": {
     "blume": "^1.1.4",
     "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^10.9.0",
+    "cspell": "^8.0.0",
+    "lychee-cli": "^0.15.0",
+    "rumdl": "^0.2.46"
   }
 }
