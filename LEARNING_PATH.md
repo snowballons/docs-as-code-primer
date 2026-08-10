@@ -51,7 +51,7 @@ Cross-cutting topics that apply across phases. Read in any order after Core.
 
 | Goal | Effort |
 |------|--------|
-| Understand the model | 45–60 minutes (core + phases overview) |
+| Understand the model | 40–60 minutes (core + phases overview) |
 | First week pack on a greenfield repo | ~1 week calendar / few focused hours |
 | Copy scaffold only | ≤ 30 minutes |
 | Fill Phase 0–2 for a real project | 1–3 days (team dependent) |

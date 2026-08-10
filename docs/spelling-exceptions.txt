@@ -16,6 +16,7 @@ backpressure
 behaviour
 Behaviour
 Behaviours
+blume
 browsable
 BRPOP
 categorised
@@ -119,6 +120,7 @@ SEV
 sexualised
 shadcn
 Shadcn
+shieldcn
 Shoulds
 Sidekiq
 SLO
