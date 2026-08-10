@@ -1,4 +1,4 @@
-
+# Docs-as-Code Primer
 
 <p align="center">
   <picture>
@@ -26,8 +26,6 @@
 
 ---
 
-# Docs-as-Code Primer
-
 **Structure, phases, and templates for documentation that ships with your code.**
 
 Internal docs for engineers. User docs for customers. Shared truth in between.  
@@ -36,6 +34,7 @@ Copy the kit. Follow the phases. Keep docs in the PR.
 This is a **primer + project structure kit** — not an awesome list, not a hosted docs platform, not a full engineering handbook. It is a portable operating system for documentation.
 
 ---
+
 ## Start here (pick one)
 
 | Path | Who it's for | Go to |

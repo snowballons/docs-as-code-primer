@@ -16,9 +16,8 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@mermaid-js/mermaid-cli": "^10.9.0",
+    "@mermaid-js/mermaid-cli": "^11.16.0",
     "cspell": "^8.0.0",
-    "lychee-cli": "^0.15.0",
     "rumdl": "^0.2.46"
   }
 }
