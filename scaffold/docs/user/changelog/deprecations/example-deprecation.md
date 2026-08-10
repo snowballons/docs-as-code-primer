@@ -1,6 +1,6 @@
 # Deprecation notice: [feature/endpoint]
 
-> Starter stub. Fill in for each deprecation. See `templates/deprecation-notice.md` for the full template.
+> Starter stub. Fill in for each deprecation.
 
 **Deprecation date:** YYYY-MM-DD
 

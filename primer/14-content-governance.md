@@ -111,4 +111,4 @@ The goal: **no undocumented change reaches production.** Not every PR needs a do
 - Canonical map: [`appendix/phase-folder-map.md`](/appendix/phase-folder-map/)
 - Stub policy: [`scaffold/docs/GOVERNANCE.md`](../scaffold/docs/GOVERNANCE.md)
 
-Next: [Anti-patterns](/primer/anti-patterns/)
+Next: [CI and quality gates](/primer/ci-and-quality-gates/)

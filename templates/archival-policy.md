@@ -54,4 +54,3 @@ This policy covers documentation for systems, features, and components that have
 ## Related
 
 - Internal changelog: [`templates/internal-changelog.md`](/templates/internal-changelog/)
-- Retirement KT: [`templates/retirement-kt.md`](/templates/retirement-kt/)

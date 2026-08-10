@@ -39,4 +39,4 @@ docs/
 
 Example: OpenAPI YAML in `internal/system-design/api-specs/` is canonical. Consumer API reference under `user/api-reference/` is curated from it (examples, auth guide, no internal annotations).
 
-Next: [Phases overview](/primer/phases-overview/) · [Content governance](/primer/content-governance/)
+Next: [Content governance](/primer/content-governance/)

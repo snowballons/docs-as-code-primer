@@ -21,5 +21,4 @@ Internal PR laundry lists.
 - In-repo stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
 - Upstream chapters / templates / examples: [../../KIT.md](../../KIT.md) (does not break after copy)
 - This folder → upstream chapter: `primer/12-phase-8-maintenance.md`
-- Upstream template(s): `templates/deprecation-notice.md`
 - Note: See deprecations/ and migrations/

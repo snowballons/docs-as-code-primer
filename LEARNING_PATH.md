@@ -15,8 +15,7 @@ Read these before anything else.
 
 1. [What Docs as Code means](/primer/what-is-docs-as-code/)
 2. [Two audiences](/primer/two-audiences/)
-3. [Phases overview](/primer/phases-overview/)
-4. [Content governance](/primer/content-governance/)
+3. [Content governance](/primer/content-governance/)
 
 ## Lifecycle chapters
 
@@ -37,11 +36,7 @@ One chapter per phase, in order. Read alongside the phase you are filling.
 
 Cross-cutting topics that apply across phases. Read in any order after Core.
 
-- [Diagrams as code](/primer/diagrams-as-code/)
 - [CI and quality gates](/primer/ci-and-quality-gates/)
-- [Agent-ready docs](/primer/agent-ready-docs/)
-- [Anti-patterns](/primer/anti-patterns/)
-- [Why now (2026)](/primer/why-now-2026/)
 
 ## Then use the kit
 

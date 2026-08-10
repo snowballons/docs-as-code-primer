@@ -62,13 +62,13 @@ You may keep one combined charter file instead; if you do, replace the split stu
 | 0 | [`templates/vision-charter.md`](/templates/vision-charter/) |
 | 1 | [`templates/user-story.md`](/templates/user-story/), [`templates/nfr.md`](/templates/nfr/), [`templates/persona.md`](/templates/persona/), [`templates/user-journey.md`](/templates/user-journey/), [`templates/functional-requirements.md`](/templates/functional-requirements/) |
 | 2 | [`templates/adr.md`](/templates/adr/), [`templates/c4-architecture-outline.md`](/templates/c4-architecture-outline/), [`templates/cross-cutting-concerns-checklist.md`](/templates/cross-cutting-concerns-checklist/) |
-| 3 | [`templates/module-spec.md`](/templates/module-spec/), [`templates/frontend-architecture.md`](/templates/frontend-architecture/), [`templates/db-schema-migration.md`](/templates/db-schema-migration/), [`templates/sequence-diagram-page.md`](/templates/sequence-diagram-page/), [`templates/state-machine-page.md`](/templates/state-machine-page/), [`templates/security-threat-model.md`](/templates/security-threat-model/) |
+| 3 | [`templates/security-threat-model.md`](/templates/security-threat-model/) |
 | 4 | [`templates/contribution-guide.md`](/templates/contribution-guide/) |
-| 5 | [`templates/test-strategy.md`](/templates/test-strategy/), [`templates/test-case.md`](/templates/test-case/) |
-| 6 | [`templates/runbook.md`](/templates/runbook/), [`templates/slo.md`](/templates/slo/), [`templates/on-call-handbook.md`](/templates/on-call-handbook/), [`templates/dr-plan.md`](/templates/dr-plan/) |
-| 7 | [`templates/feature-user-doc.md`](/templates/feature-user-doc/), [`templates/getting-started.md`](/templates/getting-started/), [`templates/tutorial.md`](/templates/tutorial/), [`templates/troubleshooting.md`](/templates/troubleshooting/) |
-| 8 | [`templates/deprecation-notice.md`](/templates/deprecation-notice/), [`templates/migration-guide.md`](/templates/migration-guide/), [`templates/incident-retrospective.md`](/templates/incident-retrospective/), [`templates/user-changelog.md`](/templates/user-changelog/), [`templates/internal-changelog.md`](/templates/internal-changelog/) |
-| 9 | [`templates/retirement-kt.md`](/templates/retirement-kt/), [`templates/knowledge-transfer.md`](/templates/knowledge-transfer/), [`templates/archival-policy.md`](/templates/archival-policy/) |
+| 5 | [`templates/test-strategy.md`](/templates/test-strategy/) |
+| 6 | [`templates/runbook.md`](/templates/runbook/), [`templates/slo.md`](/templates/slo/), [`templates/on-call-handbook.md`](/templates/on-call-handbook/) |
+| 7 | [`templates/getting-started.md`](/templates/getting-started/), [`templates/tutorial.md`](/templates/tutorial/), [`templates/troubleshooting.md`](/templates/troubleshooting/) |
+| 8 | [`templates/migration-guide.md`](/templates/migration-guide/), [`templates/incident-retrospective.md`](/templates/incident-retrospective/), [`templates/internal-changelog.md`](/templates/internal-changelog/) |
+| 9 | [`templates/knowledge-transfer.md`](/templates/knowledge-transfer/), [`templates/archival-policy.md`](/templates/archival-policy/) |
 
 ## Related
 

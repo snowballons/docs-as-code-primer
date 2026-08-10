@@ -59,4 +59,3 @@ Key architecture decisions should link to ADRs:
 
 - ADRs: [`docs/internal/decisions/`](#)
 - Cross-cutting concerns: [`templates/cross-cutting-concerns-checklist.md`](/templates/cross-cutting-concerns-checklist/)
-- Sequence diagrams: [`templates/sequence-diagram-page.md`](/templates/sequence-diagram-page/)

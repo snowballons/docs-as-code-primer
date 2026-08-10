@@ -14,7 +14,6 @@ This index helps AI coding assistants find relevant documentation. For human rea
 
 - What Docs as Code means: ./primer/01-what-is-docs-as-code.md
 - Two audiences: ./primer/02-two-audiences.md
-- Phases overview: ./primer/03-phases-overview.md
 - Phase 0 — Charter: ./primer/04-phase-0-charter.md
 - Phase 1 — Requirements: ./primer/05-phase-1-requirements.md
 - Phase 2 — Architecture: ./primer/06-phase-2-architecture.md
@@ -26,11 +25,7 @@ This index helps AI coding assistants find relevant documentation. For human rea
 - Phase 8 — Maintenance: ./primer/12-phase-8-maintenance.md
 - Phase 9 — Retirement: ./primer/13-phase-9-retirement.md
 - Content governance: ./primer/14-content-governance.md
-- Diagrams as code: ./primer/15-diagrams-as-code.md
 - CI and quality gates: ./primer/16-ci-and-quality-gates.md
-- Agent-ready docs: ./primer/17-agent-ready-docs.md
-- Anti-patterns: ./primer/18-anti-patterns.md
-- Why now (2026): ./primer/19-why-now-2026.md
 
 ## Key concepts
 

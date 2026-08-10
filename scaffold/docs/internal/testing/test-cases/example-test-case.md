@@ -1,6 +1,6 @@
 # Test case: [requirement or story reference]
 
-> Starter stub. Fill in for each Must-have acceptance criterion. See `templates/test-case.md` for the full template.
+> Starter stub. Fill in for each Must-have acceptance criterion.
 
 ## Preconditions
 

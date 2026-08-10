@@ -1,6 +1,6 @@
 # [Feature name]
 
-> Starter stub. Fill in for each feature. See `templates/feature-user-doc.md` for the full template.
+> Starter stub. Fill in for each feature.
 
 **Who is this for:** [target user]
 

@@ -37,7 +37,7 @@ Until you set a real URL, treat upstream paths as files inside that repository.
 
 | Phase | Upstream chapter |
 |-------|------------------|
-| Concepts | `primer/01-what-is-docs-as-code.md`, `primer/02-two-audiences.md`, `primer/03-phases-overview.md` |
+| Concepts | `primer/01-what-is-docs-as-code.md`, `primer/02-two-audiences.md` |
 | 0 | `primer/04-phase-0-charter.md` |
 | 1 | `primer/05-phase-1-requirements.md` |
 | 2 | `primer/06-phase-2-architecture.md` |
@@ -49,10 +49,7 @@ Until you set a real URL, treat upstream paths as files inside that repository.
 | 8 | `primer/12-phase-8-maintenance.md` |
 | 9 | `primer/13-phase-9-retirement.md` |
 | Governance | `primer/14-content-governance.md` |
-| Diagrams | `primer/15-diagrams-as-code.md` |
 | CI | `primer/16-ci-and-quality-gates.md` |
-| Agents | `primer/17-agent-ready-docs.md` |
-| Anti-patterns | `primer/18-anti-patterns.md` |
 
 ### Templates by phase
 
@@ -61,10 +58,7 @@ Until you set a real URL, treat upstream paths as files inside that repository.
 | 0 | `templates/vision-charter.md` |
 | 1 | `templates/user-story.md`, `templates/nfr.md` |
 | 2 | `templates/adr.md` |
-| 3 | `templates/module-spec.md` |
 | 6 | `templates/runbook.md` |
-| 7 | `templates/feature-user-doc.md` |
-| 8 | `templates/deprecation-notice.md` |
 
 ## Optional: vendor upstream into this repo
 

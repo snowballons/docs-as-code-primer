@@ -90,9 +90,9 @@ Each runbook should include:
 
 ## Use
 
-- Templates: [`templates/runbook.md`](/templates/runbook/), [`templates/slo.md`](/templates/slo/), [`templates/on-call-handbook.md`](/templates/on-call-handbook/), [`templates/dr-plan.md`](/templates/dr-plan/)
+- Templates: [`templates/runbook.md`](/templates/runbook/), [`templates/slo.md`](/templates/slo/), [`templates/on-call-handbook.md`](/templates/on-call-handbook/)
 - Examples: [`slos.md`](/examples/acme-export-platform/internal/operations/slos/), [`export-queue-backlog.md`](/examples/acme-export-platform/internal/operations/runbooks/export-queue-backlog/)
 
 ---
 
-[Phases overview](/primer/phases-overview/) · [Learning path](/LEARNING_PATH/)
+[Phase folder map](/appendix/phase-folder-map/) · [Learning path](/LEARNING_PATH/)

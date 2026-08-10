@@ -46,7 +46,7 @@ Terms used across this repository. Single source of truth — link here instead 
 | **OpenAPI** | A machine-readable API contract format (YAML or JSON). Canonical specs live in `docs/internal/system-design/api-specs/`. Consumer API reference is derived from it — never a second hand-maintained truth. |
 | **Persona** | A Phase 1 decision-making tool built around goal, pain points, behaviour patterns, and success criteria. Demographics only matter when they affect behaviour. |
 | **Phase** | One of ten documentation lifecycle stages (0–9) mapped to the software development lifecycle — from charter through retirement. Phases overlap; they are a mental model, not a waterfall gate. |
-| **Primer** | The opinionated teaching layer in this repository (`primer/`) — 19 chapters covering judgment, phases, and practices. |
+| **Primer** | The opinionated teaching layer in this repository (`primer/`) — 14 chapters covering judgment, phases, and practices. |
 | **RACI** | Responsibility assignment matrix — Responsible (does the work), Accountable (single owner), Consulted (input before decision), Informed (notified of outcome). One Accountable per row. |
 | **RAG** | Retrieval-Augmented Generation — an AI pattern where a model retrieves relevant documents at inference time to ground its responses. Well-structured docs improve RAG accuracy. |
 | **Runbook** | A Phase 6 operational document organised by **symptom** (what the responder sees), not by component. Contains diagnosis steps, per-cause remediation, escalation path, and a `Last tested` date. |

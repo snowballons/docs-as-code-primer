@@ -148,4 +148,4 @@ Every requirement belongs to one of four buckets:
 
 ---
 
-[Phases overview](/primer/phases-overview/) · [Learning path](/LEARNING_PATH/)
+[Phase folder map](/appendix/phase-folder-map/) · [Learning path](/LEARNING_PATH/)

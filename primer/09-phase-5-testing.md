@@ -92,10 +92,10 @@ Document exceptions per PR, not per policy.
 
 ## Use
 
-- Templates: [`templates/test-strategy.md`](/templates/test-strategy/), [`templates/test-case.md`](/templates/test-case/), [`templates/user-story.md`](/templates/user-story/) (traceability)
+- Templates: [`templates/test-strategy.md`](/templates/test-strategy/), [`templates/user-story.md`](/templates/user-story/) (traceability)
 - Scaffold stub: [`scaffold/docs/internal/testing/example-test-strategy.md`](../scaffold/docs/internal/testing/example-test-strategy.md) — starter placeholder, replace with your strategy
 - Scaffold folder guide: `docs/internal/testing/` with subfolders `test-cases/`, `coverage-reports/`, `security-scan-results/`, `performance-benchmarks/`
 
 ---
 
-[Phases overview](/primer/phases-overview/) · [Learning path](/LEARNING_PATH/)
+[Phase folder map](/appendix/phase-folder-map/) · [Learning path](/LEARNING_PATH/)

@@ -33,3 +33,15 @@ This repository is a primer and structure kit. Contributions should improve **cl
 - Prefer Markdown.
 - Prefer Mermaid for diagrams in examples.
 - Do not put secrets, real credentials, or real customer data in examples.
+
+## Definition of Done
+
+A PR is done when **all** of the following hold:
+
+1. The three automated gates are green: `rumdl check .`, `npx cspell` (project words), and the link check.
+2. The scaffold/kit split is respected — no scaffold content edited as a proxy for teaching (see `AGENTS.md`).
+3. **Human-read pass.** Read the final diff as a reader, not a writer:
+   - no truncated sentences or words (a known failure mode of AI-written drafts);
+   - no invented vocabulary, fake citations, or name-drops without a source;
+   - no filler or buzzwords; every sentence earns its place.
+   If you cannot honestly tick the human-read item on the PR template, the PR is not done. This step exists precisely because no linter can catch it.

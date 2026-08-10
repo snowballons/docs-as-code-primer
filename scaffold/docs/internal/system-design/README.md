@@ -21,5 +21,4 @@ Public consumer API narrative docs (derive under docs/user/api-reference).
 - In-repo stub policy: [../../GOVERNANCE.md](../../GOVERNANCE.md)
 - Upstream chapters / templates / examples: [../../KIT.md](../../KIT.md) (does not break after copy)
 - This folder → upstream chapter: `primer/07-phase-3-detailed-design.md`
-- Upstream template(s): `templates/module-spec.md`
 - Note: OpenAPI under api-specs/

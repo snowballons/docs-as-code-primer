@@ -193,4 +193,4 @@ When a micro-ADR later proves significant enough to need cross-team awareness, p
 
 ---
 
-[Phases overview](/primer/phases-overview/) · [Learning path](/LEARNING_PATH/)
+[Phase folder map](/appendix/phase-folder-map/) · [Learning path](/LEARNING_PATH/)

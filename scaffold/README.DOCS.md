@@ -73,4 +73,3 @@ Structure first. Kit recipes: [`../recipes/`](../recipes/).
 - [Two audiences](../primer/02-two-audiences.md)
 - [Content governance](../primer/14-content-governance.md)
 - [CI and quality gates](../primer/16-ci-and-quality-gates.md)
-- [Agent-ready docs](../primer/17-agent-ready-docs.md)

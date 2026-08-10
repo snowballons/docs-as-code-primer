@@ -130,4 +130,3 @@ MVP may keep one workflow; split when one stream's review blocks the other.
 
 - [Tooling map](/appendix/tooling-map/)
 - [Mermaid recipe](/recipes/mermaid-in-ci/)
-- [OpenAPI → user API recipe](/recipes/openapi-to-user-api-ref/)

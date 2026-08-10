@@ -103,9 +103,9 @@ Copy these into your team's recurring review issue template.
 
 ## Use
 
-- Templates: [`templates/deprecation-notice.md`](/templates/deprecation-notice/), [`templates/migration-guide.md`](/templates/migration-guide/), [`templates/incident-retrospective.md`](/templates/incident-retrospective/), [`templates/user-changelog.md`](/templates/user-changelog/), [`templates/internal-changelog.md`](/templates/internal-changelog/)
+- Templates: [`templates/migration-guide.md`](/templates/migration-guide/), [`templates/incident-retrospective.md`](/templates/incident-retrospective/), [`templates/internal-changelog.md`](/templates/internal-changelog/)
 - Map: [`appendix/phase-folder-map.md`](/appendix/phase-folder-map/)
 
 ---
 
-[Phases overview](/primer/phases-overview/) · [Learning path](/LEARNING_PATH/)
+[Phase folder map](/appendix/phase-folder-map/) · [Learning path](/LEARNING_PATH/)

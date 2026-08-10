@@ -106,6 +106,5 @@ See [dual publish recipe](/recipes/dual-publish/).
 
 ## See also
 
-- [Cloudflare Pages recipe](/recipes/cf-pages/)
 - [Dual publish recipe](/recipes/dual-publish/)
 - [MkDocs end-to-end recipe](/recipes/mkdocs-e2e/)

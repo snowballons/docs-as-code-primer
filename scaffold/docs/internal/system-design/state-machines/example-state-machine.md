@@ -1,6 +1,6 @@
 # State machine: [entity name]
 
-> Starter stub. Replace with stateDiagram-v2 for each lifecycle entity. See `templates/state-machine-page.md` for the full template.
+> Starter stub. Replace with stateDiagram-v2 for each lifecycle entity.
 
 ## Diagram
 

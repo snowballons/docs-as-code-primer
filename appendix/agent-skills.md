@@ -115,7 +115,6 @@ Most agents also support explicit invocation — `@skills:write-adr` or `/write-
 
 ## Related
 
-- [Agent-ready docs chapter](/primer/agent-ready-docs/)
 - [AGENTS.md (repo root)](/AGENTS/)
 - [Maturity model — Level 3 includes agent hooks](/appendix/maturity-model/)
 - [Agent Skills specification](https://github.com/agentskills/agentskills)

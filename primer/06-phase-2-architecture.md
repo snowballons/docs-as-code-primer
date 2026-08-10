@@ -146,4 +146,4 @@ ADR-012's Context section would open with: "Supersedes ADR-001. Queue volume has
 
 ---
 
-[Phases overview](/primer/phases-overview/) · [Learning path](/LEARNING_PATH/)
+[Phase folder map](/appendix/phase-folder-map/) · [Learning path](/LEARNING_PATH/)

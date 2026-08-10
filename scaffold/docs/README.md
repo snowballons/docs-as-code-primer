@@ -20,6 +20,6 @@ Application source code; secrets; one-off scratch notes that will never be revie
 
 - In-repo stub policy: [GOVERNANCE.md](GOVERNANCE.md)
 - Upstream chapters / templates / examples: [KIT.md](KIT.md) (does not break after copy)
-- This folder → upstream chapter: `primer/03-phases-overview.md`
+- This folder → upstream map: `appendix/phase-folder-map.md`
 - Upstream template(s): `see KIT.md template index`
 - Note: Streams: internal/, user/, shared/

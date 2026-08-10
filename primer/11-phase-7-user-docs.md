@@ -153,10 +153,9 @@ Test with someone who has **never used the product** (colleague from another tea
 
 ## Use
 
-- Templates: [`templates/getting-started.md`](/templates/getting-started/), [`templates/feature-user-doc.md`](/templates/feature-user-doc/), [`templates/tutorial.md`](/templates/tutorial/), [`templates/troubleshooting.md`](/templates/troubleshooting/)
+- Templates: [`templates/getting-started.md`](/templates/getting-started/), [`templates/tutorial.md`](/templates/tutorial/), [`templates/troubleshooting.md`](/templates/troubleshooting/)
 - Examples: [`quickstart.md`](/examples/acme-export-platform/user/getting-started/quickstart/), [`overview.md`](/examples/acme-export-platform/user/api-reference/overview/)
-- Recipe: [`recipes/openapi-to-user-api-ref.md`](/recipes/openapi-to-user-api-ref/)
 
 ---
 
-[Phases overview](/primer/phases-overview/) · [Learning path](/LEARNING_PATH/)
+[Phase folder map](/appendix/phase-folder-map/) · [Learning path](/LEARNING_PATH/)

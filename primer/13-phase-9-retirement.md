@@ -64,9 +64,9 @@ When a system or feature is retired, archive its docs — don't delete them:
 
 ## Use
 
-- Templates: [`templates/retirement-kt.md`](/templates/retirement-kt/), [`templates/knowledge-transfer.md`](/templates/knowledge-transfer/), [`templates/archival-policy.md`](/templates/archival-policy/)
+- Templates: [`templates/knowledge-transfer.md`](/templates/knowledge-transfer/), [`templates/archival-policy.md`](/templates/archival-policy/)
 - Map: [`appendix/phase-folder-map.md`](/appendix/phase-folder-map/)
 
 ---
 
-[Phases overview](/primer/phases-overview/) · [Learning path](/LEARNING_PATH/)
+[Phase folder map](/appendix/phase-folder-map/) · [Learning path](/LEARNING_PATH/)

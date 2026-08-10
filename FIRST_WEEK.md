@@ -33,7 +33,7 @@ Fill or replace these first. Everything else can stay as folder READMEs until th
 | 5 | At least three NFR rows in `docs/internal/requirements/non-functional.md` | [`templates/nfr.md`](/templates/nfr/) · [Acme NFRs](/examples/acme-export-platform/internal/requirements/non-functional/) |
 | 6 | One ADR in `docs/internal/decisions/` | [`templates/adr.md`](/templates/adr/) · [Acme ADR-001](/examples/acme-export-platform/internal/decisions/adr-001-queue-for-exports/) |
 | 7 | `docs/user/getting-started/quickstart.md` | [Acme quickstart](/examples/acme-export-platform/user/getting-started/quickstart/) |
-| 8 | *(If you expose an API)* one module spec + OpenAPI stub | [`templates/module-spec.md`](/templates/module-spec/) · [Acme export-service](/examples/acme-export-platform/internal/system-design/services/export-service/) · [OpenAPI sample](examples/acme-export-platform/internal/system-design/api-specs/export-api.yaml) |
+| 8 | *(If you expose an API)* one module spec + OpenAPI stub | [Acme export-service](/examples/acme-export-platform/internal/system-design/services/export-service/) · [OpenAPI sample](examples/acme-export-platform/internal/system-design/api-specs/export-api.yaml) |
 
 Optional the same week if you already page on-call:
 

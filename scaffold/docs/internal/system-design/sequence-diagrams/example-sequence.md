@@ -1,6 +1,6 @@
 # Sequence diagram: [flow name]
 
-> Starter stub. Replace with a Mermaid sequenceDiagram or draw.io diagram for each multi-component flow. See `templates/sequence-diagram-page.md` for the full template.
+> Starter stub. Replace with a Mermaid sequenceDiagram or draw.io diagram for each multi-component flow.
 
 ## Diagram
 

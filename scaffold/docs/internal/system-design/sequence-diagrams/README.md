@@ -22,4 +22,3 @@ Stale screenshots of outdated flows as the only source.
 - Upstream chapters / templates / examples: [../../../KIT.md](../../../KIT.md) (does not break after copy)
 - This folder → upstream chapter: `primer/07-phase-3-detailed-design.md`
 - Upstream template(s): `(Mermaid in Markdown)`
-- Note: Upstream: primer/15-diagrams-as-code.md

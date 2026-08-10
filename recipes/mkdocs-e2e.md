@@ -116,5 +116,4 @@ Open `http://localhost:8000` — you have a docs site.
 ## See also
 
 - [MkDocs recipe](/recipes/mkdocs/) (detailed config options)
-- [Docusaurus recipe](/recipes/docusaurus/) (alternative SSG)
 - [CI and quality gates](/primer/ci-and-quality-gates/)

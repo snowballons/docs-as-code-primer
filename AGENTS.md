@@ -4,15 +4,15 @@ Instructions for AI coding agents working on this repository.
 
 ## What this is
 
-A teaching kit for documentation judgment. 19 primer chapters teach the phases, a scaffold ships a copy-paste `docs/` tree, 35 templates shape the artifacts, and a worked example (Acme Export Platform) fills them in.
+A teaching kit for documentation judgment. 14 primer chapters teach the phases, a scaffold ships a copy-paste `docs/` tree, 24 templates shape the artifacts, and a worked example (Acme Export Platform) fills them in.
 
 ## Repo layout
 
 | Path | Purpose |
 |------|---------|
-| `primer/` | 19 Markdown chapters — teach judgment |
+| `primer/` | 14 Markdown chapters — teach judgment |
 | `scaffold/` | Copy-paste `docs/` tree + CI + AGENTS.md for adopters |
-| `templates/` | 35 fill-in-the-blank artifacts |
+| `templates/` | 24 fill-in-the-blank artifacts |
 | `examples/acme-export-platform/` | Worked example for a fictional product |
 | `recipes/` | Publishing/tooling setup guides |
 | `appendix/` | Phase-folder map, glossary, maturity model, tooling map |
@@ -47,6 +47,7 @@ CI runs on pushes to `primer/`, `templates/`, `appendix/`, `recipes/`, `llms.txt
 5. **Prefer Mermaid for new diagrams** — `.mmd` files or inline Mermaid fenced blocks. No PNG screenshots of text.
 6. **Cross-references use relative paths** — `../templates/...`, `../examples/...`, `../appendix/...`. Verify they resolve.
 7. **Adjectives are teaching moments** — before/after examples and "Check yourself" quizzes are the pedagogical pattern. Add them to new primer content.
+8. **Run a human-read pass before committing content** — read your own diff as a reader, not a writer. Catch truncated sentences/words, invented vocabulary, name-drops and stats without a source, and filler. Automated gates (rumdl, cspell, lychee, cross-refs) cannot catch these; the PR checklist and CONTRIBUTING.md "Definition of Done" treat this as a merge-blocking gate.
 
 ## What not to touch
 
@@ -63,7 +64,7 @@ Each phase chapter (04–13) follows this pattern:
 4. Check yourself questions
 5. Use section (links to templates and scaffold paths)
 
-Non-phase chapters (14–19) follow their own structure but always include practical guidance and cross-references.
+Non-phase chapters (14, 16) follow their own structure but always include practical guidance and cross-references.
 
 ## When to use which file
 
