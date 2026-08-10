@@ -50,7 +50,6 @@ jobs:
           args: >-
             --no-progress
             --root-dir .
-            --config .lycheeignore
             "primer/**/*.md"
             "templates/**/*.md"
             "appendix/**/*.md"

@@ -9,7 +9,7 @@
     "preview": "blume preview",
     "lint": "rumdl check primer/ templates/ appendix/ recipes/ examples/ docs/ README.md CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md FIRST_WEEK.md LEARNING_PATH.md llms.txt",
     "spell-check": "cspell 'primer/**/*.md' 'templates/**/*.md' 'appendix/**/*.md' 'recipes/**/*.md' 'examples/**/*.md' 'docs/**/*.md' '*.md'",
-    "link-check": "lychee --config .lycheeignore 'primer/**/*.md' 'templates/**/*.md' 'appendix/**/*.md' 'recipes/**/*.md' 'examples/**/*.md' 'docs/**/*.md' '*.md'"
+    "link-check": "lychee --no-progress --root-dir . 'primer/**/*.md' 'templates/**/*.md' 'appendix/**/*.md' 'recipes/**/*.md' 'examples/**/*.md' 'docs/**/*.md' '*.md'"
   },
   "dependencies": {
     "blume": "^1.1.4",

@@ -4,6 +4,11 @@ https?://.*\.local
 https?://.*\.internal
 https?://status\.acme\.io
 
+# Internal links use clean-URL format (/path/to/file/) that only resolves on the
+# deployed site; the cross-references CI job validates them. With --root-dir . they
+# resolve to file:// URLs, so exclude them to keep lychee external-only.
+^file://
+
 # Placeholder template parameters
 \[owner\]
 

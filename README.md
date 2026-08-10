@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/snowballons/docs-as-code-primer/stargazers"><img alt="GitHub stars" src="https://shieldcn.dev/github/stars/snowballons/docs-as-code-primer.svg?variant=secondary" /></a>
+  <a href="https://github.com/snowballons/docs-as-code-primer"><img alt="GitHub stars" src="https://shieldcn.dev/github/stars/snowballons/docs-as-code-primer.svg?variant=secondary" /></a>
   <a href="https://github.com/snowballons/docs-as-code-primer/blob/main/LICENSE"><img alt="License" src="https://shieldcn.dev/github/license/snowballons/docs-as-code-primer.svg?variant=secondary" /></a>
   <a href="https://github.com/snowballons/docs-as-code-primer/actions"><img alt="CI status" src="https://shieldcn.dev/github/ci/snowballons/docs-as-code-primer.svg?variant=secondary" /></a>
   <a href="https://github.com/snowballons/docs-as-code-primer/commits/main"><img alt="Last commit" src="https://shieldcn.dev/github/last-commit/snowballons/docs-as-code-primer.svg?variant=secondary" /></a>

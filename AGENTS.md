@@ -23,10 +23,11 @@ A teaching kit for documentation judgment. 19 primer chapters teach the phases, 
 # Lint all Markdown (config in .rumdl.toml — excludes scaffold/docs)
 rumdl check primer/ templates/ appendix/ recipes/ examples/ docs/ README.md CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md FIRST_WEEK.md LEARNING_PATH.md llms.txt
 
-# Check links (internal + external)
+# Check links (external only — internal clean-URL links are validated by the
+# cross-references job; lychee skips local file links via ^file:// in .lycheeignore)
 # lychee is a standalone Rust binary, not an npm package — install it with
 # `cargo install lychee` (or `brew install lychee` on macOS), then run:
-lychee --format detailed 'primer/**/*.md' 'templates/**/*.md' 'appendix/**/*.md' 'README.md'
+lychee --no-progress --root-dir . 'primer/**/*.md' 'templates/**/*.md' 'appendix/**/*.md' 'README.md'
 
 # Spell check (custom word list in docs/spelling-exceptions.txt)
 npx cspell 'primer/**/*.md' 'templates/**/*.md' 'appendix/**/*.md' 'README.md'
