@@ -63,6 +63,10 @@ export default defineConfig({
     },
   },
 
+  // The content root is the repo root, so README.md maps to /README and no
+  // index.md exists — point the site root at the introduction instead.
+  redirects: [{ from: "/", to: "/README", status: 301 }],
+
   // Markdown rendering
   markdown: {
     imageZoom: true,
