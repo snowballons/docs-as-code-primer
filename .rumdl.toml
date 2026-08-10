@@ -19,6 +19,7 @@ exclude = [
     ".git",
     "node_modules",
     "scaffold",
+    "archive",
     "LICENSE.md",
 ]
 
