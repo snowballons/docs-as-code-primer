@@ -24,6 +24,16 @@
 
 <p align="center"><em>Commit activity for maintainer @snowballons — the kit is kept in the PR, like the docs it teaches.</em></p>
 
+## Adopt the scaffold in one line
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/snowballons/docs-as-code-primer/main/scaffold-init.sh)
+```
+
+Copies the `scaffold/` copy set (`docs/`, CI workflow, PR template, `AGENTS.md`, `.markdownlint.json`) into the current repository. Nothing is overwritten by default — add `--overwrite` to replace existing files, `--prefix <dir>` for a monorepo, `--with-llms-txt` for `llms.txt`, and `--dry-run` to preview. Prefer working offline? Run `bash scaffold-init.sh --kit-dir /path/to/docs-as-code-primer` from a local clone instead.
+
+After copying, follow [`FIRST_WEEK.md`](/FIRST_WEEK/) and set `KIT_URL` in `docs/KIT.md`. The manual path is documented in [`scaffold/README.DOCS.md`](scaffold/README.DOCS.md).
+
 ---
 
 **Structure, phases, and templates for documentation that ships with your code.**

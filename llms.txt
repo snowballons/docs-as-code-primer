@@ -7,6 +7,7 @@ This index helps AI coding assistants find relevant documentation. For human rea
 - Learning path: ./LEARNING_PATH.md
 - Primer index: ./primer/
 - Kit scaffold: ./scaffold/
+- Scaffold copier (one-liner): ./scaffold-init.sh
 - Templates: ./templates/
 - Examples: ./examples/acme-export-platform/
 
