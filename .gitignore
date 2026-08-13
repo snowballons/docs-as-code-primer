@@ -12,3 +12,4 @@ dist/
 
 # Caches
 .rumdl_cache/
+.opencode/plugins/emdash-notifications.js
