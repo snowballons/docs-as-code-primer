@@ -12,12 +12,12 @@
     "link-check": "lychee --no-progress --root-dir . 'primer/**/*.md' 'templates/**/*.md' 'appendix/**/*.md' 'recipes/**/*.md' 'examples/**/*.md' 'docs/**/*.md' '*.md'"
   },
   "dependencies": {
-    "blume": "^1.1.4",
-    "zod": "^4.4.3"
+    "blume": "^1.7.3",
+    "zod": "^4.6.5"
   },
   "devDependencies": {
     "@mermaid-js/mermaid-cli": "^11.16.0",
-    "cspell": "^8.0.0",
-    "rumdl": "^0.2.46"
+    "cspell": "^8.19.4",
+    "rumdl": "^0.2.78"
   }
 }
