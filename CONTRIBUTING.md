@@ -28,6 +28,10 @@ This repository is a primer and structure kit. Contributions should improve **cl
 3. Match the existing tone: direct, opinionated, developer-native.
 4. If you change the scaffold tree, update `scaffold/README.DOCS.md` and any phase→path tables in the primer.
 
+- **Node.js ≥ 24** (required for `blume`, `rumdl`, `cspell`, `mermaid-cli`).
+- **pnpm** (the project package manager; do not use npm or yarn).
+- **Rust** (optional, for `rumdl` binary; the CI action handles this).
+
 ## Style
 
 - Prefer Markdown.

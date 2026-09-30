@@ -1,12 +1,12 @@
 # Using the scaffold
 
-> **This file lives in the Docs-as-Code Primer repository** (next to `FIRST_WEEK.md`, `primer/`, `templates/`).  
+> **This file lives in the Docs-as-Code Primer repository** (next to `FIRST_WEEK.md`, `primer/`, `templates/`).
 > It is **not** part of the copy set. After copy, use `docs/KIT.md` and `docs/GOVERNANCE.md` inside the product repo.
 
 Copy the scaffold into your project when you want a Docs-as-Code structure on day one.
 
-**After copy:** [`../FIRST_WEEK.md`](../FIRST_WEEK.md)  
-**Canonical paths (kit repo):** [`../appendix/phase-folder-map.md`](../appendix/phase-folder-map.md)  
+**After copy:** [`../FIRST_WEEK.md`](../FIRST_WEEK.md)
+**Canonical paths (kit repo):** [`../appendix/phase-folder-map.md`](../appendix/phase-folder-map.md)
 **Copied into product repos:** `docs/GOVERNANCE.md`, `docs/KIT.md`
 
 ## What to copy
@@ -18,7 +18,9 @@ docs/                              → your repo docs/   (includes GOVERNANCE.md
 .github/workflows/docs.yml
 .github/PULL_REQUEST_TEMPLATE.md   (merge if you already have one)
 AGENTS.md
-.markdownlint.json
+.rumdl.toml
+.cspell.json
+.lycheeignore
 llms.txt.example                   → rename/adapt to llms.txt when ready
 ```
 
@@ -26,7 +28,7 @@ Do **not** expect `../primer/...` or `../FIRST_WEEK.md` to resolve inside the pr
 
 You do **not** need a static site generator to start. The scaffold is plain Markdown.
 
-Default CI: Markdown lint + link check. Optional Spectral / Mermaid jobs are commented in `docs.yml` — enable when ready (kit: [`../primer/16-ci-and-quality-gates.md`](../primer/16-ci-and-quality-gates.md)).
+Default CI: Markdown lint (`rumdl`) + link check (`lychee`). Optional Spectral / Mermaid / spell check jobs are commented in `docs.yml` — enable when ready (kit: [`../primer/16-ci-and-quality-gates.md`](../primer/16-ci-and-quality-gates.md)).
 
 ## Directory model
 
@@ -47,7 +49,7 @@ docs/
 
 ## Phase → folder map
 
-**Kit repo canonical map:** [`../appendix/phase-folder-map.md`](../appendix/phase-folder-map.md)  
+**Kit repo canonical map:** [`../appendix/phase-folder-map.md`](../appendix/phase-folder-map.md)
 **Product repo:** see `docs/KIT.md` (upstream path names) or vendor a copy of the map.
 
 ## How to fill it
