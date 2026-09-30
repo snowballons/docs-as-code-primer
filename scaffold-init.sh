@@ -5,6 +5,9 @@
 # One-liner (network mode, pulls the kit's main branch tarball):
 #   bash <(curl -fsSL https://raw.githubusercontent.com/snowballons/docs-as-code-primer/main/scaffold-init.sh)
 #
+# Pin to a specific release tag:
+#   bash <(curl -fsSL https://raw.githubusercontent.com/snowballons/docs-as-code-primer/main/scaffold-init.sh) --tag v1.0.0
+#
 # Local clone (offline / monorepo):
 #   bash scaffold-init.sh --kit-dir /path/to/docs-as-code-primer
 #
@@ -14,14 +17,16 @@
 #   --overwrite         replace existing files (default: skip + list conflicts)
 #   --dry-run           preview what would be copied
 #   --kit-dir <path>    read the scaffold from a local clone instead of the network
+#   --tag <name>        pin to a GitHub release tag (e.g. v1.0.0); default: main
 #   -h, --help          show this message
 #
-# Requires only: bash, curl, find, mkdir, cp, dirname, mktemp, tar.
+# Requires only: bash, curl, find, mkdir, cp, dirname, mktemp, tar, sha256sum.
 # The copy set mirrors scaffold/README.DOCS.md ("What to copy").
 
 set -euo pipefail
 
 KIT_REPO_URL="https://codeload.github.com/snowballons/docs-as-code-primer/tar.gz/refs/heads/main"
+KIT_TAG=""
 KIT_DIR=""
 PREFIX=""
 WITH_LLMS=0
@@ -40,6 +45,7 @@ while [ "$#" -gt 0 ]; do
     --overwrite) OVERWRITE=1; shift ;;
     --dry-run) DRY_RUN=1; shift ;;
     --kit-dir) KIT_DIR="${2?--kit-dir requires a value}"; shift 2 ;;
+    --tag) KIT_TAG="${2?--tag requires a value}"; shift 2 ;;
     -h|--help) usage ;;
     *) echo "unknown option: $1" >&2; usage 1 ;;
   esac
@@ -58,14 +64,30 @@ if [ -n "$KIT_DIR" ]; then
     exit 1
   fi
 else
+  if [ -n "$KIT_TAG" ]; then
+    KIT_REPO_URL="https://codeload.github.com/snowballons/docs-as-code-primer/tar.gz/refs/tags/$KIT_TAG"
+  fi
   TMPDIR="$(mktemp -d)"
   trap 'rm -rf "$TMPDIR"' EXIT
   curl -fsSL "$KIT_REPO_URL" -o "$TMPDIR/kit.tgz" || {
     echo "error: failed to download the kit from $KIT_REPO_URL" >&2
     exit 1
   }
+
+  # Verify SHA256 checksum if a checksum file is available
+  if curl -fsSL "${KIT_REPO_URL%.tar.gz}.sha256" -o "$TMPDIR/kit.sha256" 2>/dev/null; then
+    if ! sha256sum -c "$TMPDIR/kit.sha256" --quiet 2>/dev/null; then
+      echo "error: SHA256 checksum verification failed" >&2
+      exit 1
+    fi
+  fi
+
   tar -xzf "$TMPDIR/kit.tgz" -C "$TMPDIR"
-  KIT_ROOT="$TMPDIR/docs-as-code-primer-main"
+  KIT_ROOT="$TMPDIR/docs-as-code-primer${KIT_TAG:+-$KIT_TAG}"
+  # Fallback: try common archive root names
+  if [ ! -d "$KIT_ROOT" ]; then
+    KIT_ROOT="$TMPDIR/docs-as-code-primer-main"
+  fi
 fi
 
 SCAFFOLD="$KIT_ROOT/scaffold"
@@ -121,7 +143,12 @@ copy_tree "docs"
 copy_one ".github/workflows/docs.yml"
 copy_one ".github/PULL_REQUEST_TEMPLATE.md"
 copy_one "AGENTS.md"
-copy_one ".markdownlint.json"
+copy_one ".rumdl.toml"
+copy_one ".cspell.json"
+copy_one ".lycheeignore"
+if [ -f "$SCAFFOLD/docs/spelling-exceptions.txt" ]; then
+  ensure_copy "$SCAFFOLD/docs/spelling-exceptions.txt" "${PREFIX:+$PREFIX/}docs/spelling-exceptions.txt"
+fi
 if [ "$WITH_LLMS" = 1 ]; then
   ensure_copy "$SCAFFOLD/llms.txt.example" "${PREFIX:+$PREFIX/}llms.txt"
 fi
