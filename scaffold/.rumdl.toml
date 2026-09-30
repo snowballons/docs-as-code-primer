@@ -1,0 +1,11 @@
+# rumdl configuration for adopter projects
+# This is a starter; adjust as needed.
+# See https://github.com/DavidAnson/rumdl for options.
+
+[global]
+# Disable line-length and inline-HTML rules for flexibility
+disable = ["MD013", "MD033"]
+
+# Keep heading title format clean
+[MD025]
+front_matter_title = ""

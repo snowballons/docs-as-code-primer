@@ -1,0 +1,8 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "dictionaryDefinitions": [
+    { "name": "project-words", "path": "./docs/spelling-exceptions.txt" }
+  ],
+  "dictionaries": ["project-words"]
+}
